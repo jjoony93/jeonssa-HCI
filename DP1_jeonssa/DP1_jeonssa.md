@@ -31,7 +31,7 @@ Office worker | Sewon | Lots of experience dining at busy places | Offline inter
 
 
 <br /><br />
-### OBSERVATION #1: “I don’t like waiting.”**
+### OBSERVATION #1: “I don’t like waiting.”
 
 **Figure 2.** People don’t like waiting.
  ![alt text](figure2.png "Figure 2. People don’t like waiting.")
@@ -41,7 +41,7 @@ A university student was asked about the recent waiting experience in restaurant
 
 
 <br /><br />
-### OBSERVATION #2: “Making customers wait is bad."**
+### OBSERVATION #2: “Making customers wait is bad."
 
 **Figure 3.** Making customers wait is bad.
  ![alt text](figure3.png "Figure 3. Making customers wait is bad.")
@@ -51,7 +51,7 @@ A university student was asked about the recent waiting experience in restaurant
 
 
 <br /><br />
-### OBSERVATION #3: “I am willing to wait if you let me know until when.”**
+### OBSERVATION #3: “I am willing to wait if you let me know until when.”
 
 **Figure 4.** Letting know  expected waiting time is good.
  ![alt text](figure4.png "Figure 4. Letting know  expected waiting time is good.")
@@ -61,7 +61,7 @@ A young female pulled out a “waiting ticket” as the interview began. A self-
 
 
 <br /><br />
-### OBSERVATION #4: “Causes unproductivity”**
+### OBSERVATION #4: “Causes unproductivity”
 
 **Figure 5. Valuable time is lost.**
  ![alt text](figure5.png "Figure 5. Valuable time is lost.")
