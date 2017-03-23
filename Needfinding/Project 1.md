@@ -1,5 +1,5 @@
-**CS374 Design Project 1: Needfinding  **
-**Team jeonssa  **
+**CS374 Design Project 1: Needfinding**  
+**Team jeonssa**  
 20111016 Min Kang  
 20121059 SunJae Lee  
 20121061 Joon Young Lee  
@@ -69,10 +69,10 @@ For customers,
 
 ## Interviews
 
-### <a name="interview1"</a> Interview 1
+### <a name="interview1"></a> Interview 1
 
-### <a name="interview2"</a> Interview 2
+### <a name="interview2"></a> Interview 2
 
-### <a name="interview3"</a> Interview 3
+### <a name="interview3"></a> Interview 3
 
-### <a name="interview4"</a> Interview 4
+### <a name="interview4"></a> Interview 4
