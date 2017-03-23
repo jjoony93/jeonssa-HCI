@@ -77,6 +77,7 @@ From these problems and interesting moments we found, we derived following needs
 
 From the interesting moment:
 * Customers have hard time estimating when their table will be ready
+
 we derived following needs:
 * Notified when their turn has come.
 * Know how longer they have to wait.
