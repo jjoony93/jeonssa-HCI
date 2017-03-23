@@ -57,3 +57,11 @@ A young female pulled out a “waiting ticket” as the interview began. A self-
  ![alt text](figure5.png "Figure 5. Valuable time is lost.")
 
 Working in Gangnam, the two office workers could be the extreme users of our to-be-redesigned experience. They wait almost everyday but did not have a clear plan what to do while waiting. One surprising answer was "2 hours" to the question "What was the longest time of waiting?" We now know that waiting can cause unproductivity for some people. Here are the full notes taken from this interview.
+
+
+## Needs
+From the interview, we observed some interesting moments and problems that they face.
+
+For customers,  
+* They have hard time estimating when their table will be ready.
+* Lorem ipsum...(불릿은 이런식으로 넣으면 됨)
