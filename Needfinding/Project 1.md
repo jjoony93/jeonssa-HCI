@@ -136,7 +136,7 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 ## Interviews
 
-### <a name="interview1"></a> Interview. 1 (University Student 1)
+### <a name="interview1"></a> Interview '#1 (University Student 1)
 
 **Q:** When you have to wait for a restaurant, do you wait it out, or look for others?
 
@@ -158,7 +158,7 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 **A:** I would be interested.
 
-### <a name="interview2"></a> Interview. 2 (Restaurant Owner)
+### <a name="interview2"></a> Interview '#2 (Restaurant Owner)
 
 **Q:** When is the busiest time?
 
@@ -185,7 +185,7 @@ time their seat is ready.
 
 **A:** It was really hard to call each customers during the busy hour. Also, some customers didn’t want to give their number, and some didn’t accept the call.
 
-### <a name="interview3"></a> Interview. 3 (University Student 2)
+### <a name="interview3"></a> Interview '#3 (University Student 2)
 
 **Q:** How often do you visit a busy restaurant that you have wait in line?
 
@@ -207,7 +207,7 @@ time their seat is ready.
 
 **A:** Yes. Gong Cha already provides a service that you order online and pick it up when it’s done.
 
-### <a name="interview4"></a> Interview. 4 (Office Workers)
+### <a name="interview4"></a> Interview '#4 (Office Workers)
 
 #### Worker 1
 
