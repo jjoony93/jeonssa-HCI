@@ -16,7 +16,7 @@
 ## Experience
  * Redesign how potential customers have to wait for seats in full restaurants during peak hours in busy areas (such as 강남 or 둔산).  
 
- ![alt text](http://i.imgur.com/wUzsimB.jpg "Customers waiting in a queue in a restaurant")
+ ![alt text](experience.jpg "Customers waiting in a queue in a restaurant")
  
  ## Observations & Interviews
  ### Summary
