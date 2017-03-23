@@ -65,7 +65,37 @@ From the interview, we observed some interesting moments and problems that they 
 
 For customers,  
 * They have hard time estimating when their table will be ready.
-* Lorem ipsum...(불릿은 이런식으로 넣으면 됨)
+* They do not want to jus tsit and wait for their turns.
+* When the kitchen is too busy, they still had to wait for a long time, albeit while sitting
+* They are willing to wait for a long time for a particular restaurants
+* They are sensitive about giving out their personal information to the restaurant.
+
+For restaurant owners,
+* They get very frustrated when customer, for some reason (e.g. too shy), do not notify the restaurant when they want to cancel the reservation.
+
+From these problems and interesting moments we found, we derived following needs for our interviewees.
+
+From the interesting moment:
+* Customers have hard time estimating when their table will be ready
+we derived following needs:
+* Notified when their turn has come.
+* Know how longer they have to wait.
+* Be notified at an appropriate time. (e.g. "Seat be ready in 5 minutes")
+
+From the interesting moment:
+* Customers do not want to just sit and wait for their turns
+We derived:
+* Do something entertaining while waiting (e.g. shopping, go to cafe)
+
+Likewise, from:
+* When the kitchen is too busy, customers still had to wait for along time, albeit while sitting
+We derived:
+* Customers want to get started eating as quickly as possible
+
+And from:
+* Customers are sensitive about giving out their personal information to the restaurant.
+We derived:
+* Customers want not to provide too much personal information (e.g. phone number, name).
 
 
 ## Interviews
