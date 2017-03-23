@@ -146,8 +146,8 @@ many restaurants lack such space, which makes it hard for potential customers to
 ### FEEDBACK REFLECTION
 
 * For upcoming presentations, we will put less text and explain more verbally, making use of effective visual aids.
-* Now is not the appropriate time to conduct competitor analysis, but in future phases we will do so and try to develop a key-changer that will differentiate our service from already existing services.
-* Our service inevitably deals with both the restaurant owners and customers. It is hard to imagine a service that only considers customer’s point of view and vice versa; we want to provide a service that satisfies both the restaurant owners and customers to a certain level.
+* Now is not the appropriate time to conduct competitor analysis, but in future phases we will do so and try to develop a key-changer that will differentiate from existing solutions.
+* Since we inevitably deal with both the restaurant owners and customers we wanted to interview both to get broader understanding. Regarding this feedback, we confirm that our focus is more on redesigning the customer's experience rather than the restaurant owner's.
 * Thank you! Before moving on to next phase, we will try to interview more restaurant owners and customers to acquire wider perspective and a more comprehensive understanding. 
 
 
