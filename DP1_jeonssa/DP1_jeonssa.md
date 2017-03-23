@@ -43,7 +43,7 @@ A university student was asked about the recent waiting experience in restaurant
 <br /><br />
 ### OBSERVATION #2: “Making customers wait is bad."
 
-**Figure 3.** Making customers wait is bad.
+**Figure 3.** Restaurant loses customers if it makes them wait.
  ![alt text](figure3.png "Figure 3. Making customers wait is bad.")
 
  We gently asked the restaurant manager for 2 minutes. He would give a valuable lesson about our redesigning experience as he had arbitrated a lot of waiting customers. He showed a wry smile when he said “One out of two tends to leave at busy hours”. This informs us one thing. Making customers wait is bad for restaurants too. [Here are the full notes taken from this interview.](#interview2)
@@ -282,7 +282,7 @@ time their seat is ready.
 **A:** 먹고싶었던 음식을 기다려서 먹는거니까
 
 <br /><br />
-## Interview Notes
+## Studio Reflection
 
 ### FEEDBACK SUMMARY
 
