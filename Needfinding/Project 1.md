@@ -121,43 +121,145 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 ## Interviews
 
-### <a name="interview1"></a> Interview 1
+### <a name="interview1"></a> Interview 1 (Office Worker 1)
 
 **Q:** How often do you experience no-seat?
 
 **A:** 주 2회. 강남쪽
 
-**Q: ** What are your feelings when there are no seats available in the restaurant you really want to go?
+**Q:** What are your feelings when there are no seats available in the restaurant you really want to go?
 
-**A: ** 인기가 많구나. 맛있겟다.
+**A:** 인기가 많구나. 맛있겟다.
 
-**Q: **
+**Q:** What's the longest time you waited?
 
-**A: **
+**A:** 2시간 쯤.
 
-**Q: **
+**Q:** What did you do during waiting?
 
-**A: **
+**A:** 앉아있었요. 식당 바깥에 공원 같은데서. 친구랑 이야기 하거나. 지루했다
 
-**Q: **
+**Q:** Why did you decide to wait? or not to wait?
 
-**A: **
+**A:** 되게 유명한 집이어서 먹어보고 싶어서
 
-**Q: **
+**Q:** 안기다리고 딴데 간적도? 
 
-**A: **
+**A:** 있읍니다. 시간 적인 여유가 없어서
 
-**Q: **
+**Q:** Do you like or not like the waiting experience?
 
-**A: **
+**A:** 괜찮았어요. 
 
-**Q: **
+**Q:** 왜? 
 
-**A: **
+**A:** 먹고싶었던 음식을 기다려서 먹는거니까
+
+### <a name="interview2"></a> Interview 2 (Office worker 2)
+
+**Q:** How often do you experience no-seat?
+
+**A:** 일주일에 한번?
+
+**Q:** What are your feelings when there are no seats available in the restaurant you really want to go?
+
+**A:** 짜증났다.
+
+**Q:** What's the longest time you waited?
+
+**A:** 2시간 정도
+
+**Q:** What did you do during waiting?
+
+**A:** 번호표 뽑은다음에 따른데 가있었음 카페나 피시방에.
+
+**Q:** 자기 차례인 어떻게 알앗죠? 
+
+**A:** 감. 몇분정도 걸릴건지 안알려주니까, 한번은 놓친적도 있어요. 놓치면 리셋되서 포기하고 딴거먹음
+
+**Q:** Why did you decide to wait? or not to wait?
+
+**A:** 남는 사람의 수랑 음식점이 진짜 마음에 드는지
+
+**Q:** Do you like or not like the waiting experience?
+
+**A:** 나쁜경험 
+
+**Q:** What did restaurant do to manage waiting customers?
+
+**A:** 번호표나 줄서라고 관리한다.문자로 알려주는 곳도 있었따 (번호 적으라고)
+
+### <a name="interview3"></a> Interview 3 (Girl Friend)
+
+**Q:** How often do you visit a busy restaurant that you have wait in line?
+
+**A:** Not so much in Daejon, but when I lived in Seoul I looked up lots of 맛집s and had to wait almost every time
+
+**Q:** What do you do while waiting?
+
+**A:** Walk around near the restaurant. Feels boring to just seat and wait
+
+**Q:** How did the clerk keep track of waiting customers in order?
+
+**A:** By giving out waiting number tickets, or making the customers write down their name&phone number, then call when my turn comes close
+
+**Q:** Do you have a suggestion for how to spend waiting time?
+
+**A:** It would be nice to have an app that tells you what entertainment places are out there near the restaurant
+
+**Q:** Would you use a service that tells you estimated time left online?
+
+**A:** Yes. Gong Cha already provides a service that you order online and pick it up when it’s done.
+
+### <a name="interview4"></a> Interview 4 (Friend)
+
+**Q:** When you have to wait for a restaurant, do you wait it out, or look for others?
+
+**A:** Depends on the restaurant, but usually wait it out
+
+**Q:** How long are you willing to wait for a restaurant that you want to go to?
+
+**A:** Up to 30 minutes
+
+**Q:** Have you had to frequently wait for busy restaurants?
+
+**A:** All the time
+
+**Q:** After put on a waiting list (for restaurants that have implemented one), are you free to spend the waiting time doing something else? If yes, then how are you notified once a table is free?
+
+**A:** Yes – they call me on my mobile.
+
+**Q:** Would you be willing to visit a site (web app) that manages your waiting time for restaurants?
+
+**A:** I would be interested.
+
+### <a name="interview4"></a> Interview 4 (Restaurant Owner)
+
+**Q:** When is the busiest time?
+
+**A:** Our restaurant is usually full during weekend 6 p.m ~ 7 p.m
+
+**Q:** Is there customers who wait because there’s no seat remaining?
+
+**A:** There are plenty of customers who waits during the busy hours.
+
+**Q:** Where do customers wait?
+
+**A:** Since there aren’t much place to wait, customers usually wait at the back of the restaurant or at the stairs outside the restaurant.
+
+**Q:** Is there customers who leave because they can’t wait?
+
+**A:** One out of Two groups leaves.
+
+**Q:** Is there any solutions you have come up with to solve this problem?
+
+**A:** I have tried making a number ticket, take customers’ phone number, and call them by the
+time their seat is ready.
+
+**Q:** Did those solutions work?
+
+**A:** It was really hard to call each customers during the busy hour. Also, some customers didn’t want to give their number, and some didn’t accept the call.
 
 
-### <a name="interview2"></a> Interview 2
 
-### <a name="interview3"></a> Interview 3
 
-### <a name="interview4"></a> Interview 4
