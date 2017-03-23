@@ -11,7 +11,8 @@
 
 # Say Goodbye to Tiresome Waiting!
 ## Experience
-Redesign how potential customers have to wait for seats in full restaurants during peak hours in busy areas (such as 강남 or 둔산).  
+Redesign how potential customers have to wait for seats in full restaurants during peak hours in busy areas.  
+(such as 강남 or 둔산)  
 
 **Figure 1.** People waiting in a restaurant during lunch time.
  ![alt text](figure1.jpg "Figure 1. People waiting in a restaurant during lunch time.")
