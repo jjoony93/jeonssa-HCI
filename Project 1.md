@@ -1,14 +1,14 @@
 ##### CS374 Design Project 1: Needfinding
 ###### Team jeonssa
 
-<div style="text-align:right;">
+
 
 20111016 Min Kang  
 20121059 SunJae Lee  
 20121061 Joon Young Lee  
 20121087 Sewon Hong
 
-</div>  
+ 
 
 ---
 
@@ -21,6 +21,7 @@
  ## Observations & Interviews
  ### Summary
  **Table 1.** Summary of interviews conducted.  
+ 
  Interviewee | Interviewer | Why chosen? | How? | Where? | What did we ask?
  --- | --- | --- | --- | --- | ---
  University student | Min | Lots of experience dining at busy places | Friend| 강남 일식집 |Waiting experience
