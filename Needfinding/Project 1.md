@@ -85,16 +85,19 @@ we derived following needs:
 
 From the interesting moment:
 * Customers do not want to just sit and wait for their turns
+
 We derived:
 * Do something entertaining while waiting (e.g. shopping, go to cafe)
 
 Likewise, from:
 * When the kitchen is too busy, customers still had to wait for along time, albeit while sitting
+
 We derived:
 * Customers want to get started eating as quickly as possible
 
 And from:
 * Customers are sensitive about giving out their personal information to the restaurant.
+
 We derived:
 * Customers want not to provide too much personal information (e.g. phone number, name).
 
