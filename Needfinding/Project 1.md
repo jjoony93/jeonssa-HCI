@@ -170,7 +170,7 @@ time their seat is ready.
 
 **A:** It was really hard to call each customers during the busy hour. Also, some customers didn’t want to give their number, and some didn’t accept the call.
 
-### <a name="interview3"></a> Interview 3 (Girl Friend)
+### <a name="interview3"></a> Interview 3 (University Student 2)
 
 **Q:** How often do you visit a busy restaurant that you have wait in line?
 
