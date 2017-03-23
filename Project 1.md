@@ -20,7 +20,7 @@
  
  ## Observations & Interviews
  ### Summary
- **Table 1.** Summary of interviews conducted.
+ **Table 1.** Summary of interviews conducted.  
  Interviewee | Interviewer | Why chosen? | How? | Where? | What did we ask?
  --- | --- | --- | --- | --- | ---
  University student | Min | Lots of experience dining at busy places | Friend| 강남 일식집 |Waiting experience
