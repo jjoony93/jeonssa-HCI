@@ -141,7 +141,7 @@ many restaurants lack such space, which makes it hard for potential customers to
 * I wish the slides were less wordy (too much information in one slide, hard for people not proficient in English)
 * What if you research / find out about services that already implement what you are aiming to do. Competitor Analysis (existing apps not successful why?)
 * What if you pick a specific target (out of restaurant owner, or customer) which you want to tailor your service to?
-* I liked that you went out of your way to interview a restaurant own
+* I liked that you went out of your way to interview a restaurant owner.
 
 ### FEEDBACK REFLECTION
 
