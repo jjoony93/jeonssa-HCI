@@ -63,7 +63,7 @@ A young female pulled out a “waiting ticket” as the interview began. A self-
 <br /><br />
 ### OBSERVATION #4: “Causes unproductivity”
 
-**Figure 5. Valuable time is lost.**
+**Figure 5.** Valuable time is lost.
  ![alt text](figure5.png "Figure 5. Valuable time is lost.")
 
 Working in Gangnam, the two office workers could be the extreme users of our to-be-redesigned experience. They wait almost everyday but did not have a clear plan what to do while waiting. One surprising answer was "2 hours" to the question "What was the longest time of waiting?" We now know that waiting can cause unproductivity for some people. [Here are the full notes taken from this interview.](#interview4)
@@ -246,15 +246,15 @@ time their seat is ready.
 
 **Q:** What did you do during waiting?
 
-**A:** 번호표 뽑은다음에 따른데 가있었음 카페나 피시방에.
+**A:** 번호표 뽑은 다음에 다른데 가 있었음. 카페나 피시방에.
 
 **Q:** 자기 차례인 어떻게 알앗죠? 
 
-**A:** 감. 몇분정도 걸릴건지 안알려주니까, 한번은 놓친적도 있어요. 놓치면 리셋되서 포기하고 딴거먹음
+**A:** 감. 몇분정도 걸릴건지 안알려주니까, 한번은 놓친적도 있어요. 놓치면 대기순서 리셋되서 포기하고 딴거먹음
 
 **Q:** Why did you decide to wait? or not to wait?
 
-**A:** 남는 사람의 수랑 음식점이 진짜 마음에 드는지
+**A:** 대기인원의 수, 음식점이 진짜 마음에 드는지
 
 **Q:** Do you like or not like the waiting experience?
 
@@ -262,7 +262,7 @@ time their seat is ready.
 
 **Q:** What did restaurant do to manage waiting customers?
 
-**A:** 번호표나 줄서라고 관리한다.문자로 알려주는 곳도 있었따 (번호 적으라고)
+**A:** 번호표나 줄서라고 관리한다.문자로 알려주는 곳도 있었다. (번호 적으라고)
 
 #### Worker 2
 
@@ -272,7 +272,7 @@ time their seat is ready.
 
 **Q:** What are your feelings when there are no seats available in the restaurant you really want to go?
 
-**A:** 인기가 많구나. 맛있겟다.
+**A:** 인기가 많구나. 맛있다.
 
 **Q:** What's the longest time you waited?
 
@@ -288,7 +288,7 @@ time their seat is ready.
 
 **Q:** Did you ever left the restaurant 
 
-**A:** 있읍니다. 시간 적인 여유가 없어서
+**A:** 있습니다. 시간 적인 여유가 없어서
 
 **Q:** Do you like or not like the waiting experience?
 
@@ -296,5 +296,5 @@ time their seat is ready.
 
 **Q:** Why? 
 
-**A:** 먹고싶었던 음식을 기다려서 먹는거니까
+**A:** 먹고 싶었던 음식을 기다려서 먹는거니까
 
