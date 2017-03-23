@@ -249,26 +249,6 @@ time their seat is ready.
 
 #### Worker 2
 
-**Q:** When you have to wait for a restaurant, do you wait it out, or look for others?
-
-**A:** Depends on the restaurant, but usually wait it out
-
-**Q:** How long are you willing to wait for a restaurant that you want to go to?
-
-**A:** Up to 30 minutes
-
-**Q:** Have you had to frequently wait for busy restaurants?
-
-**A:** All the time
-
-**Q:** After put on a waiting list (for restaurants that have implemented one), are you free to spend the waiting time doing something else? If yes, then how are you notified once a table is free?
-
-**A:** Yes – they call me on my mobile.
-
-**Q:** Would you be willing to visit a site (web app) that manages your waiting time for restaurants?
-
-**A:** I would be interested.
-
 **Q:** How often do you experience no-seat?
 
 **A:** 주 2회. 강남쪽
@@ -300,3 +280,20 @@ time their seat is ready.
 **Q:** Why? 
 
 **A:** 먹고싶었던 음식을 기다려서 먹는거니까
+
+<br /><br />
+## Interview Notes
+
+### FEEDBACK SUMMARY
+
+* I wish the slides were less wordy (too much information in one slide, hard for people not proficient in English)
+* What if you research / find out about services that already implement what you are aiming to do. Competitor Analysis (existing apps not successful why?)
+* What if you pick a specific target (out of restaurant owner, or customer) which you want to tailor your service to?
+* I liked that you went out of your way to interview a restaurant own
+
+### FEEDBACK REFLECTION
+
+* For upcoming presentations, we will put less text and explain more verbally, making use of effective visual aids.
+* Now is not the appropriate time to conduct competitor analysis, but in future phases we will do so and try to develop a key-changer that will differentiate our service from already existing services.
+* Our service inevitably deals with both the restaurant owners and customers. It is hard to imagine a service that only considers customer’s point of view and vice versa; we want to provide a service that satisfies both the restaurant owners and customers to a certain level.
+* Thank you! Before moving on to next phase, we will try to interview more restaurant owners and customers to acquire wider perspective and a more comprehensive understanding. 
