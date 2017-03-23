@@ -127,9 +127,9 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 **A:** 주 2회. 강남쪽
 
-**Q: **
+**Q: ** What are your feelings when there are no seats available in the restaurant you really want to go?
 
-**A: **
+**A: ** 인기가 많구나. 맛있겟다.
 
 **Q: **
 
