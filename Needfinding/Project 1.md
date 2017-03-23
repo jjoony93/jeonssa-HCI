@@ -28,7 +28,7 @@ Restaurant Owner | SunJae | Has hard time managing customer waiting list | Ate a
  University student | Joon Young | Foodie (맛집러) | Girlfriend| 둔산 일식집 |Waiting experience
 Office worker | Sewon | Lots of experience dining at busy places | Offline interview| 숙대입구 카페 |Waiting experience
 
-
+  
 **OBSERVATION #1: “I don’t like waiting.”**
 
 **Figure 2.** People don’t like waiting.
@@ -36,7 +36,7 @@ Office worker | Sewon | Lots of experience dining at busy places | Offline inter
 
 A university student was asked about the recent waiting experience in restaurants. He has had lots of dining experiences at busy places and hence was qualified as a “story-teller” of the experience we were trying to redesign. He insinuated a little frustration as he shouted “All the time!” when asked if he ever had to wait in restaurants. This confirms one statement: People don’t like waiting. [Here are the full notes taken from this interview.](#interview1)
 
-
+  
 **OBSERVATION #2: “Making customers wait is bad."**
 
 **Figure 3.** Making customers wait is bad.
@@ -44,7 +44,7 @@ A university student was asked about the recent waiting experience in restaurant
 
  We gently asked the restaurant manager for 2 minutes. He would give a valuable lesson about our redesigning experience as he had arbitrated a lot of waiting customers. He showed a wry smile when he said “One out of two tends to leave at busy hours”. This informs us one thing. Making customers wait is bad for restaurants too. [Here are the full notes taken from this interview.](#interview2)
 
-
+  
 **OBSERVATION #3: “I am willing to wait if you let me know until when.”**
 
 **Figure 4.** Letting know  expected waiting time is good.
@@ -52,6 +52,7 @@ A university student was asked about the recent waiting experience in restaurant
 
 A young female pulled out a “waiting ticket” as the interview began. A self-proclaimed “foodie”, she had some interesting aspects to reveal regarding the experience we were planning to redesign. She decided to stay and wait in the restaurant after looking at the ticket written “대기인원: 1명”. This enlightened us with one thing: Letting know until when to wait is good. [Here are the full notes taken from this interview.](#interview3)
 
+  
 **OBSERVATION #4: “Causes unproductivity”**
 
 **Figure 5. Valuable time is lost.**
@@ -59,7 +60,7 @@ A young female pulled out a “waiting ticket” as the interview began. A self-
 
 Working in Gangnam, the two office workers could be the extreme users of our to-be-redesigned experience. They wait almost everyday but did not have a clear plan what to do while waiting. One surprising answer was "2 hours" to the question "What was the longest time of waiting?" We now know that waiting can cause unproductivity for some people. [Here are the full notes taken from this interview.](#interview4)
 
-
+  
 ## Needs
 From the interview, we observed some interesting moments and problems that they face.
 
@@ -121,7 +122,7 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 ## Interviews
 
-### <a name="interview1"></a> Interview 1 (University Student 1)
+### <a name="interview1"></a> Interview. 1 (University Student 1)
 
 **Q:** When you have to wait for a restaurant, do you wait it out, or look for others?
 
@@ -143,7 +144,7 @@ many restaurants lack such space, which makes it hard for potential customers to
 
 **A:** I would be interested.
 
-### <a name="interview2"></a> Interview 2 (Restaurant Owner)
+### <a name="interview2"></a> Interview. 2 (Restaurant Owner)
 
 **Q:** When is the busiest time?
 
@@ -170,7 +171,7 @@ time their seat is ready.
 
 **A:** It was really hard to call each customers during the busy hour. Also, some customers didn’t want to give their number, and some didn’t accept the call.
 
-### <a name="interview3"></a> Interview 3 (University Student 2)
+### <a name="interview3"></a> Interview. 3 (University Student 2)
 
 **Q:** How often do you visit a busy restaurant that you have wait in line?
 
@@ -192,7 +193,7 @@ time their seat is ready.
 
 **A:** Yes. Gong Cha already provides a service that you order online and pick it up when it’s done.
 
-### <a name="interview4"></a> Interview 4 (Office Workers)
+### <a name="interview4"></a> Interview. 4 (Office Workers)
 
 #### Worker 1
 
