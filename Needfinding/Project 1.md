@@ -75,31 +75,48 @@ For restaurant owners,
 
 From these problems and interesting moments we found, we derived following needs for our interviewees.
 
-From the interesting moment:
-* Customers have hard time estimating when their table will be ready
-
-we derived following needs:
-* Notified when their turn has come.
+For customer, they want to ...
+* Be notified when their turns has come.
 * Know how longer they have to wait.
 * Be notified at an appropriate time. (e.g. "Seat be ready in 5 minutes")
-
-From the interesting moment:
-* Customers do not want to just sit and wait for their turns
-
-We derived:
+* Get started eating as quickly as possible.
 * Do something entertaining while waiting (e.g. shopping, go to cafe)
+* Not provide too much personal information (e.g. phone number, name)
 
-Likewise, from:
-* When the kitchen is too busy, customers still had to wait for along time, albeit while sitting
+For restaurant owners, they want to ...
+* Know when customers wants to cancel the reservation
 
-We derived:
-* Customers want to get started eating as quickly as possible
+Apart from the interesting moments listed above, through further brainstorming and interview, we derived following needs that our potential users face.
 
-And from:
-* Customers are sensitive about giving out their personal information to the restaurant.
+For customers, they want to ...
+* Stay comfortable while waiting (e.g. avoid heat during summer, chill during winter)
+* Not have to keep piece of paper with themselves all the time (paper ticket)
 
-We derived:
-* Customers want not to provide too much personal information (e.g. phone number, name).
+For restaurant owners, they want to
+* Minimize the amount of labor required for managing waiting customers.
+* Accommodate as many customers as possible.
+* Be able to accurately estimate the expected waiting time for customers.
+
+## Insights
+From the above-mentioned interesting moments and problems, we also derived insights.
+
+* Letting the customer know the expected waiting time increases the chance of holding the customer.
+* Uncertain estimation of eating time leads to providing uncertain expected waiting time to customers.
+* Clerk may find it difficult to estimate when the seats will become empty, thus hard to tell customers how many minutes are left.
+* Current process of being seated is wasteful - clerk tells you there’s an empty seat→ get seated→ look at the menu→ calls the clerk→ order menu.
+* People are more inclined to wait for restaurants that have a waiting list system, for which they are free to do other things during the waiting time.
+* Customers want to provide minimal personal information.
+* People are more inclined to wait for restaurants that they like/know, rather than for ones they haven’t been to before.
+* Customers need a strong alarm that will draw attention while doing something else outside the restaurant.
+
+Apart from the interesting moments listed above, through further brainstorming and interview, we derived following insights.
+
+* People are foced to wait in the same area with strangers, feeling awkward
+* Having a waiting list system is preferable in general; 
+without a strict order, conflict may occur between waiting customers
+* Although some restaurants have allocated areas where waiting customers can stay, 
+many restaurants lack such space, which makes it hard for potential customers to wait
+
 
 
 ## Interviews
