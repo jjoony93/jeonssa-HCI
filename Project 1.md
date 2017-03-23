@@ -1,8 +1,11 @@
 ##### CS374 Design Project 1: Needfinding
 ###### Team jeonssa
+<div text-align:right>
 20111016 Min Kang  
 20121059 SunJae Lee  
 20121061 Joon Young Lee  
+20121087 Sewon Hong
+</div>  
 ---
 
 # Say Goodbye to Tiresome Waiting!
