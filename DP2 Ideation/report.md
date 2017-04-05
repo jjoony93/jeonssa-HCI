@@ -1,5 +1,5 @@
-**CS374 Design Project 2: Ideation**
-**Team JEONSSA**
+**CS374 Design Project 2: Ideation**  
+**Team JEONSSA**  
 20111016 Min Kang  
 20121059 SunJae Lee  
 20121061 Joon Young Lee  
@@ -11,8 +11,8 @@
  ![alt text](title.PNG "Title: Shorter Waiting Make Dining Out Great Again")
  
 ## Point of view
-We met a restaurant owner. 
-We were amazed to realize that two in one customers left because of waiting. 
+We met a restaurant owner.  
+We were amazed to realize that two in one customers left because of waiting.  
 It’d be game-changing to drastically reduce the time customers have to wait.
 
 ## Persona
@@ -30,10 +30,10 @@ It’d be game-changing to drastically reduce the time customers have to wait.
  
 
 ## How Might We (HMW) Questions
-How might we...
-...encourage customers to eat faster?
-...make use of all available tables (space)?
-...make waiting time more productive?
+How might we...  
+...encourage customers to eat faster?  
+...make use of all available tables (space)?  
+...make waiting time more productive?  
 
 
 ## Solution Ideas
@@ -57,37 +57,36 @@ How might we...
 ## Top 3 Solutions
 
 ### Solution 1: Give Incentives to Fast Eaters
-How?
-Ideation on HMW encourage customers to eat faster? We voted for the best.
-Why?
-Better than giving disadvantage to slow eaters.
-(To encourage people to eat fast so that fewer people have to wait)
-
+How?  
+Ideation on HMW encourage customers to eat faster? We voted for the best.  
+Why?  
+Better than giving disadvantage to slow eaters.  
+(To encourage people to eat fast so that fewer people have to wait). 
 
 ### Solution 2: Share Table
-How?
-Make full use of available seats in the restaurant
-Why?
+How?  
+Make full use of available seats in the restaurant  
+Why?  
 Waste of available dining area space, 
 benefits customer by removing waiting their time
 
 
 ### Solution 3 : Recommend Entertainment
-How?
-Make use of available sources near the restaurant
-Why?
-People visiting restaurants in an unfamiliar region don’t have info, 
+How?  
+Make use of available sources near the restaurant. 
+Why? 
+People visiting restaurants in an unfamiliar region don’t have info,  
 so reduce the time searching for info and get right into entertainment
 
 
 ## Storyboards
 ### Storyboard 1
- ![alt text](Storyboard 1.png "Figure2. Storyboard of soultion 1")
+ ![alt text](Storyboard_1.png "Figure2. Storyboard of soultion 1")
  
  
 ### Storyboard 2
- ![alt text](Storyboard 2.png "Figure3. Storyboard of soultion 2")
+ ![alt text](Storyboard_2.png "Figure3. Storyboard of soultion 2")
  
  
  ### Storyboard 3
- ![alt text](Storyboard 3.png "Figure4. Storyboard of soultion 3")
+ ![alt text](Storyboard_3.png "Figure4. Storyboard of soultion 3")
