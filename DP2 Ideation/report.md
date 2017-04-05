@@ -93,10 +93,6 @@
 
 
 ## Top 3 Solutions
-	Solution 1: Give Incentives to Fast Eaters
-	Solution 2: Share Table
-	Solution 3: Recommend Entertainment
-
 ### Solution 1: Give Incentives to Fast Eaters
 	How?  
 	Ideation on HMW encourage customers to eat faster? We voted for the best.  
@@ -135,6 +131,6 @@
  
  ## Studio Reflections
 	1) group of 3, don't want to share -> owner of restaurant mediates
-		일찍 오거나 늦게 오거나 
-			* provide actual waiting time 
-	* 사용자 손해
+	2) 일찍 오거나 늦게 오거나 
+	3) provide actual waiting time 
+	4) 사용자 손해
