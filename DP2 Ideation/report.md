@@ -1,4 +1,4 @@
-**CS374 Design Project 2: Ideation** 
+**CS374 Design Project 2: Ideation**
 **Team JEONSSA**
 20111016 Min Kang  
 20121059 SunJae Lee  
@@ -55,19 +55,22 @@ How might we...
 3) as
 
 ## Top 3 Solutions
-### Solution 1: Share Table
+
+### Solution 1: Give Incentives to Fast Eaters
+How?
+Ideation on HMW encourage customers to eat faster? We voted for the best.
+Why?
+Better than giving disadvantage to slow eaters.
+(To encourage people to eat fast so that fewer people have to wait)
+
+
+### Solution 2: Share Table
 How?
 Make full use of available seats in the restaurant
 Why?
 Waste of available dining area space, 
 benefits customer by removing waiting their time
 
-### Solution 2: Give Incentives to Fast Eaters
-How?
-Ideation on HMW encourage customers to eat faster? We voted for the best.
-Why?
-Better than giving disadvantage to slow eaters.
-(To encourage people to eat fast so that fewer people have to wait)
 
 ### Solution 3 : Recommend Entertainment
 How?
@@ -79,12 +82,12 @@ so reduce the time searching for info and get right into entertainment
 
 ## Storyboards
 ### Storyboard 1
- ![alt text](Storyboard 1.png "Figure2. Storyboard of soultion1")
+ ![alt text](Storyboard 1.png "Figure2. Storyboard of soultion 1")
  
  
 ### Storyboard 2
- ![alt text](Storyboard 2.png "Figure3. Storyboard of soultion2")
+ ![alt text](Storyboard 2.png "Figure3. Storyboard of soultion 2")
  
  
  ### Storyboard 3
- ![alt text](Storyboard 3.png "Figure4. Storyboard of soultion13")
+ ![alt text](Storyboard 3.png "Figure4. Storyboard of soultion 3")
