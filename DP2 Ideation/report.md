@@ -117,9 +117,9 @@
 
 ### Solution 3: Recommend Entertainment
 	How?  
-	What we considered most important is the actual practicality, and additional capital that needs to be invested for the solution. 
+	What we considered most important is the actual practicality, and the cost of the solution
 	Why?  
-	We chose this solution because there actually are very famous restaurants in korea that forces customers share table, and in some european countries, costomers voluntarily does so. In addition, this solution costs nothing.  
+	this solution is very practical, and costs nothing. Very high effeciency.  
 
 
 ## Storyboards
