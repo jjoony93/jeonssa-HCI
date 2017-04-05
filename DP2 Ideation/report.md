@@ -30,10 +30,24 @@ It’d be game-changing to drastically reduce the time customers have to wait.
  
 
 ## How Might We (HMW) Questions
-How might we...  
-...encourage customers to eat faster?  
-...make use of all available tables (space)?  
-...make waiting time more productive?  
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+### Top 3 HMW
+	How might we...  
+	1. encourage customers to eat faster?  
+	2. make use of all available tables (space)?  
+	3. make waiting time more productive?  
 
 
 ## Solution Ideas
@@ -43,16 +57,37 @@ How might we...
 1. s
 2. s
 3. s
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
 ### Make use of space
 1. remove table(sit on the floor)
 2. let customer eat while standing
 3. use food-truck in busy hour
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
 ### Productive waiting time
-1) as
-2) asd
-3) as
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
 ## Top 3 Solutions
 
@@ -74,7 +109,7 @@ benefits customer by removing waiting their time
 ### Solution 3 : Recommend Entertainment
 How?  
 Make use of available sources near the restaurant. 
-Why? 
+Why?  
 People visiting restaurants in an unfamiliar region don’t have info,  
 so reduce the time searching for info and get right into entertainment
 
@@ -90,3 +125,10 @@ so reduce the time searching for info and get right into entertainment
  
  ### Storyboard 3
  ![alt text](storyboard3.png "Figure4. Storyboard of soultion 3")
+ 
+ 
+ ## Studio Reflections
+* group of 3, don't want to share -> owner of restaurant mediates
+* 일찍 오거나 늦게 오거나 
+* provide actual waiting time 
+* 사용자 손해
