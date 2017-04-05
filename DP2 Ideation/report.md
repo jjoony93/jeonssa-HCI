@@ -22,6 +22,9 @@
 * Occupation: Restaurant Owner
 * Status: Married
 * Location: Gangnam, Korea
+* beliefs: Providing good foods to customers is the only way to succeed.
+* motivation: Achievement, complement, incentive
+* preference: He prefers being busy than free
 
 ### Nubjjugi’s story:
 * Nubjjugi is a 42 years old restaurant owner
