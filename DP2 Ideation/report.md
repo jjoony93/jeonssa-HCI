@@ -11,9 +11,9 @@
  ![alt text](title.PNG "Title: Shorter Waiting Make Dining Out Great Again")
  
 ## Point of view
-We met a restaurant owner.  
-We were amazed to realize that two in one customers left because of waiting.  
-It’d be game-changing to drastically reduce the time customers have to wait.
+	We met a restaurant owner.  
+	We were amazed to realize that two in one customers left because of waiting.  
+	It’d be game-changing to drastically reduce the time customers have to wait.
 
 ## Persona
  ![alt text](nubjjugi.PNG "Figure1. Nubjjugi, the persona")
@@ -25,8 +25,8 @@ It’d be game-changing to drastically reduce the time customers have to wait.
 * Has limited space available in dining area
 
 ### Nubjjugi’s Goals:
-	1) Reduce customers’ waiting time
-	2) Serve as many customers as possible
+	* Reduce customers’ waiting time
+	* Serve as many customers as possible
  
 
 ## How Might We (HMW) Questions
@@ -90,28 +90,31 @@ It’d be game-changing to drastically reduce the time customers have to wait.
 10.
 
 ## Top 3 Solutions
+	Solution 1: Give Incentives to Fast Eaters
+	Solution 2: Share Table
+	Solution 3: Recommend Entertainment
 
 ### Solution 1: Give Incentives to Fast Eaters
-How?  
-Ideation on HMW encourage customers to eat faster? We voted for the best.  
-Why?  
-Better than giving disadvantage to slow eaters.  
-(To encourage people to eat fast so that fewer people have to wait). 
+	How?  
+	Ideation on HMW encourage customers to eat faster? We voted for the best.  
+	Why?  
+	Better than giving disadvantage to slow eaters.  
+	(To encourage people to eat fast so that fewer people have to wait). 
 
 ### Solution 2: Share Table
-How?  
-Make full use of available seats in the restaurant  
-Why?  
-Waste of available dining area space, 
-benefits customer by removing waiting their time
+	How?  
+	Make full use of available seats in the restaurant  
+	Why?  
+	Waste of available dining area space, 
+	benefits customer by removing waiting their time
 
 
-### Solution 3 : Recommend Entertainment
-How?  
-Make use of available sources near the restaurant. 
-Why?  
-People visiting restaurants in an unfamiliar region don’t have info,  
-so reduce the time searching for info and get right into entertainment
+### Solution 3: Recommend Entertainment
+	How?  
+	Make use of available sources near the restaurant. 
+	Why?  
+	People visiting restaurants in an unfamiliar region don’t have info,  
+	so reduce the time searching for info and get right into entertainment
 
 
 ## Storyboards
@@ -128,7 +131,7 @@ so reduce the time searching for info and get right into entertainment
  
  
  ## Studio Reflections
-* group of 3, don't want to share -> owner of restaurant mediates
-* 일찍 오거나 늦게 오거나 
-* provide actual waiting time 
-* 사용자 손해
+	* group of 3, don't want to share -> owner of restaurant mediates
+	* 일찍 오거나 늦게 오거나 
+	* provide actual waiting time 
+	* 사용자 손해
