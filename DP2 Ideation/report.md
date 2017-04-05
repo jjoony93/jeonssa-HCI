@@ -25,8 +25,8 @@
 * Has limited space available in dining area
 
 ### Nubjjugi’s Goals:
-	* Reduce customers’ waiting time
-	* Serve as many customers as possible
+	1) Reduce customers’ waiting time
+	2) Serve as many customers as possible
  
 
 ## How Might We (HMW) Questions
@@ -45,49 +45,52 @@
 
 ### Top 3 HMW
 	How might we...  
-	1. encourage customers to eat faster?  
-	2. make use of all available tables (space)?  
-	3. make waiting time more productive?  
+	1) encourage customers to eat faster?  
+	2) make use of all available tables (space)?  
+	3) make waiting time more productive?  
 
 
 ## Solution Ideas
 
 
 ### Encourage faster eating
-1. s
-2. s
-3. s
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. make slow eater to pay more
+2. fixed eating time constraint
+3. give discounts to fast eater
+4. give coupons to fast eater
+5. give desserts to fast eater
+6. slow eaters get less amount of food
+7. different cost assigned to differing eating time
+8. forbid doing other things besides eating
+9. customers can use table only if their food is ready
+10. Make fast eating rank tournament
+
 
 ### Make use of space
 1. remove table(sit on the floor)
 2. let customer eat while standing
 3. use food-truck in busy hour
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+4. let customers join table
+5. move kitchen to another floor or other building
+6. implement take-outs
+7. implement delivery system
+8. make tables outside the restaurant
+9. customers can use table only if their food is ready
+10. extend restaurant
+
 
 ### Productive waiting time
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. remove waiting time completely
+2. discount depending on time customer had to wait
+3. customer prepares own food
+4. give incentive if waiting is long
+5. discount next time when customer doesn’t get to eat this time
+6. advertise restaurant on sns and get free food
+7. recommend other restaurant
+8. customer prepares food ingredients
+9. provide entertainment(e.g. movie, show) to customers waiting
+10. make partnership with nearby entertainment place. (e.g. cafe, pc cafe)
+
 
 ## Top 3 Solutions
 	Solution 1: Give Incentives to Fast Eaters
@@ -131,7 +134,7 @@
  
  
  ## Studio Reflections
-	* group of 3, don't want to share -> owner of restaurant mediates
-	* 일찍 오거나 늦게 오거나 
-	* provide actual waiting time 
+	1) group of 3, don't want to share -> owner of restaurant mediates
+		일찍 오거나 늦게 오거나 
+			* provide actual waiting time 
 	* 사용자 손해
