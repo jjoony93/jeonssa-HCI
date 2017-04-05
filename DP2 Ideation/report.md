@@ -37,15 +37,15 @@
  
 
 ## How Might We (HMW) Questions
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. encourage customers to eat faster?
+2. make use of all available table (space)?
+3. make waiting time more productive?
+4. provide estimated waiting time for customers?
+5. keep track of waiting customers?
+6. manage no showers?
+7. reduce the waiting time?
+8. serve foods faster?
+9. 
 10.
 11.
 12.
