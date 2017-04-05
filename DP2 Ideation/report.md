@@ -81,12 +81,12 @@ so reduce the time searching for info and get right into entertainment
 
 ## Storyboards
 ### Storyboard 1
- ![alt text](Storyboard_1.png "Figure2. Storyboard of soultion 1")
+ ![alt text](storyboard1.png "Figure2. Storyboard of soultion 1")
  
  
 ### Storyboard 2
- ![alt text](Storyboard_2.png "Figure3. Storyboard of soultion 2")
+ ![alt text](storyboard2.png "Figure3. Storyboard of soultion 2")
  
  
  ### Storyboard 3
- ![alt text](Storyboard_3.png "Figure4. Storyboard of soultion 3")
+ ![alt text](storyboard3.png "Figure4. Storyboard of soultion 3")
