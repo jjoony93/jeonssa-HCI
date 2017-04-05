@@ -109,17 +109,19 @@
 
 ### Solution 2: Share Table
 	How?  
-	Make full use of available seats in the restaurant  
+	What we considered most important is the actual practicality, and the cost of the solution
 	Why?  
 	Waste of available dining area space, 
-	benefits customer by removing waiting their time
+	this solution is very practical, and costs nothing. Very high effeciency.  
 
 
 ### Solution 3: Recommend Entertainment
 	How?  
-	What we considered most important is the actual practicality, and the cost of the solution
+	Make use of available sources near the restaurant
 	Why?  
-	this solution is very practical, and costs nothing. Very high effeciency.  
+	People visiting restaurants in an unfamiliar region don’t have info, so reduce the time searching for info and get right into entertainment
+
+so reduce the time searching for info and get right into entertainment
 
 
 ## Storyboards
