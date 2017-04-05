@@ -18,11 +18,17 @@
 ## Persona
  ![alt text](nubjjugi.PNG "Figure1. Nubjjugi, the persona")
  
-* Nubjjugi is a restaurant owner
-* His situated in busy area, usually always full during busy hours
-* Many customers have to wait
+* Age: 42
+* Occupation: Restaurant Owner
+* Status: Married
+* Location: Gangnam, Korea
+* 
+* Nubjjugi is a 42 years old restaurant owner
+* His restaurant is in busy area of Gangnam, usually always full during busy hours
+* Many customers have to wait for his restaurant. 
+* His restaurant has limited space available in dining area
 * Loses lots of potential business to waiting customers
-* Has limited space available in dining area
+* He wants to minimize the number of waiting customers, so that he can reduce the lose of potential business
 
 ### Nubjjugi’s Goals:
 	1) Reduce customers’ waiting time
@@ -110,7 +116,7 @@
 
 ### Solution 3: Recommend Entertainment
 	How?  
-	Make use of available sources near the restaurant. 
+	What we considered most important is the actual practicality, and additional capital that needs to be invested for the solution. 
 	Why?  
 	People visiting restaurants in an unfamiliar region don’t have info,  
 	so reduce the time searching for info and get right into entertainment
