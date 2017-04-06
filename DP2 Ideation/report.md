@@ -130,7 +130,13 @@ Selection Process: Ideation on each HMW questions. Then we voted for the best.
  
  
  ## Studio Reflections
-	1) group of 3, don't want to share -> owner of restaurant mediates
-	2) 일찍 오거나 늦게 오거나 
-	3) provide actual waiting time 
-	4) 사용자 손해
+ ### FEEDBACK SUMMARY
+1) group of 3, don't want to share -> owner of restaurant mediates
+2) If the customer goes to recommended entertainment places, customer could return early or late
+3) It would be nice to provide actual remaining waiting time - 
+4) 사용자 손해
+### FEEDBACK REFLECTION
+1) 
+2) 
+3) A: It is hard to estimate accurate remaining waiting time because people have different eating speed, so we will provid remaining waiting time as a measure
+4) 
