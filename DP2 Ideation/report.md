@@ -27,12 +27,12 @@
 * preference: He prefers being busy than free
 
 ### Nubjjugi’s story:
-* Nubjjugi is a 42 years old restaurant owner
-* His restaurant is in busy area of Gangnam, usually always full during busy hours
-* Many customers have to wait for his restaurant. 
-* His restaurant has limited space available in dining area
-* Loses lots of potential business to waiting customers
-* He wants to minimize the number of waiting customers, so that he can reduce the lose of potential business
+	* Nubjjugi is a 42 years old restaurant owner
+	* His restaurant is in busy area of Gangnam, usually always full during busy hours
+	* Many customers have to wait for his restaurant. 
+	* His restaurant has limited space available in dining area
+	* Loses lots of potential business to waiting customers
+	* He wants to minimize the number of waiting customers, so that he can reduce the lose of potential business
 
 ### Nubjjugi’s Goals:
 	1) Reduce customers’ waiting time
@@ -40,22 +40,22 @@
  
 
 ## How Might We (HMW) Questions
-1. encourage customers to eat faster?
-2. make use of all available table (space)?
-3. make waiting time more productive?
-4. provide estimated waiting time for customers?
-5. keep track of waiting customers?
-6. manage no showers?
-7. reduce the waiting time?
-8. serve foods faster?
-9. 
-10.
-11.
-12.
+	1. encourage customers to eat faster?
+	2. make use of all available table (space)?
+	3. make waiting time more productive?
+	4. provide estimated waiting time for customers?
+	5. keep track of waiting customers?
+	6. manage no showers?
+	7. reduce the waiting time?
+	8. serve foods faster?
+	9. 
+	10. as
+	11. as
+	12. as
 
 ### Top 3 HMW
-Selection Process: We selected top 3 by ???
-	How might we...  
+Selection Process: We selected top 3 by	
+How might we...
 	1. encourage customers to eat faster?  
 	2. make use of all available tables (space)?  
 	3. make waiting time more productive?  
