@@ -12,7 +12,7 @@
  
 ## Point of view
 	We met a restaurant owner.  
-	We were amazed to realize that two in one customers left because of waiting.  
+	We were amazed to realize that one out of two customers leaves because of waiting.  
 	It’d be game-changing to drastically reduce the time customers have to wait.
 
 ## Persona
