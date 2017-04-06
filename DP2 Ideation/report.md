@@ -126,7 +126,7 @@ The team chose based on two criteria: 1) a solution most practical and feasible 
 
 ### Solution 3: Recommend Entertainment
 * Customers visiting restaurants in unfamiliar places aren't aware of nearby places to kill time, so we reduce their time spent searching for info and direct them immediately to their desired entertainment venues
-* We can implement a coupon-giving web app
+* We can implement a web app using location services to list entertainment venues neear the user, and also list entertainment venues by category (near the user)
 * Can potentially later on serve as a standalone service to provide information on entertainment venues, expanding horizons and which user populations we can target
 
 ---
