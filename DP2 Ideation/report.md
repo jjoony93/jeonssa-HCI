@@ -54,10 +54,11 @@
 12.
 
 ### Top 3 HMW
-	How might we...  
-	1) encourage customers to eat faster?  
-	2) make use of all available tables (space)?  
-	3) make waiting time more productive?  
+	Selection Process: We selected top 3 by ???
+How might we...  
+1. encourage customers to eat faster?  
+2. make use of all available tables (space)?  
+3. make waiting time more productive?  
 
 
 ## Solution Ideas
@@ -103,27 +104,17 @@
 
 
 ## Top 3 Solutions
+	Selection Process: Ideation on each HMW questions. Then we voted for the best. 
 ### Solution 1: Give Incentives to Fast Eaters
-	How?  
-	Ideation on HMW encourage customers to eat faster? We voted for the best.  
-	Why?  
-	Better than giving disadvantage to slow eaters.  
+	Why? Better than giving disadvantage to slow eaters.  
 	(To encourage people to eat fast so that fewer people have to wait). 
 
 ### Solution 2: Share Table
-	How?  
-	What we considered most important is the actual practicality, and the cost of the solution
-	Why?  
-	this solution is very practical, and costs nothing. Very high effeciency.  
+	Why? Tthis solution is very practical, and costs nothing. Very high effeciency.  
 
 
 ### Solution 3: Recommend Entertainment
-	How?  
-	Make use of available sources near the restaurant
-	Why?  
-	People visiting restaurants in an unfamiliar region don’t have info, so reduce the time searching for info and get right into entertainment
-
-so reduce the time searching for info and get right into entertainment
+	Why? People visiting restaurants in an unfamiliar region don’t have info, so reduce the time searching for info and get right into entertainment so reduce the time searching for info and get right into entertainment
 
 
 ## Storyboards
