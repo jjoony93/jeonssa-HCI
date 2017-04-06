@@ -61,9 +61,9 @@ We thought that it would be game-changing to drastically reduce the time his cus
 ### Top 3 HMW
 Selection Process: We selected top 3 by. 
 #### How might we...   
-1. encourage customers to eat faster?  
-2. make use of all available tables (space)?  
-3. make waiting time more productive?  
+1. ...encourage customers to eat faster?  
+2. ...make use of all available tables (dining space)?  
+3. ...make customers' waiting time more productive?  
 
 ---
 
@@ -71,42 +71,42 @@ Selection Process: We selected top 3 by.
 
 
 ### Encourage faster eating
-1. make slow eater to pay more
-2. fixed eating time constraint
-3. give discounts to fast eater
-4. give coupons to fast eater
-5. give desserts to fast eater
-6. slow eaters get less amount of food
-7. different cost assigned to differing eating time
-8. forbid doing other things besides eating
-9. customers can use table only if their food is ready
-10. Make fast eating rank tournament
+1. Make slow eaters pay more
+2. Enforce a time limit on eating  
+3. Give discounts to fast eaters
+4. Give coupons to fast eaters
+5. Give desserts to fast eaters
+6. Give slow eaters less food
+7. Have menu prices that vary depending on time of day (expensive during peak hours, cheaper when business is slow)
+8. Forbid customers from doing other things besides eating
+9. Customers can only sit at tables once their food is ready
+10. Create a competitive environment to encourage fast eating
 
 
 ### Make use of space
-1. remove table(sit on the floor)
-2. let customer eat while standing
-3. use food-truck in busy hour
-4. let customers join table
-5. move kitchen to another floor or other building
-6. implement take-outs
-7. implement delivery system
-8. make tables outside the restaurant
-9. customers can use table only if their food is ready
-10. extend restaurant
+1. Remove tables completely (customers will eat sitting on the floor)
+2. Let customers eat while standing
+3. Make use of a food truck in peak hours
+4. Let customers share the same table
+5. Move the kitchen to another floor or other building (to make for more room)
+6. Implement take-outs
+7. Implement a food delivery system
+8. Set up tables outside the restaurant
+9. Customers can only sit at tables once their food is ready
+10. Renovate restaurant to make for more room
 
 
 ### Productive waiting time
-1. remove waiting time completely
-2. discount depending on time customer had to wait
-3. customer prepares own food
-4. give incentive if waiting is long
-5. discount next time when customer doesn’t get to eat this time
+1. Remove waiting time completely
+2. Give a discount depending on how long the customer had to wait
+3. Customers prepare their own food
+4. Give incentives if the customer had to wait too long
+5. Give a discount for next time when customer doesn’t get due to waiting
 6. advertise restaurant on sns and get free food
-7. recommend other restaurant
-8. customer prepares food ingredients
-9. provide entertainment(e.g. movie, show) to customers waiting
-10. make partnership with nearby entertainment place. (e.g. cafe, pc cafe)
+7. Recommend other restaurants to go to
+8. The customers prep food ingredients for their meals
+9. Provide entertainment(e.g. a movie, TV, etc.) to waiting customers
+10. Arrange a partnership with a nearby entertainment venue. (e.g, coffee shop, PC cafe, Karaoke)
 
 ---
 
@@ -142,7 +142,7 @@ Why? People visiting restaurants in an unfamiliar region don’t have info, so r
  ### FEEDBACK SUMMARY
 1) If the customers come as a group of 3, they wouldn't want to share the remaining spot with a random person. In a similar sense, a random customer would not be willing to join a group of random people. 
 2) It would be nice to provide actual, accurate remaining waiting time
-3) If the customer goes to recommended entertainment places, customer could return early or late, resulting in either the customer waiting more, or the restaurant holding an empty table
+3) If the customer goes to recommended entertainment venues, customer could return early or late, resulting in either the customer waiting more, or the restaurant holding an empty table
 
 ### FEEDBACK REFLECTION
 1) We will let customers join table only if they wish to, so that the customers won't feel forced to do so. Our understanding is that there are situations where customers must eat within a time constraint and thus don't mind eating with other people.
