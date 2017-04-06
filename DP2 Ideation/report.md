@@ -111,29 +111,36 @@ Selection Process: We selected top 3 by.
 ---
 
 ## Top 3 Solutions  
-Selection Process: Ideation on each HMW questions. Then we voted for the best. 
+**Selection Process** 
+The team chose based on two criteria: 1) a solution most practical and feasible to implement on web-based service, and 2) a solution that would seem popular and garner positive attention from an average person, thus having potential for successful commercialization.
 ### Solution 1: Give Incentives to Fast Eaters
-Why? Better than giving disadvantage to slow eaters.  
+* Better than giving disadvantage to slow eaters (positive feedback over negative feedback).  
+* We can implement a coupon-giving web app
+* Can work as a gimmick to encourage faster eating, will catch many customers' attention, especially given the competitive nature of society in Korea (I can eat faster than you, etc.)
 
 ### Solution 2: Share Table
-Why? This solution is very practical, and costs nothing. Very high effeciency.  
+* Practical, and does not require any additional financial investment 
+* We can implement a web app to manage restaurant tables and seating arrangements based on customers
+* Can have positive side-effects such as male diners searching for female counterparts, and vice versa, serving as a form of advertisement
 
 
 ### Solution 3: Recommend Entertainment
-Why? People visiting restaurants in an unfamiliar region don’t have info, so reduce the time searching for info and get right into entertainment so reduce the time searching for info and get right into entertainment
+* Customers visiting restaurants in unfamiliar places aren't aware of nearby places to kill time, so we reduce their time spent searching for info and direct them immediately to their desired entertainment venues
+* We can implement a coupon-giving web app
+* Can potentially later on serve as a standalone service to provide information on entertainment venues, expanding horizons and which user populations we can target
 
 ---
 
 ## Storyboards
-### Storyboard 1
+### Storyboard 1: Give Incentives to Fast Eaters
  ![alt text](Picture1.png "Figure2. Storyboard of solution 1")
  
  
-### Storyboard 2
+### Storyboard 2: Share Table
  ![alt text](Picture2.png "Figure3. Storyboard of solution 2")
  
  
- ### Storyboard 3
+ ### Storyboard 3: Recommend Entertainment
  ![alt text](Picture3.png "Figure4. Storyboard of solution 3")
  
  ---
@@ -146,5 +153,5 @@ Why? People visiting restaurants in an unfamiliar region don’t have info, so r
 
 ### FEEDBACK REFLECTION
 1) We will let customers join table only if they wish to, so that the customers won't feel forced to do so. Our understanding is that there are situations where customers must eat within a time constraint and thus don't mind eating with other people.
-2) It is hard to estimate accurate remaining waiting time because people have different paces at which they eat, so we will provide the number of remaining waiting teams as an alternative measure
+2) It is hard to estimate accurate remaining waiting time because people have different paces at which they eat, so we will provide the number of remaining waiting teams as an alternative measure.
 3) This problem could be handled by providing the customer exact remaining waiting time, but as already mentioned in the previous point, it is hard to do so for the reasons as explained. So the restaurant could recommend the customer to come back when a certain number of waiting teams are remaining.
