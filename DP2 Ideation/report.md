@@ -107,10 +107,9 @@ Selection Process: We selected top 3 by.
 Selection Process: Ideation on each HMW questions. Then we voted for the best. 
 ### Solution 1: Give Incentives to Fast Eaters
 	Why? Better than giving disadvantage to slow eaters.  
-	(To encourage people to eat fast so that fewer people have to wait). 
 
 ### Solution 2: Share Table
-	Why? Tthis solution is very practical, and costs nothing. Very high effeciency.  
+	Why? This solution is very practical, and costs nothing. Very high effeciency.  
 
 
 ### Solution 3: Recommend Entertainment
