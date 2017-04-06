@@ -59,12 +59,17 @@ We thought that it would be game-changing to drastically reduce the time his cus
 10. ...entertain or (in some way) satisfy the waiting customers?
 
 ### Top 3 HMW
-Selection Process: Each member of the group voted for HMW Qs that are likely to produce diverse solutions. 
+**Selection Process**  
+The team chose based on the following criteria: 1) how much impact does it have on our persona's goals, and 2) how diverse will the solutions be to the chosen questions?
 #### How might we...   
 1. ...encourage customers to eat faster?  
+* If customers were to eat faster, tables would be freed up faster, better circulating the waiting customers.
 2. ...make use of all available tables (dining space)?  
+* Sometimes we have only two people sitting at a four-person table. What if we made use of ALL available dining space?
 3. ...make customers' waiting time more productive?  
-.
+* Waiting is usually boring because there is nothing to do. What if we gave the customers something to do?
+
+
 ---
 
 ## Solution Ideas
