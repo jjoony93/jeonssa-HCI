@@ -48,10 +48,10 @@
 	6. manage no showers?
 	7. reduce the waiting time?
 	8. serve foods faster?
-	9. 
-	10. as
-	11. as
-	12. as
+	9. prevent customers from going to other restaurants?
+	10. make waiting customers less bored?
+	11. 
+	12. 
 
 ### Top 3 HMW
 Selection Process: We selected top 3 by. 
