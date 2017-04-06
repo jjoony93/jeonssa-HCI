@@ -111,7 +111,7 @@ Selection Process: We selected top 3 by.
 ---
 
 ## Top 3 Solutions  
-**Selection Process** 
+**Selection Process**  
 The team chose based on two criteria: 1) a solution most practical and feasible to implement on web-based service, and 2) a solution that would seem popular and garner positive attention from an average person, thus having potential for successful commercialization.
 ### Solution 1: Give Incentives to Fast Eaters
 * Better than giving disadvantage to slow eaters (positive feedback over negative feedback).  
