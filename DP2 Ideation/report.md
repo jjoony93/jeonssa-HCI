@@ -10,10 +10,14 @@
 # Ideation
  ![alt text](title.PNG "Title: Shorter Waiting Make Dining Out Great Again")
  
+---
+ 
 ## Point of view
 We met a restaurant owner.  
 We were amazed to realize that one out of two customers leave because of waiting.  
 We thought that it would be game-changing to drastically reduce the time his customers had to wait.
+
+---
 
 ## Persona
  ![alt text](nubjjugi.PNG "Figure1. Nubjjugi, the persona")
@@ -40,6 +44,8 @@ We thought that it would be game-changing to drastically reduce the time his cus
 2) Serve as many customers as possible
 3) Be able to provide all his customers with the best service
  
+--- 
+ 
 ## How Might We...
 1. ...encourage customers to eat faster?
 2. ...make use of all available tables (dining space)?
@@ -59,6 +65,7 @@ Selection Process: We selected top 3 by.
 2. make use of all available tables (space)?  
 3. make waiting time more productive?  
 
+---
 
 ## Solution Ideas
 
@@ -101,6 +108,7 @@ Selection Process: We selected top 3 by.
 9. provide entertainment(e.g. movie, show) to customers waiting
 10. make partnership with nearby entertainment place. (e.g. cafe, pc cafe)
 
+---
 
 ## Top 3 Solutions  
 Selection Process: Ideation on each HMW questions. Then we voted for the best. 
@@ -114,6 +122,7 @@ Why? This solution is very practical, and costs nothing. Very high effeciency.
 ### Solution 3: Recommend Entertainment
 Why? People visiting restaurants in an unfamiliar region don’t have info, so reduce the time searching for info and get right into entertainment so reduce the time searching for info and get right into entertainment
 
+---
 
 ## Storyboards
 ### Storyboard 1
@@ -127,6 +136,7 @@ Why? People visiting restaurants in an unfamiliar region don’t have info, so r
  ### Storyboard 3
  ![alt text](Picture3.png "Figure4. Storyboard of solution 3")
  
+ ---
  
  ## Studio Reflections
  ### FEEDBACK SUMMARY
