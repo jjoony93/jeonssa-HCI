@@ -59,12 +59,12 @@ We thought that it would be game-changing to drastically reduce the time his cus
 10. ...entertain or (in some way) satisfy the waiting customers?
 
 ### Top 3 HMW
-Selection Process: We selected top 3 by. 
+Selection Process: Each member of the group voted for HMW Qs that are likely to produce diverse solutions 
 #### How might we...   
 1. ...encourage customers to eat faster?  
 2. ...make use of all available tables (dining space)?  
 3. ...make customers' waiting time more productive?  
-
+.
 ---
 
 ## Solution Ideas
