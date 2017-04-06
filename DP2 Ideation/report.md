@@ -18,13 +18,13 @@
 ## Persona
  ![alt text](nubjjugi.PNG "Figure1. Nubjjugi, the persona")
  
-* Age: 42
-* Occupation: Restaurant Owner
-* Status: Married
-* Location: Gangnam, Korea
-* Beliefs: Providing the best food and service to customers is the only way to succeed (as a restaurant owner).
-* Motivation: Providing his customers good food and service
-* Goals: Wants to continually expand business, end goal of eventually becoming a franchised restauranteur
+* **Age:** 42
+* **Occupation:** Restaurant Owner
+* **Status:** Married
+* **Location:** Gangnam, Korea
+* **Beliefs:** Providing the best food and service to customers is the only way to succeed (as a restaurant owner).
+* **Motivation:** Providing his customers good food and service
+* **Goals:** Wants to continually expand business, end goal of eventually becoming a franchised restauranteur
 
 ### Nubjjugi’s story:
 	* Nubjjugi is a 42 year-old restaurant owner
@@ -42,17 +42,15 @@
  
 ## How Might We...
 	1. ...encourage customers to eat faster?
-	2. ...make use of all available table (space)?
-	3. ...make waiting time more productive?
+	2. ...make use of all available tables (dining space)?
+	3. ...make customers' waiting time more productive?
 	4. ...provide estimated waiting time for customers?
 	5. ...keep track of waiting customers?
-	6. ...manage no-shows?
+	6. ...manage no-shows, (and distribute their seats to waiting customers)?
 	7. ...reduce the waiting time?
-	8. ...serve foods faster?
+	8. ...serve food faster?
 	9. ...prevent customers from going to other restaurants?
-	10. ...make waiting customers less bored?
-	11. 
-	12. 
+	10. ...entertain or (in some way) satisfy the waiting customers?
 
 ### Top 3 HMW
 Selection Process: We selected top 3 by. 
