@@ -54,8 +54,8 @@
 	12. as
 
 ### Top 3 HMW
-Selection Process: We selected top 3 by	
-How might we...
+Selection Process: We selected top 3 by. 
+#### How might we...   
 	1. encourage customers to eat faster?  
 	2. make use of all available tables (space)?  
 	3. make waiting time more productive?  
