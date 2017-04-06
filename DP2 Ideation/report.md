@@ -97,12 +97,12 @@ Selection Process: We selected top 3 by.
 
 
 ### Productive waiting time
-1. Remove waiting time completely
+1. Prepare books or magazines to read
 2. Give a discount depending on how long the customer had to wait
-3. Customers prepare their own food
-4. Give incentives if the customer had to wait too long
+3. Waiter gives detailed explanation of menu items to waiting customers
+4. Order from menu beforehand so that when a table becomes free the customer can start eating right away
 5. Give a discount for next time when customer doesn’t get due to waiting
-6. advertise restaurant on sns and get free food
+6. While waiting, encourage customer to advertise restaurant on SNS and get a free meal
 7. Recommend other restaurants to go to
 8. The customers prep food ingredients for their meals
 9. Provide entertainment(e.g. a movie, TV, etc.) to waiting customers
