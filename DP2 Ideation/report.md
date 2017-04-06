@@ -130,11 +130,11 @@ Why? People visiting restaurants in an unfamiliar region don’t have info, so r
  
  ## Studio Reflections
  ### FEEDBACK SUMMARY
-1) If the customers come as a group of 3, they wouldn't want to share the remaining spot with a random person. In the similar sense, a random customer would not be willing to join a group of random people. 
-2) It would be nice to provide actual remaining waiting time
-3) If the customer goes to recommended entertainment places, customer could return early or late
+1) If the customers come as a group of 3, they wouldn't want to share the remaining spot with a random person. In a similar sense, a random customer would not be willing to join a group of random people. 
+2) It would be nice to provide actual, accurate remaining waiting time
+3) If the customer goes to recommended entertainment places, customer could return early or late, resulting in either the customer waiting more, or the restaurant holding an empty table
 
 ### FEEDBACK REFLECTION
-1) We will let customers join table only if they want to so that the customers won't feel forced to do so. Our understanding is that there are situations where customers must eat within a time constraint and thus don't mind eating with other people.
-2) It is hard to estimate accurate remaining waiting time because people have different eating speed, so we will provide remaining waiting teams as a measure
-3) This problem could be handled by providing the customer exact remaining waiting time, but as mentioned above in the second feedback reflection it is hard to do so. So the restaurant could recommend the customer to come back when a certain number of waiting teams are remaining.
+1) We will let customers join table only if they wish to, so that the customers won't feel forced to do so. Our understanding is that there are situations where customers must eat within a time constraint and thus don't mind eating with other people.
+2) It is hard to estimate accurate remaining waiting time because people have different paces at which they eat, so we will provide the number of remaining waiting teams as an alternative measure
+3) This problem could be handled by providing the customer exact remaining waiting time, but as already mentioned in the previous point, it is hard to do so for the reasons as explained. So the restaurant could recommend the customer to come back when a certain number of waiting teams are remaining.
