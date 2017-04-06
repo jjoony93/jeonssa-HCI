@@ -12,8 +12,8 @@
  
 ## Point of view
 	We met a restaurant owner.  
-	We were amazed to realize that one out of two customers leaves because of waiting.  
-	It’d be game-changing to drastically reduce the time customers have to wait.
+	We were amazed to realize that one out of two customers leave because of waiting.  
+	We thought that it would be game-changing to drastically reduce the time his customers had to wait.
 
 ## Persona
  ![alt text](nubjjugi.PNG "Figure1. Nubjjugi, the persona")
@@ -22,34 +22,35 @@
 * Occupation: Restaurant Owner
 * Status: Married
 * Location: Gangnam, Korea
-* beliefs: Providing good foods to customers is the only way to succeed.
-* motivation: Achievement, complement, incentive
-* preference: He prefers being busy than free
+* Beliefs: Providing the best food and service to customers is the only way to succeed (as a restaurant owner).
+* Motivation: Providing his customers good food and service
+* Goals: Wants to continually expand business, end goal of eventually becoming a franchised restauranteur
 
 ### Nubjjugi’s story:
-	* Nubjjugi is a 42 years old restaurant owner
-	* His restaurant is in busy area of Gangnam, usually always full during busy hours
-	* Many customers have to wait for his restaurant. 
+	* Nubjjugi is a 42 year-old restaurant owner
+	* His restaurant is in the busy area of Gangnam, usually always full during peak hours (lunch and dinner)
+	* Many customers have to wait to dine at his restaurant. 
 	* His restaurant has limited space available in dining area
-	* Loses lots of potential business to waiting customers
-	* He wants to minimize the number of waiting customers, so that he can reduce the lose of potential business
+	* Loses lots of potential business because one of two customers get tired of waiting, and leave
+	* Feels bad not being able to provide optimal service
+	* He wants to minimize the number of waiting customers, so that he can reduce the loss of potential business, and have the opportunity to service them well
 
 ### Nubjjugi’s Goals:
 	1) Reduce customers’ waiting time
 	2) Serve as many customers as possible
+	3) Be able to provide all his customers with the best service
  
-
-## How Might We (HMW) Questions
-	1. encourage customers to eat faster?
-	2. make use of all available table (space)?
-	3. make waiting time more productive?
-	4. provide estimated waiting time for customers?
-	5. keep track of waiting customers?
-	6. manage no showers?
-	7. reduce the waiting time?
-	8. serve foods faster?
-	9. prevent customers from going to other restaurants?
-	10. make waiting customers less bored?
+## How Might We...
+	1. ...encourage customers to eat faster?
+	2. ...make use of all available table (space)?
+	3. ...make waiting time more productive?
+	4. ...provide estimated waiting time for customers?
+	5. ...keep track of waiting customers?
+	6. ...manage no-shows?
+	7. ...reduce the waiting time?
+	8. ...serve foods faster?
+	9. ...prevent customers from going to other restaurants?
+	10. ...make waiting customers less bored?
 	11. 
 	12. 
 
