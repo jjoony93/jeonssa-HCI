@@ -114,7 +114,6 @@
 	How?  
 	What we considered most important is the actual practicality, and the cost of the solution
 	Why?  
-	Waste of available dining area space, 
 	this solution is very practical, and costs nothing. Very high effeciency.  
 
 
