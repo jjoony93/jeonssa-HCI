@@ -117,25 +117,24 @@ Why? People visiting restaurants in an unfamiliar region don’t have info, so r
 
 ## Storyboards
 ### Storyboard 1
- ![alt text](Picture1.png "Figure2. Storyboard of soultion 1")
+ ![alt text](Picture1.png "Figure2. Storyboard of solution 1")
  
  
 ### Storyboard 2
- ![alt text](Picture2.png "Figure3. Storyboard of soultion 2")
+ ![alt text](Picture2.png "Figure3. Storyboard of solution 2")
  
  
  ### Storyboard 3
- ![alt text](Picture3.png "Figure4. Storyboard of soultion 3")
+ ![alt text](Picture3.png "Figure4. Storyboard of solution 3")
  
  
  ## Studio Reflections
  ### FEEDBACK SUMMARY
-1) group of 3, don't want to share -> owner of restaurant mediates
-2) If the customer goes to recommended entertainment places, customer could return early or late
-3) It would be nice to provide actual remaining waiting time - 
-4) 사용자 손해
+1) If the customers come as a group of 3, they wouldn't want to share the remaining spot with a random person. In the similar sense, a random customer would not be willing to join a group of random people. 
+2) It would be nice to provide actual remaining waiting time
+3) If the customer goes to recommended entertainment places, customer could return early or late
+
 ### FEEDBACK REFLECTION
-1) 
-2) 
-3) A: It is hard to estimate accurate remaining waiting time because people have different eating speed, so we will provid remaining waiting time as a measure
-4) 
+1) We will let customers join table only if they want to so that the customers won't feel forced to do so. Our understanding is that there are situations where customers must eat within a time constraint and thus don't mind eating with other people.
+2) It is hard to estimate accurate remaining waiting time because people have different eating speed, so we will provide remaining waiting teams as a measure
+3) This problem could be handled by providing the customer exact remaining waiting time, but as mentioned above in the second feedback reflection it is hard to do so. So the restaurant could recommend the customer to come back when a certain number of waiting teams are remaining.
