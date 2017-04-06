@@ -54,57 +54,57 @@
 12.
 
 ### Top 3 HMW
-	Selection Process: We selected top 3 by ???
-How might we...  
-1. encourage customers to eat faster?  
-2. make use of all available tables (space)?  
-3. make waiting time more productive?  
+Selection Process: We selected top 3 by ???
+	How might we...  
+	1. encourage customers to eat faster?  
+	2. make use of all available tables (space)?  
+	3. make waiting time more productive?  
 
 
 ## Solution Ideas
 
 
 ### Encourage faster eating
-1. make slow eater to pay more
-2. fixed eating time constraint
-3. give discounts to fast eater
-4. give coupons to fast eater
-5. give desserts to fast eater
-6. slow eaters get less amount of food
-7. different cost assigned to differing eating time
-8. forbid doing other things besides eating
-9. customers can use table only if their food is ready
-10. Make fast eating rank tournament
+	1. make slow eater to pay more
+	2. fixed eating time constraint
+	3. give discounts to fast eater
+	4. give coupons to fast eater
+	5. give desserts to fast eater
+	6. slow eaters get less amount of food
+	7. different cost assigned to differing eating time
+	8. forbid doing other things besides eating
+	9. customers can use table only if their food is ready
+	10. Make fast eating rank tournament
 
 
 ### Make use of space
-1. remove table(sit on the floor)
-2. let customer eat while standing
-3. use food-truck in busy hour
-4. let customers join table
-5. move kitchen to another floor or other building
-6. implement take-outs
-7. implement delivery system
-8. make tables outside the restaurant
-9. customers can use table only if their food is ready
-10. extend restaurant
+	1. remove table(sit on the floor)
+	2. let customer eat while standing
+	3. use food-truck in busy hour
+	4. let customers join table
+	5. move kitchen to another floor or other building
+	6. implement take-outs
+	7. implement delivery system
+	8. make tables outside the restaurant
+	9. customers can use table only if their food is ready
+	10. extend restaurant
 
 
 ### Productive waiting time
-1. remove waiting time completely
-2. discount depending on time customer had to wait
-3. customer prepares own food
-4. give incentive if waiting is long
-5. discount next time when customer doesn’t get to eat this time
-6. advertise restaurant on sns and get free food
-7. recommend other restaurant
-8. customer prepares food ingredients
-9. provide entertainment(e.g. movie, show) to customers waiting
-10. make partnership with nearby entertainment place. (e.g. cafe, pc cafe)
+	1. remove waiting time completely
+	2. discount depending on time customer had to wait
+	3. customer prepares own food
+	4. give incentive if waiting is long
+	5. discount next time when customer doesn’t get to eat this time
+	6. advertise restaurant on sns and get free food
+	7. recommend other restaurant
+	8. customer prepares food ingredients
+	9. provide entertainment(e.g. movie, show) to customers waiting
+	10. make partnership with nearby entertainment place. (e.g. cafe, pc cafe)
 
 
-## Top 3 Solutions
-	Selection Process: Ideation on each HMW questions. Then we voted for the best. 
+## Top 3 Solutions  
+Selection Process: Ideation on each HMW questions. Then we voted for the best. 
 ### Solution 1: Give Incentives to Fast Eaters
 	Why? Better than giving disadvantage to slow eaters.  
 	(To encourage people to eat fast so that fewer people have to wait). 
