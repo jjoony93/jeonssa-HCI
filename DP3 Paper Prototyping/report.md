@@ -8,15 +8,15 @@
 ---
 
 # Paper Prototyping
- ![alt text](title.PNG "Title: Virtual Wheel-of-Fortune")
+ ![alt text](title.png "Title: Virtual Wheel-of-Fortune")
  
 ---
  
 
- ---
+---
  
- ## Studio Reflections
- ### FEEDBACK SUMMARY
+## Studio Reflections
+### FEEDBACK SUMMARY
 
 
 ### FEEDBACK REFLECTION
