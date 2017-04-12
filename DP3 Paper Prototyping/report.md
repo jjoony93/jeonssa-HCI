@@ -23,12 +23,14 @@
  ![alt text](5.png "Decline")dd
  ![alt text](6.png "Decline")
 ##### Accept Offer
+###### Accept mission
 ![alt text](7.png "Accept")
 ![alt text](8.png "Accept")
 ![alt text](9.png "Accept")
 ![alt text](10.png "Accept")
 ![alt text](11.png "Accept")
 ![alt text](14.png "Accept")
+###### Decline mission
 ![alt text](12.png "Decline")
 ![alt text](13.png "Decline")
 
