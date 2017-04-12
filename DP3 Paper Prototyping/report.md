@@ -19,16 +19,19 @@
 
 ### Surprise Offer Pop-up
  ![alt text](4.png "Surprise Offer pop-up: includes ‘Yes!’ accept button and ‘No thanks…’ decline button")
-#### Decline Offer
- ![alt text](5.png "Decline")
+##### Decline Offer
+ ![alt text](5.png "Decline")dd
  ![alt text](6.png "Decline")
-#### Accept Offer
+##### Accept Offer
 ![alt text](7.png "Accept")
 ![alt text](8.png "Accept")
 ![alt text](9.png "Accept")
 ![alt text](10.png "Accept")
 ![alt text](11.png "Accept")
-![alt text](12.png "Accept")
+![alt text](14.png "Accept")
+![alt text](12.png "Decline")
+![alt text](13.png "Decline")
+
 
 ---
  
