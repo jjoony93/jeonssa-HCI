@@ -20,7 +20,7 @@
 ### Surprise Offer Pop-up
  ![alt text](4.png "Surprise Offer pop-up: includes ‘Yes!’ accept button and ‘No thanks…’ decline button")
 ##### Decline Offer
- ![alt text](5.png "Decline")dd
+ ![alt text](5.png "Decline")
  ![alt text](6.png "Decline")
 ##### Accept Offer
 ###### Accept mission
@@ -36,7 +36,24 @@
 
 
 ---
- 
+## Participants
+
+We presented our prototype to total three participants. 
+
+###### KAIST undergraduate Student
+* age: 23
+* sex: male
+* description: He is a KAIST undergraduate student who often goes out to eat with his girlfirend. Both he and his girlfriend is well known foodie, and has lots of experience waiting in a restaurant
+
+###### KAIST SNU grad student
+* age: 25
+* sex: male
+* description: He is a SNU graduate student who lives in very busy area around SNU. He hates waiting in a restaurant, and has has hard time finding restaurant that doesn't requires waiting.
+
+###### OWNER of restaurant at Gangnam.
+* age: 43
+* sex: male
+* description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
 ## Studio Reflections
 ### FEEDBACK SUMMARY
 1) Add more games besides virtual roulette.
