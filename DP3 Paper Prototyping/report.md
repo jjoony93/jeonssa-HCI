@@ -54,6 +54,24 @@ We presented our prototype to total three participants.
 * age: 43
 * sex: male
 * description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
+---
+## Briefing
+---
+## Tasks
+---
+## Observation
+---
+## Individual Reflection
+
+#### SunJae Lee
+
+#### Min Kang
+
+#### Joon Young Lee
+
+#### Sewon Hong
+
+
 ## Studio Reflections
 ### FEEDBACK SUMMARY
 1) Add more games besides virtual roulette.
