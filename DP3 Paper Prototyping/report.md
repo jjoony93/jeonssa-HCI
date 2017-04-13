@@ -58,7 +58,7 @@ We presented our prototype to total three participants.
 ## Briefing
 Hello, thank you for participating. We are currently trying to redesign how potential customers have to wait for seats in full restaurants during peak hours. We believe one way to enhance the waiting experience is to shorten the expected waiting time. The purpose of this test is to see whether the customer is willing to eat faster if some incentives is given.
 
-Before we precede to testing, please imagine yourself dining at a table of busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt will show while you are dining and you will be asked to certain tasks.
+Before we precede to testing, please imagine yourself dining at a table in a busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt will show while you are dining and you will be asked to certain tasks.
   
 ---
 ## Tasks
@@ -110,10 +110,16 @@ In the BBQ menu example, it would have been nice to include interactions with ì£
 * We did not have a concrete idea of how our UI would look like, so in the beginning we just played around with paper prototyping materials, then constituted our first prototype. However, not after long we realized we included features that are abundant or not necessary such as sidebar. Our prototype did not have numerous tasks so the sidebar was actually unnecessary. If we had coded a sidebar in real computer, we would have been reluctant to throw it away because of the amount of time spent to develop a sidebar feature. In this sense, we benefited from paper prototyping as we could different versions and easily throw away features that would take tons of time if it had been coded. Furthermore, we only used a black marker in the entire process and thus we did not waste time in arguing about which feature should be what color. It led us to focus on the big picture of our service
 * Since making everything big is recommended in a paper prototyping, forms such as buttons and textbox were made large and constituted in different layes so that each element looks very distinct. However in real computer, the items will not be as that big and won't be placed in different layers, so we cannot check if the user notices every single element that we implemented. For example, the there is even a slight chance that the user might not notice the message icon that enables the user to see the roulette chance. Moreover, we cannot check the respone time of elements, for example, how long does it take to load the roulette and how long should the roulette be spinning if the user spins the roulette?
 #### Sewon Hong
+
 What role did you play in each round?
+* Facilitator
 What were some of the difficulties you faced playing the role(s)?
+* Guide the user to "think aloud"
+* Hard to decide when to interrupt or not
 In what way was paper prototyping useful in your project?
+* Fast, Cheap prove/accept/deny of our hypothesis
 What did your paper prototype not cover or test?
+* Transition, effect, color, Sound, Real dining condition (counter part)
 
 ---
 ## Studio Reflections
