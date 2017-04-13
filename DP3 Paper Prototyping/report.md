@@ -77,7 +77,9 @@ Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't chan
 Check menu | 4. Use better example of 'View Menu' screen. (P1, high)
 Call Waiter | 5. Wants to be notified if waiter is called correctly. (P2, high)
 Physical | 6. Tablet takes up too much table space (P3, high) <br> 7. very high possibility that user won't notice the pop-up (P3, medium)
-Mental | 7. Psychological pressure (P1,P2, medium)
+Mental | 8. Psychological pressure (P1,P2, medium)
+What1 | 9. Not sure where to see if he has successfully completed the mission
+What2 | 10. Where and when to get the incentive?
   
  **Table 1.** Summary of observations
  
