@@ -96,8 +96,8 @@ In the BBQ menu example, it would have been nice to include interactions with ì£
 
 #### SunJae Lee
 * Observer
-* It was very hard to do just watch what user was doing. For example, ignoring user's questions was very awkward, it was very tempting to correct user's mistakes in using our prototype.
-* Paper prototype was very help in that it provided users with concrete design and functionality of our project. We did not have to explain much about our project. They did not have hard time realizing the purpose of the prototype.
+* It was very hard to just watch what user was doing. For example, ignoring user's questions was very awkward, and it was very tempting to correct user's mistakes in using our prototype.
+* Paper prototype was very help in that it provided users with concrete design and functionality of part of our project, and thus we did not have to explain much about our project. Users did not have hard time realizing the purpose of the prototype.
 * Our paper prototype did not cover how we manage waiting customers list. In this prototype, we rather focused on encouraing already sitted customers to eat faster for higher customer turnover ratio. 
 
 #### Min Kang
