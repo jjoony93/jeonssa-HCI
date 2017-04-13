@@ -79,7 +79,7 @@ Call Waiter | 7. Wants to be notified if waiter is called correctly. (P2, high)
 Physical | 8. Tablet takes up too much table space (P3, high) <br> 9. Very high possibility that user won't notice the pop-up if user puts tablet aisde. (P3, medium)
 Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1,P2, medium)
 
-# Plans for Improvement (order corresponds to the list in table)
+### Plans for Improvement (order corresponds to the list in table)
 1) In the last prototype slide, consider removing pop-ups behind offer declined.
 2) Feedback implemented in current version of prototype with hovering finger icon over the roulette to indicate roulette is spinnable.
 3) Feedback implemented in current version of prototype with pop-up alarms stored in buttom right message icon.
