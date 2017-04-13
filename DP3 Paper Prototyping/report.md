@@ -58,7 +58,7 @@ We presented our prototype to total three participants.
 ## Briefing
 Hello, thank you for participating. We are currently trying to redesign how potential customers have to wait for seats in full restaurants during peak hours. We believe one way to enhance the waiting experience is to shorten the expected waiting time. The purpose of this test is to see whether the customer is willing to eat faster if some incentives is given.
 
-Before we precede to testing, please imagine yourself dining at a table of a busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt will show while you are dining and you will be asked to certain tasks.
+Before we precede to testing, please imagine yourself dining at a table of busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt will show while you are dining and you will be asked to certain tasks.
   
 ---
 ## Tasks
@@ -76,7 +76,7 @@ Accept/deny Roulette | 1. Too many pop-ups (P1, low)
 Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't change decision once clicked button (P1, high)
 Check menu | 4. Use better example of 'View Menu' screen. (P1, high)
 Call Waiter | 5. Wants to be notified if waiter is called correctly. (P2, high)
-Physical | 6. Tablet takes up too much table space (P3, high)
+Physical | 6. Tablet takes up too much table space (P3, high) <br> 7. very high possibility that user won't notice the pop-up (P3, medium)
 Mental | 7. Psychological pressure (P1,P2, medium)
   
  **Table 1.** Summary of observations
