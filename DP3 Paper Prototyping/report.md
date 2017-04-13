@@ -23,9 +23,9 @@
  ![alt text](5.png "Decline")
  ![alt text](6.png "Decline")
 ##### Accept Offer
-###### Accept mission
 ![alt text](7.png "Accept")
 ![alt text](8.png "Accept")
+###### Accept mission
 ![alt text](9.png "Accept")
 ![alt text](10.png "Accept")
 ![alt text](11.png "Accept")
@@ -77,23 +77,7 @@ Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't chan
 Check menu | 6. Use better example of 'View Menu' screen. 상세보기 주문하기 look like buttons, but they aren't. (P1, high)
 Call Waiter | 7. Wants to be notified if waiter is called correctly. (P2, high)
 Physical | 8. Tablet takes up too much table space (P3, high) <br> 9. Very high possibility that user won't notice the pop-up if user puts tablet aisde. (P3, medium)
-Mental | 10. Psychological pressure due to real time count down - unhealty. (P1,P2, medium)
-
-
-  
- **Table 1.** Summary of observations
- 
-Spin Roulette
-Include a prompt to show that the wheel is spinnable through touch interaction, otherwise might be hard to notice (implemented)
-Include a prompt to make sure a user wants to confirm his/her actions when dismissing (to account for mistakes or change of mind)
-Psychological pressure due to time count-down
-Accept/deny Roulette
-Too many pop-ups on a single screen
-Physical
-Tablet might take up too much space of the table
-Check menu
-In the BBQ menu example, it would have been nice to include interactions with 주문하기/상세보기 buttons or use a menu without 주문하기/상세보기
-
+Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1,P2, medium)
 
 ---
 ## Individual Reflection
