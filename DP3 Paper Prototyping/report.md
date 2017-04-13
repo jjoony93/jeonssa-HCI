@@ -56,9 +56,9 @@ We presented our prototype to total three participants.
 * description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
 ---
 ## Briefing
-Hello, thank you for participating. We are currently trying to redesign how potential customers have to wait for seats in full restaurants during peak hours. We believe can be achieved is one option. The purpose of this test is to see whether the customer is willing to eat faster given some incentive.
+Hello, thank you for participating. We are currently trying to redesign how potential customers have to wait for seats in full restaurants during peak hours. We believe one way to enhance the waiting experience is to shorten the expected waiting time. The purpose of this test is to see whether the customer is willing to eat faster if some incentives is given.
 
-Before we precede to testing, please imagine yourself dining at a table of busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt would show while you are dining and you will be asked to certain tasks.
+Before we precede to testing, please imagine yourself dining at a table of busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt will show while you are dining and you will be asked to certain tasks.
   
 ---
 ## Tasks
