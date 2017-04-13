@@ -114,7 +114,10 @@ What did your paper prototype not cover or test?
 ## Studio Reflections
 ### FEEDBACK SUMMARY
 1) Add more games besides virtual roulette.
-2) include other prizes besides discount.
+2) Include other prizes besides discount.
 3) Add elements from other storyboards into virtural roulette such as sharing table.
 
 ### FEEDBACK REFLECTION
+1) In studio session, somebody recommended to add 브루마블 so that the games doesn't end instantaneously and user can accumulate prizes. However, since our goal is to reduce eating time, we want to keep the game simple so that it won't take long. Furthermore, providing mulitple prizes to a single customer could have a noticeable repercussion to the restaurant's profit. We might add games that are similar to roulette spinning, for example 사다리타기.
+2) Our team does recognize that price of food is not the only feature of a restaurant that customers consider. Other features of a restaurant include mood, lighting, sanitization, interior design, desserts, and etc. Providing free desserts might be a plausible option, but this would lead to increase in eating time, which opposes to our goal. Hence, we thought price is the only feature that the restaurant could instantaneously change while reducing eating time. 
+3) For DP3, we focused only on the storyboard that relates to current prototype. However we will include elements from other storyboards, such as table joining and recommending entertainment places, in future processes.
