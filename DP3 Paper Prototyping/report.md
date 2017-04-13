@@ -56,7 +56,10 @@ We presented our prototype to total three participants.
 * description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
 ---
 ## Briefing
+  We presented a prototype of an interface of an touchscreen at a restaurant table, on which a prompt would show, notifying customers that they had a chance to win a special offer. The purpose of the presentation is to see whether the customer is willing to do certain tasks, such as eating faster, provided some incentive.
 
+  The presentation was done after some micro-iteration with the feeback given by other peers in the class. The background behind this prototype is that direct request to eat faster can be intrusive. Direct request can undermine the overall dining experience. So we’ve tried to circumvent this potential intrusion by using the roulette, the wheel-of-fortune. Customer is expected to get the feeling as if they have done some work to get the incentive for their own good.
+  
 ---
 ## Tasks
 ---
