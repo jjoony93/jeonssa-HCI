@@ -69,14 +69,16 @@ The users performed three main tasks:
 
 ---
 ## Observation
- Task/Theme | Observations
+
+Task | Observation
+ --- | --- | --- | --- | --- | ---
 Accept/deny Roulette | Pop-ups
 Spin Roulette | Show roulette is spinnable (implemented) Change decision (implemented)
 Check menu | Use better example (주문하기/상세보기)
 Physical | Table space
 Mental | Psychological pressure
-
-
+ **Table 1.** Summary of observations
+ 
 Spin Roulette
 Include a prompt to show that the wheel is spinnable through touch interaction, otherwise might be hard to notice (implemented)
 Include a prompt to make sure a user wants to confirm his/her actions when dismissing (to account for mistakes or change of mind)
@@ -99,6 +101,10 @@ In the BBQ menu example, it would have been nice to include interactions with �
 #### Joon Young Lee
 
 #### Sewon Hong
+What role did you play in each round?
+What were some of the difficulties you faced playing the role(s)?
+In what way was paper prototyping useful in your project?
+What did your paper prototype not cover or test?
 
 ---
 ## Studio Reflections
