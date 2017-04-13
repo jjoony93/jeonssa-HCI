@@ -114,7 +114,7 @@ What role did you play in each round?
 
 What were some of the difficulties you faced playing the role(s)?
 - It was not easy to guide the user to "think aloud". One participant was not very talkative and there were intermittently "awkward moments". I had to improvise the sentences, such as "Any feelings about pop-up offer?", so that the participant would speak out what goes inside his head.
-- Also, it was hard to decide whether and when to interrupt during the task. I was in between the choices of not interrurpting to see what difficulties the user is experiencing and interrupting to make the user to "think alound" and keep the user on the tasks.
+- Also, it was hard to decide whether and when to interrupt during the task. I was in between the choices of not interrurpting to see what difficulties the user is experiencing and of interrupting to make the user to "think alound" and keep the user on track of tasks.
 
 
 In what way was paper prototyping useful in your project?
