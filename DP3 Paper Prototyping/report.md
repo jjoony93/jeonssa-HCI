@@ -75,8 +75,9 @@ Task | Observation
 Accept/deny Roulette | 1. Too many pop-ups (P1, low)
 Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't change decision once clicked button (P1, high)
 Check menu | 4. Use better example of 'View Menu' screen. (P1, high)
-Physical | 5. Tablet takes up too much table space (P3, high)
-Mental | 6. Psychological pressure (P1,P2, medium)
+Call Waiter | 5. Wants to be notified if waiter is called correctly. (P2, high)
+Physical | 6. Tablet takes up too much table space (P3, high)
+Mental | 7. Psychological pressure (P1,P2, medium)
  **Table 1.** Summary of observations
  
 Spin Roulette
