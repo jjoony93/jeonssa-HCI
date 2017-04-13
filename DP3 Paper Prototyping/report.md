@@ -62,8 +62,33 @@ We presented our prototype to total three participants.
   
 ---
 ## Tasks
+The users performed three main tasks: 
+- clicking the accept button for the surprise offer, if they chose to try the roulette, or the dismiss button, should they have chosen not to accept
+- spin the virtual roulette and get a reward (or possibly none) based on which category the wheel landed on, with the reward automatically taken into account (assuming the restaurant tracks customers and their orders by table)
+- check the restaurant menu items and prices (and possibly order them directly from the interface?)
+
 ---
 ## Observation
+ Task/Theme | Observations
+Accept/deny Roulette | Pop-ups
+Spin Roulette | Show roulette is spinnable (implemented) Change decision (implemented)
+Check menu | Use better example (주문하기/상세보기)
+Physical | Table space
+Mental | Psychological pressure
+
+
+Spin Roulette
+Include a prompt to show that the wheel is spinnable through touch interaction, otherwise might be hard to notice (implemented)
+Include a prompt to make sure a user wants to confirm his/her actions when dismissing (to account for mistakes or change of mind)
+Psychological pressure due to time count-down
+Accept/deny Roulette
+Too many pop-ups on a single screen
+Physical
+Tablet might take up too much space of the table
+Check menu
+In the BBQ menu example, it would have been nice to include interactions with 주문하기/상세보기 buttons or use a menu without 주문하기/상세보기
+
+
 ---
 ## Individual Reflection
 
