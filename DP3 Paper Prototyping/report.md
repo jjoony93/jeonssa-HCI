@@ -63,9 +63,9 @@ Before we precede to testing, please imagine yourself dining at a table in a bus
 ---
 ## Tasks
 The users performed three main tasks: 
-- clicking the accept button for the surprise offer, if they chose to try the roulette, or the dismiss button, should they have chosen not to accept
-- spin the virtual roulette and get a reward (or possibly none) based on which category the wheel landed on, with the reward automatically taken into account (assuming the restaurant tracks customers and their orders by table)
-- check the restaurant menu items and prices (and possibly order them directly from the interface?)
+1) Click the accept button for the surprise offer, if they chose to try the roulette, or the dismiss button, should they have chosen not to accept
+2) Spin the virtual roulette and get a reward (or possibly none) based on which category the wheel landed on, with the reward automatically taken into account (assuming the restaurant tracks customers and their orders by table)
+3) Check the restaurant menu items and prices (and possibly order them directly from the interface?)
 
 ---
 ## Observation
@@ -110,14 +110,22 @@ Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1
 #### Sewon Hong
 
 What role did you play in each round?
-* Facilitator
+- Facilitator
+
 What were some of the difficulties you faced playing the role(s)?
-* Guide the user to "think aloud"
-* Hard to decide when to interrupt or not
+- It was not easy to guide the user to "think aloud". One participant was not very talkative and there were intermittent "awkward moments". I had to improvise the sentences, such as "Any feelings about pop-up offer?", so that the participant would speak out what goes inside his head.
+- Also, it was hard to decide whehter and when to interrupt during the task. I was in between the choices of not interrurpting to see what difficulties the user is experiencing and interrupting to make the user to "think alound" and keep the user on the tasks.
+
+
 In what way was paper prototyping useful in your project?
-* Fast, Cheap prove/accept/deny of our hypothesis
+- Faster to build and Easier to change. We designed our prototype with certain hypothesis in mind. Initially, we thought giving a prompt offer with a certain quest (e.g. 1 free coupon if finish dining in 15 min.) is a good solution. However, we received a feedback in the class-activity that this direct offer can be psychologically intrusive and undermine the overall dining experience.
+- So we came up with the idea of using "roulette". We’ve hypothesized that this circumvention can make the customer feel as if they have done some work to get the incentive for their own good.
+- We had to redesign entirely. But it was not the end of the world since we could just throw away the previous papers and build the new prototype only in a couple of hours. Thanks to paper prototyping, we could save our time to test out our new design concept with new hypothesis.
+
 What did your paper prototype not cover or test?
-* Transition, effect, color, Sound, Real dining condition (counter part)
+- The final application would certainly have some detailed effects such as transition, sound and colors. For instance, we could not present the "rotating roulette". The paper prototype did not fully provide the "fun" of winning the chance.
+- Also, since pop-ups are shown by human hands, it is not possible to get insight whether the pop-up response times are within the customer's tolerance while dining.
+
 
 ---
 ## Studio Reflections
