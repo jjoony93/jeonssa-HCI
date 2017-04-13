@@ -15,7 +15,7 @@
 ### Initial Screen
  ![alt text](1.png "Initial Screen. Includes 'View Menu' Button and 'Call Waiter' button")
  ![alt text](2.png "When clicked 'Call Waitet' button")
- ![alt text](3.png "When clicked 'View Menu' button")
+ ![alt text](3.png "When clicked 'View Menu' button. We used a printed menu because we focused on the menu button so the look of menu is trivial")
 
 ### Surprise Offer Pop-up
  ![alt text](4.png "Surprise Offer pop-up: includes ‘Yes!’ accept button and ‘No thanks…’ decline button")
