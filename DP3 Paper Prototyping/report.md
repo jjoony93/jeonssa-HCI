@@ -72,14 +72,14 @@ The users performed three main tasks:
 
 Task | Observation
  --- | --- 
-Accept/deny Roulette | 1. Too many pop-ups (P1, low)
-Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't change decision once clicked button (P1, high)
-Check menu | 4. Use better example of 'View Menu' screen. (P1, high)
-Call Waiter | 5. Wants to be notified if waiter is called correctly. (P2, high)
-Physical | 6. Tablet takes up too much table space (P3, high) <br> 7. very high possibility that user won't notice the pop-up (P3, medium)
-Mental | 8. Psychological pressure (P1,P2, medium)
-What1 | 9. Not sure where to see if he has successfully completed the mission
-What2 | 10. Where and when to get the incentive?
+Accept/deny Roulette | 1. Too many pop-ups on a single screen in the last slide. (P1, low)
+Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't change decision once declining the roulette offer. (P1, high) <br> 4. Not sure where to see if I(user) have successfully completed the mission. (P1,P2, high) <br>  5. Where and when to get the incentive? (P1,P2, high)
+Check menu | 6. Use better example of 'View Menu' screen. 상세보기 주문하기 look like buttons, but they aren't. (P1, high)
+Call Waiter | 7. Wants to be notified if waiter is called correctly. (P2, high)
+Physical | 8. Tablet takes up too much table space (P3, high) <br> 9. Very high possibility that user won't notice the pop-up if user puts tablet aisde. (P3, medium)
+Mental | 10. Psychological pressure due to real time count down - unhealty. (P1,P2, medium)
+
+
   
  **Table 1.** Summary of observations
  
