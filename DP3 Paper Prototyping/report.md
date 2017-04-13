@@ -56,9 +56,9 @@ We presented our prototype to total three participants.
 * description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
 ---
 ## Briefing
-  We presented a prototype of an interface of an touchscreen at a restaurant table, on which a prompt would show, notifying customers that they had a chance to win a special offer. The purpose of the presentation is to see whether the customer is willing to do certain tasks, such as eating faster, provided some incentive.
+Hello, thank you for participating. We are currently trying to redesign how potential customers have to wait for seats in full restaurants during peak hours. We believe can be achieved is one option. The purpose of this test is to see whether the customer is willing to eat faster given some incentive.
 
-  The presentation was done after some micro-iteration with the feeback given by other peers in the class. The background behind this prototype is that direct request to eat faster can be intrusive. Direct request can undermine the overall dining experience. So we’ve tried to circumvent this potential intrusion by using the roulette, the wheel-of-fortune. Customer is expected to get the feeling as if they have done some work to get the incentive for their own good.
+Before we precede to testing, please imagine yourself dining at a table of busy and famous restaurant. And at one side of the table, there is a iPad. Imagine that this paper prototype is the iPad. A prompt would show while you are dining and you will be asked to certain tasks.
   
 ---
 ## Tasks
@@ -78,6 +78,7 @@ Check menu | 4. Use better example of 'View Menu' screen. (P1, high)
 Call Waiter | 5. Wants to be notified if waiter is called correctly. (P2, high)
 Physical | 6. Tablet takes up too much table space (P3, high)
 Mental | 7. Psychological pressure (P1,P2, medium)
+  
  **Table 1.** Summary of observations
  
 Spin Roulette
