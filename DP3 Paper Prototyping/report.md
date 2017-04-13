@@ -95,15 +95,23 @@ Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1
 ## Individual Reflection
 
 #### SunJae Lee
-* Observer
+**Role: Observer**
+
 * It was very hard to just watch what user was doing. For example, ignoring user's questions was very awkward, and it was very tempting to correct user's mistakes in using our prototype.
 * Paper prototype was very help in that it provided users with concrete design and functionality of part of our project, and thus we did not have to explain much about our project. Users did not have hard time realizing the purpose of the prototype.
 * Our paper prototype did not cover how we manage waiting customers list. In this prototype, we rather focused on encouraing already sitted customers to eat faster for higher customer turnover ratio. 
 
 #### Min Kang
+**Role: Observer**
+
+* As an observer, for each round, I took rigorous notes detailing the actions that each user made at certain points in the interface, and how each user differed in actions from one another; also, I detailed how each user succeeded or failed to correctly identify the function of an interface element, and how they dealt with learning and interacting with our prototype interface.  
+* Sometimes, the users would not necessarily "think aloud" for all aspects of their actions, leaving me to guess in between the lines of why they did a specific action at a specfic point in time. Also, sometimes users would immediately switch to another action whilst not having completed their previous initiated action, making notetaking hard to follow from time to time.  
+* Paper prototyping was incredibly useful in regards to the fact that we could whip out a rough sketch of what we imagined our interface to be like, in an incredibly short span of time; it would have taken much longer to try to implement a computer prototype with a similar degree of finish. We were able to quickly outline different aspects of our interface without much hassle, thanks to the flexibility of being able to present on a paper medium.  
+* Our paper prototype, like most paper prototypes, was not able to cover the detailed finish of UI and was not able to exhibit high fidelity in regards to look. Also, for our wheel-of-fortune example, our prototype did not go into exact specifics of the exact time a user would be prompted, or the given probabilities of landing on a certain category when the user would spin the wheel-of-fortune.
 
 #### Joon Young Lee
-* Computer
+**Role: Computer**
+
 * As a computer, I had to think mechanically and mimic how an actual computer would do. Since I know the entire process of our prototype, when the user did not use the entire functions of our prototype I had the temptation to hint the user to proceed to a certain direction so that the user explores our prototype entirely.
 * We did not have a concrete idea of how our UI would look like, so in the beginning we just played around with paper prototyping materials, then constituted our first prototype. However, not after long we realized we included features that are abundant or not necessary such as sidebar. Our prototype did not have numerous tasks so the sidebar was actually unnecessary. If we had coded a sidebar in real computer, we would have been reluctant to throw it away because of the amount of time spent to develop a sidebar feature. In this sense, we benefited from paper prototyping as we could different versions and easily throw away features that would take tons of time if it had been coded. Furthermore, we only used a black marker in the entire process and thus we did not waste time in arguing about which feature should be what color. It led us to focus on the big picture of our service
 * Since making everything big is recommended in a paper prototyping, forms such as buttons and textbox were made large and constituted in different layes so that each element looks very distinct. However in real computer, the items will not be as that big and won't be placed in different layers, so we cannot check if the user notices every single element that we implemented. For example, the there is even a slight chance that the user might not notice the message icon that enables the user to see the roulette chance. Moreover, we cannot check the respone time of elements, for example, how long does it take to load the roulette and how long should the roulette be spinning if the user spins the roulette?
