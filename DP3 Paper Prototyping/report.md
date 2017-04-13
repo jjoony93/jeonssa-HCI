@@ -71,7 +71,7 @@ The users performed three main tasks:
 ## Observation
 
 Task | Observation
- --- | --- | --- | --- | --- | ---
+ --- | --- 
 Accept/deny Roulette | Pop-ups
 Spin Roulette | Show roulette is spinnable (implemented) Change decision (implemented)
 Check menu | Use better example (주문하기/상세보기)
