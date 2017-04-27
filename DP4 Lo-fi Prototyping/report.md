@@ -75,11 +75,11 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 
 
 ![alt text](enroll_main.png "Main")
-###### Fig 1: Hi<br>
+###### Fig 5: Waiting list main screen<br>
 ![alt text](enroll_get-in-line.png "Main")
-###### Fig 2: Hi<br>
+###### Fig 6: Pop-up screen for getting in line<br>
 ![alt text](enroll_enqueue-success.png "Main")
-###### Fig 3: Hi<br>
+###### Fig 7: Line enqueue success screen<br>
 
 * **Instructions**
 
@@ -92,11 +92,11 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 
 
 <img src="./Recommendation1.png" width="250"><br>
-###### Fig 1: Three categories of recommended entertainment places<br>
+###### Fig 8: Three categories of recommended entertainment places<br>
 <img src="./Recommendation2.png" width="250"><br>
-###### Fig 2: List of cafes<br>
+###### Fig 9: List of cafes<br>
 <img src="./Recommendation3.png" width="250"><br>
-###### Fig 3: Map showing current location and selected cafe<br>
+###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
 
@@ -149,7 +149,7 @@ Estimating Waiting time | 6. Wish there is a "view all" button to see all the re
 
 ### types of usability issues
 
-while testing with paper prototype, most of the usability issues that our participants suggested and we found were related to functional issues and UI defects. For example, some of the issues found in paper prototype was that we did not include notifing customer that waiter is called correctly when clicking "call waiter" button, showed roulette is spinnable, and too many pop-ups. However in the digital prototype, most of the usability issues found were non-functional. For instance, customer might feel that they get disadvantage when they fail the challeng, discount rates are too high, strong alarm, and correlation between remaining team and remaining time. This is probably because paper prototype was our first prototype, and most of the functional and UI defects were fixed when we made our digital prototype. Apart from that, because digital prototype provides very good template, UI defects probably reduced compare to paper prototype. Furthermore, since building or modifying paper prototype is much very fast and easy, we were able to rebuild paper prototype whenever we found non-functional issues. However while building digital prototype, we tended to ignore non-functional issues because rebuilding digital prototype is very hard. This probably resulted in more non-functional issues found in digital prototype.
+While testing with paper prototype, most of the usability issues that our participants suggested and we found were related to functional issues and UI defects. For example, some of the issues found in paper prototype was that we did not include notifing customer that waiter is called correctly when clicking "call waiter" button, showed roulette is spinnable, and too many pop-ups. However in the digital prototype, most of the usability issues found were non-functional. For instance, customer might feel that they get disadvantage when they fail the challeng, discount rates are too high, strong alarm, and correlation between remaining team and remaining time. This is probably because paper prototype was our first prototype, and most of the functional and UI defects were fixed when we made our digital prototype. Apart from that, because digital prototype provides very good template, UI defects probably reduced compare to paper prototype. Furthermore, since building or modifying paper prototype is much very fast and easy, we were able to rebuild paper prototype whenever we found non-functional issues. However while building digital prototype, we tended to ignore non-functional issues because rebuilding digital prototype is very hard. This probably resulted in more non-functional issues found in digital prototype.
 
 ### participant's reaction and expectation
 
