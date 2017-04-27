@@ -8,7 +8,6 @@
 ---
 
 # Lo-fi Prototyping
- ![alt text](title.png "Title: Virtual Wheel-of-Fortune")
  
 ---
 ## POV
@@ -75,11 +74,11 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 * **Representative screenshots**
 
 
- ![alt text](enroll_main.png "Main")
+![alt text](enroll_main.png "Main")
 ###### Fig 1: Hi<br>
- ![alt text](enroll_get-in-line.png "Main")
+![alt text](enroll_get-in-line.png "Main")
 ###### Fig 2: Hi<br>
- ![alt text](enroll_enqueue-success.png "Main")
+![alt text](enroll_enqueue-success.png "Main")
 ###### Fig 3: Hi<br>
 
 * **Instructions**
