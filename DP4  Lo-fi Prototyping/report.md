@@ -67,9 +67,12 @@ In addition to the portions mentioned above (special offer having no time based 
 ##### Design choices
 
 ##### Representative screenshots
-<img src="./Recommendation1.png" width="250"><br> Fig 1: Three categories of recommended entertainment places<br>
-<img src="./Recommendation2.png" width="250"><br> Fig 2: List of cafes<br>
-<img src="./Recommendation3.png" width="250"><br> Fig 3: Map showing current location and selected cafe<br>
+<img src="./Recommendation1.png" width="250"><br> 
+###### Fig 1: Three categories of recommended entertainment places<br>
+<img src="./Recommendation2.png" width="250"><br> 
+###### Fig 2: List of cafes<br>
+<img src="./Recommendation3.png" width="250"><br> 
+###### Fig 3: Map showing current location and selected cafe<br>
 
 ##### Instructions
 
