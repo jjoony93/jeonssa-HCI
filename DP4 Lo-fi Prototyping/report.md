@@ -103,7 +103,7 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
-
+Link: <a href="https://pr.to/URWUCS/">https://pr.to/URWUCS/</a>
 Touch either 'waiting info' or 'recommendations' on top of the screen. 'waiting info' screen doesn't have any interactions. If user touches 'recommendations', then show categories of entertainments. If user selects a category, in this prototype 'cafe', then a list of cafe appears. After selecting a cafe, a map showing current location and selected cafe will appear. 
 
 
@@ -157,6 +157,8 @@ While testing with paper prototype, most of the usability issues that our partic
 
 ### participant's reaction and expectation
 
+For the paper prototype, the test users were unfamiliar with using a paper UI, so they were relatively hesistant to play around with the prototype compared to using a digital prototype. Also, we tried to distinguish various forms(buttons, icons) from the inactive background by implementing different layers, but the user expected an interaction to occur by touching certain texts in background.
+For the digital prototype, users seemed to felt very comfortable and familiar with testing digital prototype. They had to issues finding buttons. Instead of asking about UI, they mostly asked how this and that function works in the background, and they gave very specific and concrete suggestions. Many of the participants expected the prototype to actually work. They actually expected they could register into the waiting line, and expected to actually a text message. Unlike paper prototype, digital prototype clearly did not meet participants' expectation.
 ### Implementations from previous feedbacks
 
 From the previous feedbacks from the paper prototype, one of the feedback was that it was confusing to have a 주문하기/상세보기 button in the menu display when it actually isn't one of our functionalities. In this version of prototype, we replaced the menu with one that doesn't have 주문하기/상세보기 buttons because you will have to call the waiter anyways to make an order. Another feedback was to implement other functionalities from story boards such as recommending entertainment places. In this digital prototype, we decided to add a additional tasks such as recommending entertainment places, displaying remaining waiting time/teams, and adding a customer to waiting line. Furthermore, some of our participants from the paper prototype said too many pop-ups during surprise offer makes it confusing. We solved this issue by removing unnecessary popups in this prototype. In addition, because some of participants were confused where to get their prize from special mission, we modified text in the special mission screen to explicitly tell user where they can get their prize. We are still figuring out how and feasibility of other feedbacks such as adding other games besides virtual roulette. 
