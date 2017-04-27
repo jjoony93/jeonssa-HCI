@@ -21,6 +21,9 @@ It would be game changing to reduce amount of time each customers wait, and to p
 ## Tasks
 
 1. Surprise Offer
+Customers are randomly propmted with a "Surprise Offer" message with an ipad (or any other portable device) at their table. Customer can choose whether to accept the offer or not. If the cusomer accepts, virtual roulette appears on the screen.  If the customer spins the roulette, he or she recieves a prize depending on which section the roulette. These sections include several discounts, coupons, and a challenge mission. To encourage fast eating, and give incentives to those who eat fast, in the challenge mission, customer is challenged to eat within a time limit. If the customer succeeds, he or she receives a prize, possibly a discount.
+
+
 2. Entertainment place recommendation
 3. Estimated waiting time
 
