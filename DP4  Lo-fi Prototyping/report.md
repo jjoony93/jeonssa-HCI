@@ -18,22 +18,26 @@
 ---
 ## Tasks
 
+1. Surprise Offer
+2. Entertainment place recommendation
+3. Estimated waiting time
+
 ---
 ## Prototype
 
 ---
 ## Participants
 
-###### KAIST undergraduate Student
+###### KAIST undergraduate Student (P1)
 * age: 24
 * sex: female
 * description: She is a undergraduate student at Korea University who often goes out to eat with his boyfriend. She loves going to famous restaurant in seoul, but had to give up many times becuase of long waiting time.
-###### Owner of restaurant at Dunsan
+###### Owner of restaurant at Dunsan (P2)
 * age: 32
 * sex: male
 * description: He is a restaurant owner at Dunsan, Daejeon. He runs a famous restaurant that always has waiting customers. 
 
-###### Office worker
+###### Office worker (P3)
 * age: 30
 * sex: male
 * description: He is a office worker who lives at Gangnam. He always wanted to go dine at a particular restaurant in Gangnam with his family, but couldn't because his wife hates waiting.
@@ -43,12 +47,9 @@
 
 Task | Observation
  --- | --- 
-Accept/deny Roulette | 1. Too many pop-ups on a single screen in the last slide. (P1, low)
-Spin Roulette | 2. Show roulette is spinnable (P2, high) <br> 3. User can't change decision once declining the roulette offer. (P1, high) <br> 4. Not sure where to see if I(user) have successfully completed the mission. (P1,P2, high) <br>  5. Where and when to get the incentive? (P1,P2, high)
-Check menu | 6. Use better example of 'View Menu' screen. 상세보기 주문하기 look like buttons, but they aren't. (P1, high)
-Call Waiter | 7. Wants to be notified if waiter is called correctly. (P2, high)
-Physical | 8. Tablet takes up too much table space (P3, high) <br> 9. Very high possibility that user won't notice the pop-up if user puts tablet aisde. (P3, medium)
-Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1,P2, medium)
+Surprise Offer | 
+Entertainment Recommendation | 
+Estimating Waiting time | 
 
 ### Plans for Improvement (order corresponds to the list in table)
 
