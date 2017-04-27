@@ -35,9 +35,47 @@ Once customers have registered into the waiting list, they will receive a text m
 
 ---
 ## Prototype
-<img src="./Recommendation1.png" width="250"> 
-<img src="./Recommendation2.png" width="250"> <br>
-<img src="./Recommendation3.png" width="250"> <br>
+
+
+### Prototyping tool
+
+Our team chose to use marvelapp.com. Our first iteration was done in proto.io, but we decided to move to marvelapp.com because even though animations and different triggers were very well implemented, (we personally felt that) the proto.io interface was needlessly complicated, and it was difficult to implement individual components to show and hide depending on input. On the other hand, marvelapp.com provided a very simple interface for prototyping, allowing us to create actionable areas simply by dragging and clicking, while different screens were hyperlinked to each other, much like a PowerPoint slide - simple and intuitive. However, one drawback was that not many triggers were available; for example, we would have liked our offer popup to trigger when a specific time period had passed, but marvelapp.com does not support time-based triggers. Also, we would have liked for the wheel-of-fortune portion of the interface to have been able to spin, but marvelapp.com does not support object animations, so we had to hack in an inelegant solution (coalescing many slides to simulate a spinning wheel).  
+All in all, the advantages of using marvelapp.com (simplicity and ease of implementation) far outweighed the disadvantages (no support for time-based triggers, or object animation).
+
+
+### Surprise Offer
+
+
+#### Design choices
+
+In addition to the portions mentioned above (special offer having no time based trigger and depending on a hard-coded trigger, and wheel-of-fortune "spin" implemented through hardcoded slides), we were unable to implement a timer which would tick down in realtime, and therefore had to simply represent the timer in static.
+
+#### Representative screenshots
+
+#### Instructions
+
+### Enroll into waiting list
+
+#### Design choices
+
+#### Representative screenshots
+
+#### Instructions
+
+### Entertainment place recommendation & Estimated waiting time
+
+#### Design choices
+
+#### Representative screenshots
+<img src="./Recommendation1.png" width="250"> Fig 1: Three categories of recommended entertainment places<br>
+<img src="./Recommendation2.png" width="250"> Fig 2: List of cafes<br>
+<img src="./Recommendation3.png" width="250"> Fig 3: Map showing current location and selected cafe<br>
+
+#### Instructions
+
+
+
+
 ---
 ## Participants
 
