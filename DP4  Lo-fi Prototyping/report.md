@@ -25,19 +25,18 @@
 ## Participants
 
 ###### KAIST undergraduate Student
-* age: 23
+* age: 24
+* sex: female
+* description: She is a undergraduate student at Korea University who often goes out to eat with his boyfriend. She loves going to famous restaurant in seoul, but had to give up many times becuase of long waiting time.
+###### Owner of restaurant at Dunsan
+* age: 32
 * sex: male
-* description: He is a KAIST undergraduate student who often goes out to eat with his girlfirend. Both he and his girlfriend is well known foodie, and has lots of experience waiting in a restaurant
+* description: He is a restaurant owner at Dunsan, Daejeon. He runs a famous restaurant that always has waiting customers. 
 
-###### KAIST SNU grad student
-* age: 25
+###### Office worker
+* age: 30
 * sex: male
-* description: He is a SNU graduate student who lives in very busy area around SNU. He hates waiting in a restaurant, and has has hard time finding restaurant that doesn't requires waiting.
-
-###### OWNER of restaurant at Gangnam.
-* age: 43
-* sex: male
-* description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about lossing potential users because of waiting time. 
+* description: He is a office worker who lives at Gangnam. He always wanted to go dine at a particular restaurant in Gangnam with his family, but couldn't because his wife hates waiting.
 
 ---
 ## Observation
