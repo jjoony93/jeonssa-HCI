@@ -50,7 +50,7 @@ Because the Surprise Offer and Waitlist Enroll functionalities had very simple u
 
 * **Design choices**
 
-In addition to the portions mentioned above (special offer having no time based trigger and depending on a hard-coded trigger, and wheel-of-fortune "spin" implemented through hardcoded slides), we were unable to implement a timer which would tick down in realtime, and therefore had to simply represent the timer in static.
+In addition to the portions mentioned above (special offer having no time based trigger and depending on a hard-coded trigger, and wheel-of-fortune "spin" implemented through hardcoded slides), we were unable to implement a timer which would tick down in realtime, and therefore had to simply represent the timer in static. Also, only one variant from the roulette / wheel-of-fortune category was implemented, because it was infeasible to implement use case flows for all possible variants.
 
 * **Representative screenshots**
 
@@ -62,7 +62,11 @@ In addition to the portions mentioned above (special offer having no time based 
 ###### Fig 3: Result after spinning roulette<br>
 <img src="./MissionScreen.png" width="250"><br>
 ###### Fig 4: Can accept or decline mission<br>
+
 * **Instructions**
+
+Touch "View Menu" to view the restaurant menu, from which you can go back to the previous (home) screen by pressing the upper-right "Back" button. You can also call a waiter by pressing the "Call Waiter" button, on which you will get a notificaion window confirming that a waiter has been called.
+The user will then get a special offer to spin a roulette / wheel-of-fortune for a chance to win a prize, which they can choose to accept or decline. Should they accidentally decline, they can make the popup show again by touching an icon, as explained in the prototype (error prevention). Once the roulette / wheel-of-fortune is spun, it lands on the "special mission" category. Again, you can choose to accept or decline through buttons on a popup window. Should you accidentally decline, a popup message confirms your decision (again, error prevention). Should you accept, a timer window appears on the screen.
 
 ### Enroll into waiting list
 
