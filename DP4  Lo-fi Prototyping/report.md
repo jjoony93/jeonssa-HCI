@@ -46,32 +46,32 @@ All in all, the advantages of using marvelapp.com (simplicity and ease of implem
 ### Surprise Offer
 
 
-#### Design choices
+##### Design choices
 
 In addition to the portions mentioned above (special offer having no time based trigger and depending on a hard-coded trigger, and wheel-of-fortune "spin" implemented through hardcoded slides), we were unable to implement a timer which would tick down in realtime, and therefore had to simply represent the timer in static.
 
-#### Representative screenshots
+##### Representative screenshots
 
-#### Instructions
+##### Instructions
 
 ### Enroll into waiting list
 
-#### Design choices
+##### Design choices
 
-#### Representative screenshots
+##### Representative screenshots
 
-#### Instructions
+##### Instructions
 
 ### Entertainment place recommendation & Estimated waiting time
 
-#### Design choices
+##### Design choices
 
-#### Representative screenshots
-<img src="./Recommendation1.png" width="250"> Fig 1: Three categories of recommended entertainment places<br>
-<img src="./Recommendation2.png" width="250"> Fig 2: List of cafes<br>
-<img src="./Recommendation3.png" width="250"> Fig 3: Map showing current location and selected cafe<br>
+##### Representative screenshots
+<img src="./Recommendation1.png" width="250"><br> Fig 1: Three categories of recommended entertainment places<br>
+<img src="./Recommendation2.png" width="250"><br> Fig 2: List of cafes<br>
+<img src="./Recommendation3.png" width="250"><br> Fig 3: Map showing current location and selected cafe<br>
 
-#### Instructions
+##### Instructions
 
 
 
