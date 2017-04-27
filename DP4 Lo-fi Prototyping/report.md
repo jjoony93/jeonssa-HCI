@@ -67,6 +67,8 @@ In addition to the portions mentioned above (special offer having no time based 
 * **Design choices**
 
 * **Representative screenshots**
+
+
 <img src="./Recommendation1.png" width="250"><br>
 ###### Fig 1: Three categories of recommended entertainment places<br>
 <img src="./Recommendation2.png" width="250"><br>
