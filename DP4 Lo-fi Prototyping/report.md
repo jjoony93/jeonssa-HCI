@@ -133,9 +133,13 @@ From the previous feedbacks from the paper prototype, one of the feedback was th
 ## Studio Reflections
 
 ### FEEDBACK SUMMARY
-1. Pop-up messages are overlapped so it seems a little bit noisy
-2. Add some confirmation when you decide to accept a challenge
+1. Pop-up messages are overlapped so it seems a little bit noisy.
+2. Add some confirmation when you decide to accept a challenge.
 3. When calling a waiter, show some animation or status or time left for user can save time for unnecessary condition.
+4. Users may not know that they should click the BBQ image.
 
 ### FEEDBACK REFLECTION
-
+1. We changed it so pop-ups no longer overlap.
+2. We added an confirmation message when user accepts challenge.
+3. The 'waiter has been called' confirmation message pops up.
+4. In our final product, we would like the surprise offer to pop-up after a certain amount of time, but the prototyping tools don't provide such function so we initially made an interaction to the BBQ image. Now, we made the surprise offer pop up after user confirms that waiter has been called, because the user will always have to call the waiter, ensuring that surprise offer will pop up.
