@@ -11,10 +11,11 @@
  
 ---
 ## POV
-    “A customer waiting for restaurant table needs to feel less fraustration because one out of two customers tends to leave tired of waiting.”
-User: A customer waiting for restaurant table
-Needs: Feel less fraustration
-Insights: One out of two customers tends to leave tired of waiting
+    “A customer waiting for restaurant table needs to feel less fraustration
+    because one out of two customers tends to leave tired of waiting.”
+- User: A customer waiting for restaurant table. 
+- Needs: Feel less fraustration. 
+- Insights: One out of two customers tends to leave tired of waiting. 
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
 We were amazed that one out of two customers leave because of the long waiting, and that customers get very frustrated while waiting when they have to wait indefinitely in a very uncomfortable place. 
@@ -106,11 +107,11 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 * **Representative screenshots**
 
 
-<img src="./Recommendation1.png" width="250"><br>
+<center><img src="./Recommendation1.png" width="250"></center><br>
 ###### Fig 8: Three categories of recommended entertainment places<br>
-<img src="./Recommendation2.png" width="250"><br>
+<center><img src="./Recommendation2.png" width="250"></center><br>
 ###### Fig 9: List of cafes<br>
-<img src="./Recommendation3.png" width="250"><br>
+<center><img src="./Recommendation3.png" width="250"></center><br>
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
