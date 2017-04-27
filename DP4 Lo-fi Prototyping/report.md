@@ -15,7 +15,7 @@
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
 We were amazed that one out of two customers leave because of the long waiting, and that customers get very frustrated while waiting when they have to wait indefinitely in a very uncomfortable place. 
-It would be game changing to reduce amount of time each customers wait, and to provide customers with estimated waiting time with possible resting place.
+It would be game changing to reduce amount of time each customer has to wait, and to provide customers with estimated waiting time with possible resting place.
 
 ---
 ## Tasks
@@ -34,7 +34,7 @@ Customers can enroll themselves into a waiting list using an ipad (or any other 
 Once customers have registered into the waiting list, they will receive a text message that tells registration has been made successfully, and will provide a website link. The link directs customers to a web page that shows estimated real-time waiting time and remaining waiting team to give customers clear information about how long they should wait. Furthermore, the web page provides nearby entertainment places, sorted by criteria: Cafe, Arcade, and shopping with real-time map that can navigate customers to the particular entertainment place once customer selects the place.
 
 ---
-## Prototype  
+## Prototype
 
 
 ### Prototyping tool
@@ -42,13 +42,40 @@ Once customers have registered into the waiting list, they will receive a text m
 Our team chose to use marvelapp.com. Our first iteration was done in proto.io, but we decided to move to marvelapp.com because even though animations and different triggers were very well implemented, (we personally felt that) the proto.io interface was needlessly complicated, and it was difficult to implement individual components to show and hide depending on input. On the other hand, marvelapp.com provided a very simple interface for prototyping, allowing us to create actionable areas simply by dragging and clicking, while different screens were hyperlinked to each other, much like a PowerPoint slide - simple and intuitive. However, one drawback was that not many triggers were available; for example, we would have liked our offer popup to trigger when a specific time period had passed, but marvelapp.com does not support time-based triggers. Also, we would have liked for the wheel-of-fortune portion of the interface to have been able to spin, but marvelapp.com does not support object animations, so we had to hack in an inelegant solution (coalescing many slides to simulate a spinning wheel).  
 All in all, the advantages of using marvelapp.com (simplicity and ease of implementation) far outweighed the disadvantages (no support for time-based triggers, or object animation).
 
-### Design choices
+
+### Surprise Offer
+
+
+##### Design choices
 
 In addition to the portions mentioned above (special offer having no time based trigger and depending on a hard-coded trigger, and wheel-of-fortune "spin" implemented through hardcoded slides), we were unable to implement a timer which would tick down in realtime, and therefore had to simply represent the timer in static.
 
-### Representative screenshots
+##### Representative screenshots
 
-### Instructions
+##### Instructions
+
+### Enroll into waiting list
+
+##### Design choices
+
+##### Representative screenshots
+
+##### Instructions
+
+### Entertainment place recommendation & Estimated waiting time
+
+##### Design choices
+
+##### Representative screenshots
+<img src="./Recommendation1.png" width="250">
+###### Fig 1: Three categories of recommended entertainment places<br>
+<img src="./Recommendation2.png" width="250">
+###### Fig 2: List of cafes<br>
+<img src="./Recommendation3.png" width="250">
+###### Fig 3: Map showing current location and selected cafe<br>
+
+##### Instructions
+
 
 
 
@@ -74,13 +101,22 @@ In addition to the portions mentioned above (special offer having no time based 
 
 Task | Observation
  --- | --- 
-Surprise Offer | 1. Customer might feel that they get disadvantage when they fail the challenge (P2, high)<br>2. customer might miss the surprise offer if there is no effective alert(P1, high)<br>3. discount rates are too high(P2, low)
-Entertainment Recommendation | 4. wish there is a "view all" button to see all the recommended places at once (P2, P3, medium)
-Estimating Waiting time | 5. wish it has more delicate design (P1, P3, medium)
+Surprise Offer | 1. Customer might feel that they get disadvantage when they fail the challenge (P2, high)<br>2. Customer might miss the surprise offer if there is no effective alert (P1, high)<br>3. Discount rates are too high (P2, low)<br> 4. Wish there are other options not related to direct discount, for example offering cheap free drinks (P1, medium)
+Enroll into waiting list | 5. 
+Estimating Waiting time | 6. Wish there is a "view all" button to see all the recommended places at once (P2, P3, medium)<br> 7. Wish the map shows all places, not just the selected one (P1, P3, medium)<br> 8. I wish there are more options other than arcade center, cafe, and shopping. An example might be coin karaoke places. (P3, medium)<br> 9. Wish there was a stronger alarm that tells user how much time left in case user is not looking at phone (P1, P3, high)<br> 10. What is the correlationship between teams remaining and time remaining? 5minutes per team? 10minutes per team? (P1, P3, high)
 
 ### Plans for Improvement (order corresponds to the list in table)
 
-
+1. We could add a text that says there is no disadvantage in failing the challenge.
+2. Make a strong alarm. Possible with vibration and sound.
+3. Restaurant owner can modify the discount rates anytime.
+4. Restaurant owner can modify the options anytime.
+5. 
+6. We could add "view all" button later on.
+7. We will implement this idea if possible.
+8. Make three criteria more general so that they can include all possible entertainment places.
+9. At current stage, there is no better alarm system than text messaging user. We will continue thinking about this issue
+10. We will have to implement time calculating algorithm on the later stage.
 
 ---
 ## Paper vs Digital
