@@ -15,7 +15,7 @@
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
 We were amazed that one out of two customers leave because of the long waiting, and that customers get very frustrated while waiting when they have to wait indefinitely in a very uncomfortable place. 
-It would be game changing to reduce amount of time each customers wait, and to provide customers with estimated waiting time with possible resting place.
+It would be game changing to reduce amount of time each customer has to wait, and to provide customers with estimated waiting time with possible resting place.
 
 ---
 ## Tasks
@@ -58,9 +58,9 @@ Once customers have registered into the waiting list, they will receive a text m
 
 Task | Observation
  --- | --- 
-Surprise Offer | 1. Customer might feel that they get disadvantage when they fail the challenge (P2, high)<br>2. customer might miss the surprise offer if there is no effective alert(P1, high)<br>3. discount rates are too high(P2, low)
-Entertainment Recommendation | 4. wish there is a "view all" button to see all the recommended places at once (P2, P3, medium)
-Estimating Waiting time | 5. wish it has more delicate design (P1, P3, medium)
+Surprise Offer | 1. Customer might feel that they get disadvantage when they fail the challenge (P2, high)<br>2. Customer might miss the surprise offer if there is no effective alert(P1, high)<br>3. Discount rates are too high(P2, low)<br> 4. Wish there are other options not related to direct discount, for example offering cheap free drinks (P1, medium)
+Entertainment Recommendation | 5. Wish there is a "view all" button to see all the recommended places at once (P2, P3, medium)<br> 6. Wish the map shows all places, not just the selected one (P1, P3, medium)<br> 7. I wish there are more options other than arcade, cafe, and shopping. An example might be taking sticker pictures. (P3, medium)
+Estimating Waiting time | 8.  (P1, P3, medium)<br> 9. Wish there was a stronger alarm that tells user how much time left in case user is not looking at phone (P1, P3, high)<br> 10. What is the correlationship between teams remaining and time remaining? 5minutes per team? 10minutes per team? (P1, P3, high)
 
 ### Plans for Improvement (order corresponds to the list in table)
 
