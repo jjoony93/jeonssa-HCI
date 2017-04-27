@@ -64,6 +64,7 @@ In addition to the portions mentioned above (special offer having no time based 
 
 * **Instructions**
 
+Link: <a href="https://marvelapp.com/3720aib" target="_blank">https://marvelapp.com/3720aib</a><br>
 Touch "View Menu" to view the restaurant menu, from which you can go back to the previous (home) screen by pressing the upper-right "Back" button. You can also call a waiter by pressing the "Call Waiter" button, on which you will get a notificaion window confirming that a waiter has been called.
 The user will then get a special offer to spin a roulette / wheel-of-fortune for a chance to win a prize, which they can choose to accept or decline. Should they accidentally decline, they can make the popup show again by touching an icon, as explained in the prototype (error prevention). Once the roulette / wheel-of-fortune is spun, it lands on the "special mission" category. Again, you can choose to accept or decline through buttons on a popup window. Should you accidentally decline, a popup message confirms your decision (again, error prevention). Should you accept, a timer window appears on the screen.
 
