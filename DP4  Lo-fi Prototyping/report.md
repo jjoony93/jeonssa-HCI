@@ -66,7 +66,16 @@ Estimating Waiting time | 6. Wish there is a "view all" button to see all the re
 
 ### Plans for Improvement (order corresponds to the list in table)
 
-
+1. We could add a text that says there is no disadvantage in failing the challenge.
+2. Make a strong alarm. Possible with vibration and sound.
+3. Restaurant owner can modify the discount rates anytime.
+4. Restaurant owner can modify the options anytime.
+5. 
+6. We could add "view all" button later on.
+7. We will implement this idea if possible.
+8. Make three criteria more general so that they can include all possible entertainment places.
+9. At current stage, there is no better alarm system than text messaging user. We will continue thinking about this issue
+10. We will have to implement time calculating algorithm on the later stage.
 
 ---
 ## Paper vs Digital
