@@ -35,9 +35,9 @@ Once customers have registered into the waiting list, they will receive a text m
 
 ---
 ## Prototype
-<img src="./Recommendation1.png" width="750"> <br>
-<img src="./Recommendation2.png" width="750"> <br>
-<img src="./Recommendation3.png" width="750"> <br>
+<img src="./Recommendation1.png" width="250"> <br>
+<img src="./Recommendation2.png" width="250"> <br>
+<img src="./Recommendation3.png" width="250"> <br>
 ---
 ## Participants
 
