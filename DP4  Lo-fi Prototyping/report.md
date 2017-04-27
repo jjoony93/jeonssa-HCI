@@ -13,7 +13,9 @@
 ---
 ## POV
 
-
+We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
+We were amazed that one out of two customers leave because of the long waiting, and that customers get very frustrated while waiting when they have to wait indefinitely in a very uncomfortable place. 
+It would be game changing to reduce amount of time each customers wait, and to provide customers with estimated waiting time with possible resting place.
 
 ---
 ## Tasks
@@ -47,9 +49,9 @@
 
 Task | Observation
  --- | --- 
-Surprise Offer | 
-Entertainment Recommendation | 
-Estimating Waiting time | 
+Surprise Offer | 1. Customer might feel that they get disadvantage when they fail the challenge (P2, high)<br>2. customer might miss the surprise offer if there is no effective alert(P1, high)<br>3. discount rates are too high(P2, low)
+Entertainment Recommendation | 4. wish there is a "view all" button to see all the recommended places at once (P2, P3, medium)
+Estimating Waiting time | 5. wish it has more delicate design (P1, P3, medium)
 
 ### Plans for Improvement (order corresponds to the list in table)
 
@@ -61,9 +63,10 @@ Estimating Waiting time |
 ---
 ## Studio Reflections
 
-
 ### FEEDBACK SUMMARY
-
+1. Pop-up messages are overlapped so it seems a little bit noisy
+2. Add some confirmation when you decide to accept a challenge
+3. When calling a waiter, show some animation or status or time left for user can save time for unnecessary condition.
 
 ### FEEDBACK REFLECTION
 
