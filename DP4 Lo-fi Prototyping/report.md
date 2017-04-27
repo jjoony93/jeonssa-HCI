@@ -84,7 +84,7 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 
 * **Instructions**
 
-Link: <a href="https://marvelapp.com/1h9d664/screen/27512114">https://marvelapp.com/1h9d664/screen/27512114</a>
+Link: <a href="https://marvelapp.com/1h9d664" target="_blank">https://marvelapp.com/1h9d664</a>
 1) This is the screen that will be displayed in restaurant's front. Imagine yourself there.
 2) See the waiting list of people and expected waiting time.
 3) Determine whether to get in line and wait and press "GET IN LINE" button.
@@ -109,7 +109,7 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
-Link: <a href="https://pr.to/URWUCS/">https://pr.to/URWUCS/</a>
+Link: <a href="https://pr.to/URWUCS/" target="_blank">https://pr.to/URWUCS/</a>
 Touch either 'waiting info' or 'recommendations' on top of the screen. 'waiting info' screen doesn't have any interactions. If user touches 'recommendations', then show categories of entertainments. If user selects a category, in this prototype 'cafe', then a list of cafe appears. After selecting a cafe, a map showing current location and selected cafe will appear. 
 
 
