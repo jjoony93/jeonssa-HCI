@@ -120,7 +120,9 @@ Estimating Waiting time | 6. Wish there is a "view all" button to see all the re
 
 ---
 ## Paper vs Digital
- 
+1. 
+2.
+3. We replaced the menu with one that doesn't have 주문하기/상세보기 buttons because you will have to call the waiter anyways to make an order. We also added a few distinct tasks such as recommending entertainment places, displaying remaining waiting time/teams, and adding a customer to waiting line.
 ---
 ## Studio Reflections
 
