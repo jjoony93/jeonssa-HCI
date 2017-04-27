@@ -26,7 +26,7 @@ Customers are randomly propmted with a "Surprise Offer" message with an ipad (or
 
 2. Enroll into waiting list
 
-Customers can enroll themselves into a waiting list using an ipad (or any other portable device) at the front desk of the restaurant. On the main screen of the ipad, customers are provided with number of waiting teams, and estimated waiting time. Using this information, user can enroll themselves to waiting list by typing in their phone number. 
+Customers can enroll themselves into a waiting list using an ipad (or any other portable device) at the front desk of the restaurant. On the main screen of the ipad, customers are provided with number of waiting teams, and estimated waiting time. Using this information, user can enroll themselves to waiting list by selecting desired waiting time, and typing in their phone number. 
 
 3. Entertainment place recommendation & Estimated waiting time 
 
@@ -63,7 +63,7 @@ In addition to the portions mentioned above (special offer having no time based 
 ###### Fig 4: Can accept or decline mission<br>
 
 * **Instructions**
-Link: <a href="https://marvelapp.com/3720aib/screen/27347661">https://marvelapp.com/3720aib/screen/27347661</a><br>
+
 Touch "View Menu" to view the restaurant menu, from which you can go back to the previous (home) screen by pressing the upper-right "Back" button. You can also call a waiter by pressing the "Call Waiter" button, on which you will get a notificaion window confirming that a waiter has been called.
 The user will then get a special offer to spin a roulette / wheel-of-fortune for a chance to win a prize, which they can choose to accept or decline. Should they accidentally decline, they can make the popup show again by touching an icon, as explained in the prototype (error prevention). Once the roulette / wheel-of-fortune is spun, it lands on the "special mission" category. Again, you can choose to accept or decline through buttons on a popup window. Should you accidentally decline, a popup message confirms your decision (again, error prevention). Should you accept, a timer window appears on the screen.
 
@@ -85,7 +85,13 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 * **Instructions**
 
 Link: <a href="https://marvelapp.com/1h9d664/screen/27512114">https://marvelapp.com/1h9d664/screen/27512114</a>
-Just DO IT.
+1) This is the screen that will be displayed in restaurant's front. Imagine yourself there.
+2) See the waiting list of people and expected waiting time.
+3) Determine whether to get in line and wait and press "GET IN LINE" button.
+4) Enter your phone number. (Not implemented due to tool's limitation)
+5) Press "GET IN LINE" button and confirm you've been enqueue.
+6) In reality, you will receive a SMS of recommended places (if you chose the option)
+7) In reality, you will receive a reminder if you are about to be called for table. (3 teams left ahead)
 
 ### Entertainment place recommendation & Estimated waiting time
 
@@ -103,7 +109,7 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
-Link: <a href="https://pr.to/URWUCS/">https://pr.to/URWUCS/</a><br>
+Link: <a href="https://pr.to/URWUCS/">https://pr.to/URWUCS/</a>
 Touch either 'waiting info' or 'recommendations' on top of the screen. 'waiting info' screen doesn't have any interactions. If user touches 'recommendations', then show categories of entertainments. If user selects a category, in this prototype 'cafe', then a list of cafe appears. After selecting a cafe, a map showing current location and selected cafe will appear. 
 
 
@@ -157,7 +163,7 @@ While testing with paper prototype, most of the usability issues that our partic
 
 ### participant's reaction and expectation
 
-For the paper prototype, the test users were unfamiliar with using a paper UI, so they were relatively hesistant to play around with the prototype compared to using a digital prototype. Also, we tried to distinguish various forms(buttons, icons) from the inactive background by implementing different layers, but the user expected an interaction to occur by touching certain texts in background.<br>
+For the paper prototype, the test users were unfamiliar with using a paper UI, so they were relatively hesistant to play around with the prototype compared to using a digital prototype. Also, we tried to distinguish various forms(buttons, icons) from the inactive background by implementing different layers, but the user expected an interaction to occur by touching certain texts in background.
 For the digital prototype, users seemed to felt very comfortable and familiar with testing digital prototype. They had to issues finding buttons. Instead of asking about UI, they mostly asked how this and that function works in the background, and they gave very specific and concrete suggestions. Many of the participants expected the prototype to actually work. They actually expected they could register into the waiting line, and expected to actually a text message. Unlike paper prototype, digital prototype clearly did not meet participants' expectation.
 ### Implementations from previous feedbacks
 
