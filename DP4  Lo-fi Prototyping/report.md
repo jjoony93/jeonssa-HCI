@@ -35,7 +35,9 @@ Once customers have registered into the waiting list, they will receive a text m
 
 ---
 ## Prototype
-
+![alt text](Recommendation1.png "List 3 categories of entertainment")
+![alt text](Recommendation2.png "List different cafes")
+![alt text](Recommendation3.png "Map showing where cafebenne is")
 ---
 ## Participants
 
