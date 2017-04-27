@@ -107,11 +107,11 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 * **Representative screenshots**
 
 
-<center><img src="./Recommendation1.png" width="250"></center><br>
+<img src="./Recommendation1.png" width="250"><br>
 ###### Fig 8: Three categories of recommended entertainment places<br>
-<center><img src="./Recommendation2.png" width="250"></center><br>
+<img src="./Recommendation2.png" width="250"><br>
 ###### Fig 9: List of cafes<br>
-<center><img src="./Recommendation3.png" width="250"></center><br>
+<img src="./Recommendation3.png" width="250"><br>
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
