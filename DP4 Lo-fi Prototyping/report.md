@@ -67,6 +67,7 @@ In addition to the portions mentioned above (special offer having no time based 
 ### Entertainment place recommendation & Estimated waiting time
 
 * **Design choices**
+We haven't yet decided how we are going to calculate the time remaining. A possible option is reducing time only when a table becomes empty. We will have to further discuss on this matter.
 
 * **Representative screenshots**
 
@@ -79,6 +80,8 @@ In addition to the portions mentioned above (special offer having no time based 
 ###### Fig 3: Map showing current location and selected cafe<br>
 
 * **Instructions**
+
+Touch either 'waiting info' or 'recommendations' on top of the screen. 'waiting info' screen doesn't have any interactions. If user touches 'recommendations', then show categories of entertainments. If user selects a category, in this prototype 'cafe', then a list of cafe appears. After selecting a cafe, a map showing current location and selected cafe will appear. 
 
 
 
