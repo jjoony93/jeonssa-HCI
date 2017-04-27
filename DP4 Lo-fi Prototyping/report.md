@@ -26,7 +26,7 @@ Customers are randomly propmted with a "Surprise Offer" message with an ipad (or
 
 2. Enroll into waiting list
 
-Customers can enroll themselves into a waiting list using an ipad (or any other portable device) at the front desk of the restaurant. On the main screen of the ipad, customers are provided with number of waiting teams, and estimated waiting time. Using this information, user can enroll themselves to waiting list by selecting desired waiting time, and typing in their phone number. 
+Customers can enroll themselves into a waiting list using an ipad (or any other portable device) at the front desk of the restaurant. On the main screen of the ipad, customers are provided with number of waiting teams, and estimated waiting time. Using this information, user can enroll themselves to waiting list by typing in their phone number. 
 
 3. Entertainment place recommendation & Estimated waiting time 
 
@@ -110,7 +110,7 @@ We haven't yet decided how we are going to calculate the time remaining. A possi
 ###### Fig 10: Map showing current location and selected cafe<br>
 
 * **Instructions**
-Link: <a href="https://pr.to/URWUCS/" target="_blank">https://pr.to/URWUCS/</a>
+Link: <a href="https://pr.to/URWUCS/" target="_blank">https://pr.to/URWUCS/</a><br>
 Touch either 'waiting info' or 'recommendations' on top of the screen. 'waiting info' screen doesn't have any interactions. If user touches 'recommendations', then show categories of entertainments. If user selects a category, in this prototype 'cafe', then a list of cafe appears. After selecting a cafe, a map showing current location and selected cafe will appear. 
 
 
@@ -164,7 +164,7 @@ While testing with paper prototype, most of the usability issues that our partic
 
 ### participant's reaction and expectation
 
-For the paper prototype, the test users were unfamiliar with using a paper UI, so they were relatively hesistant to play around with the prototype compared to using a digital prototype. Also, we tried to distinguish various forms(buttons, icons) from the inactive background by implementing different layers, but the user expected an interaction to occur by touching certain texts in background.
+For the paper prototype, the test users were unfamiliar with using a paper UI, so they were relatively hesistant to play around with the prototype compared to using a digital prototype. Also, we tried to distinguish various forms(buttons, icons) from the inactive background by implementing different layers, but the user expected an interaction to occur by touching certain texts in background.<br>
 For the digital prototype, users seemed to felt very comfortable and familiar with testing digital prototype. They had to issues finding buttons. Instead of asking about UI, they mostly asked how this and that function works in the background, and they gave very specific and concrete suggestions. Many of the participants expected the prototype to actually work. They actually expected they could register into the waiting line, and expected to actually a text message. Unlike paper prototype, digital prototype clearly did not meet participants' expectation.
 ### Implementations from previous feedbacks
 
