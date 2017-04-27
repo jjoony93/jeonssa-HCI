@@ -53,13 +53,13 @@ In addition to the portions mentioned above (special offer having no time based 
 
 * **Representative screenshots**
 
-<img src="./SpecialOfferScreen.png" width="250"><br>
+<img src="./SpecialOfferScreen.png"><br>
 ###### Fig 1: Special Offer pop-up<br>
-<img src="./BeforeSpin.png" width="250"><br>
+<img src="./BeforeSpin.png"><br>
 ###### Fig 2: Roulette appears when accepting special offer<br>
-<img src="./AfterSpin.png" width="250"><br>
+<img src="./AfterSpin.png"><br>
 ###### Fig 3: Result after spinning roulette<br>
-<img src="./MissionScreen.png" width="250"><br>
+<img src="./MissionScreen.png"><br>
 ###### Fig 4: Can accept or decline mission<br>
 
 * **Instructions**
