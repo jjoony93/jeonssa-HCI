@@ -120,9 +120,15 @@ Estimating Waiting time | 6. Wish there is a "view all" button to see all the re
 
 ---
 ## Paper vs Digital
-1. 
-2.
-3. We replaced the menu with one that doesn't have 주문하기/상세보기 buttons because you will have to call the waiter anyways to make an order. We also added a few distinct tasks such as recommending entertainment places, displaying remaining waiting time/teams, and adding a customer to waiting line.
+
+### types of usability issues
+
+### participant's reaction and expectation
+
+### Implementations from previous feedbacks
+
+From the previous feedbacks from the paper prototype, one of the feedback was that it was confusing to have a 주문하기/상세보기 button in the menu display when it actually isn't one of our functionalities. In this version of prototype, we replaced the menu with one that doesn't have 주문하기/상세보기 buttons because you will have to call the waiter anyways to make an order. Another feedback was to implement other functionalities from story boards such as recommending entertainment places. In this digital prototype, we decided to add a additional tasks such as recommending entertainment places, displaying remaining waiting time/teams, and adding a customer to waiting line. Furthermore, some of our participants from the paper prototype said too many pop-ups during surprise offer makes it confusing. We solved this issue by removing unnecessary popups in this prototype. In addition, because some of participants were confused where to get their prize from special mission, we modified text in the special mission screen to explicitly tell user where they can get their prize. We are still figuring out how and feasibility of other feedbacks such as adding other games besides virtual roulette. 
+
 ---
 ## Studio Reflections
 
