@@ -70,6 +70,14 @@ In addition to the portions mentioned above (special offer having no time based 
 
 * **Representative screenshots**
 
+
+ ![alt text](enroll_main.png "Main")
+###### Fig 1: Hi<br>
+ ![alt text](enroll_get-in-line.png "Main")
+###### Fig 2: Hi<br>
+ ![alt text](enroll_enqueue-success.png "Main")
+###### Fig 3: Hi<br>
+
 * **Instructions**
 
 ### Entertainment place recommendation & Estimated waiting time
