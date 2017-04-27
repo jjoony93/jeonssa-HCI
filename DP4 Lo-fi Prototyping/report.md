@@ -70,6 +70,7 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 ### Enroll into waiting list
 
 * **Design choices**
+- Fake data for waiting list: The list of waiting people shown in the screen is fake data. We used fake list in order to show the user the sense of how it would look like in reality. In reality, many people will already be in the list. We thought zero data will make us hard to test the learnability, "learn by doing".
 
 * **Representative screenshots**
 
@@ -82,6 +83,9 @@ The user will then get a special offer to spin a roulette / wheel-of-fortune for
 ###### Fig 7: Line enqueue success screen<br>
 
 * **Instructions**
+
+Link: <a href="https://marvelapp.com/1h9d664/screen/27512114">https://marvelapp.com/1h9d664/screen/27512114</a>
+Just DO IT.
 
 ### Entertainment place recommendation & Estimated waiting time
 
