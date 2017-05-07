@@ -6,29 +6,29 @@ body {
 
 h1 {
 	padding-top: 5px;
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
 }
 
 table {
 	position: absolute; 
-	top: 4em; 
+	top: 5em; 
 	bottom: 0; 
 	left: 0; 
 	right: 0;
 	width: 100%;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 6em;
+	padding-right: 10em;
 }
 
 .top {
 	padding-top: 10px;
-	font-size: 20px;
+	font-size: 28px;
 }
 
 .bot {
 	padding-bottom: 10px;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 td {
@@ -39,22 +39,22 @@ td {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 8px 8px;
+    padding: 10px 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .button2 {
     background-color: #444;
     border: none;
     color: #fff;
-    padding: 8px 18px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .but {

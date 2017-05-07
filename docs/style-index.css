@@ -1,24 +1,24 @@
 h1 {
 	font-family: "Roboto";
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 	color: #444;
 }
 
 #frame1 {
 	position:absolute;
-	top:10%;
+	top:12%;
 	left:0;
 	width:50%;
-	height:90%;
+	height:88%;
 	border:0;
 }
 
 #frame2 {
 	position:absolute;
-	top:10%;
+	top:12%;
 	left:50%;
 	width:50%;
-	height:90%;
+	height:88%;
 	border:0;
 }
