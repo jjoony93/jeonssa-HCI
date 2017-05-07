@@ -4,19 +4,76 @@ body {
 	color: #444;
 }
 
+h1 {
+	padding-top: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+
 table {
 	position: absolute; 
-	top: 0; 
+	top: 4em; 
 	bottom: 0; 
 	left: 0; 
 	right: 0;
+	width: 100%;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
-#frame2 {
-	position:absolute;
-	top:5em;
-	left:50%;
-	width:50%;
-	height:100%;
-	border:0;
+.top {
+	padding-top: 10px;
+	font-size: 20px;
 }
+
+.bot {
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+
+td {
+	text-align: left;
+}
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.but {
+	text-align: right;
+}
+
+#top, #bottom, #left, #right {
+	background: #aaa;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		}
+		#left { left: 0; width: 2px;}
+		#right { right: 0; width: 1px;}
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }

@@ -2,42 +2,87 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Main Page</title>
-    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" /> 
+    <title>Waitlist</title>
     <link href="./style-waitlist.css" rel="stylesheet" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="icon" href="./favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <script src="./jquery-waitlist.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
   </head>
   <body>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Email</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>john@example.com</td>
-        </tr>
-        <tr>
-          <td>Mary</td>
-          <td>Moe</td>
-          <td>mary@example.com</td>
-        </tr>
-        <tr>
-          <td>July</td>
-          <td>Dooley</td>
-          <td>july@example.com</td>
-        </tr>
-      </tbody>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+    <h1>Waiting List (14)</h1>
+    <table >
+
+      <tr>
+        <td class="top">010-****-6464</td>
+        <td class="but" rowspan="2"><button class="button1">BE READY</button></td>
+      </tr>
+      <tr>
+        <td class="bot">4 People | Waiting for 27 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-3829</td>
+        <td class="but" rowspan="2"><button class="button1">BE READY</button></td>
+      </tr>
+      <tr>
+        <td class="bot">3 People | Waiting for 24 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-8492</td>
+        <td class="but" rowspan="2"><button class="button1">BE READY</button></td>
+      </tr>
+      <tr>
+        <td class="bot">4 People | Waiting for 21 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-6743</td>
+        <td class="but" rowspan="2"><button class="button2">15 min.</button></td>
+      </tr>
+      <tr>
+        <td class="bot">2 People | Waiting for 20 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-1583</td>
+        <td class="but" rowspan="2"><button class="button2">18 min.</button></td>
+      </tr>
+      <tr>
+        <td class="bot">3 People | Waiting for 18 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-7384</td>
+        <td class="but" rowspan="2"><button class="button2">21 min.</button></td>
+      </tr>
+      <tr>
+        <td class="bot">4 People | Waiting for 16 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-9382</td>
+        <td class="but" rowspan="2"><button class="button2">24 min.</button></td>
+      </tr>
+      <tr>
+        <td class="bot">4 People | Waiting for 15 min.</td>
+      </tr>
+
+      <tr>
+        <td class="top">010-****-7738</td>
+        <td class="but" rowspan="2"><button class="button2">24 min.</button></td>
+      </tr>
+      <tr>
+        <td class="bot">4 People | Waiting for 13 min.</td>
+      </tr>
     </table>
-    <script src="jquery/js/jquery-1.9.0.min.js"></script>
-    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
-    <script src="./jquery-waitlist.js"></script>
+    
   </body>
 </html>

@@ -1,5 +1,4 @@
 h1 {
-	top:0;
 	font-family: "Roboto";
 	font-size: 40px;
 	text-align: center;
@@ -8,18 +7,18 @@ h1 {
 
 #frame1 {
 	position:absolute;
-	top:5em;
+	top:10%;
 	left:0;
 	width:50%;
-	height:100%;
+	height:90%;
 	border:0;
 }
 
 #frame2 {
 	position:absolute;
-	top:5em;
+	top:10%;
 	left:50%;
 	width:50%;
-	height:100%;
+	height:90%;
 	border:0;
 }

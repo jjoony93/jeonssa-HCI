@@ -1,0 +1,43 @@
+body {
+	font-family: "Roboto";
+	padding-top: 12em;
+	/*padding-right: 5em;*/
+	text-align: center;
+	color: #444;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+button {
+	background-color: #f44336;
+	border: none;
+    color: #fff;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#top, #bottom, #left, #right {
+	background: #aaa;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		}
+		#left { left: 0; width: 1px;}
+		#right { right: 0; width: 2px;}
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
