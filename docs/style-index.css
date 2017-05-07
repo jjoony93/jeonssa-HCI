@@ -1,3 +1,7 @@
+body {
+	background-color: #eee;
+}
+
 h1 {
 	font-family: "Roboto";
 	font-size: 50px;
@@ -10,15 +14,15 @@ h1 {
 	top:12%;
 	left:0;
 	width:50%;
-	height:88%;
-	border:0;
+	height:87%;
+	/*border:0;*/
 }
 
 #frame2 {
 	position:absolute;
 	top:12%;
 	left:50%;
-	width:50%;
-	height:88%;
-	border:0;
+	width:49.7%;
+	height:87%;
+	/*border:0;*/
 }

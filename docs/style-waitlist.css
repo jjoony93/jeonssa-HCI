@@ -61,7 +61,7 @@ td {
 	text-align: right;
 }
 
-#top, #bottom, #left, #right {
+/*#top, #bottom, #left, #right {
 	background: #aaa;
 	position: fixed;
 	}
@@ -76,4 +76,4 @@ td {
 		height: 2px;
 		}
 		#top { top: 0; }
-		#bottom { bottom: 0; }
+		#bottom { bottom: 0; }*/
