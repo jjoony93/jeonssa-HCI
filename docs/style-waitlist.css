@@ -1,0 +1,22 @@
+body {
+	font-family: "Roboto";
+	/*text-align: center;*/
+	color: #444;
+}
+
+table {
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+
+#frame2 {
+	position:absolute;
+	top:5em;
+	left:50%;
+	width:50%;
+	height:100%;
+	border:0;
+}
