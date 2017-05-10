@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>선재띵</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.css">
+    <link href="./user_style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body onload="timer()">
+    <div class="row">
+      <div class="col-xs-3 col-md-3" style="text-align: center;">
+          <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="100" data-slider-orientation="vertical"/>
+
+      </div>
+      <div class="col-xs-9 col-md-9">
+<!-- Button trigger modal -->
+<!-- <button type="button" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal get ready -->
+<div class="modal fade" id="get_ready" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#2ED784;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <img src="./happy.png" >
+      </div>
+
+      <div class="modal-body" >
+        Get Ready!!
+
+      </div>
+      <div class="modal-body-sub" id="2_team">
+        <span style="color: red">Two</span>
+        Teams remaining.
+      </div>
+      <div class="modal-body-sub" id="modal_ready">
+      Time Remaining: 
+      </div>
+      <div class="modal-footer" style="border-style: none;">
+        <button type="button" style="display: block; margin: 20px auto 20px; width: 30%;  background-color:#2ED784; color: white; font-size: 24px; text-align: center; border-radius: 15px; border: #2ED784; "  class="btn btn-default" id="pop_cancel" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal no show -->
+<div class="modal fade" id="no_show" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#E34E5F;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <img src="./warning-yellow.gif" >
+      </div>
+      <div class="modal-body" >
+        You did not show up!
+        
+      </div>
+      <div class="modal-body-sub" id="modal_no_show">
+      You have not shown up for the
+        <span style="color: red" id="no_show_num">first</span>
+        <span>time</span>
+      </div>
+      <div class="modal-body-sub">
+      <br>
+      You have to wait for one more team
+      <br>
+      Your reservation will be automatically canceled if you do not show up for three times
+
+
+      </div>
+      <div class="modal-footer" style="border-style: none;">
+        <button type="button" style="display: block; margin: 20px auto 20px; width: 30%;  background-color:#E34E5F; color: white; font-size: 24px; text-align: center; border-radius: 15px; border: #E34E5F; "  class="btn btn-default" id="pop_cancel" data-dismiss="modal">Cancel Reservation</button>
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Wait Time -->
+    <div id="wait_time">
+      <div id="remaining">Remaining time:
+      </div>
+      
+      <span class="wait_time">123</span>
+    </div>
+  </div>
+  </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
+    <script src="./wait.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+	background-color: #eee;
+}
+
+h1 {
+	font-family: "Roboto";
+	font-size: 50px;
+	text-align: center;
+	color: #444;
+}
+
+img{
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+
+
+#wait_time {
+	font-family: "Roboto";
+	font-size:36px;
+	text-align: right;
+	/*border:0;*/
+}
+#remaining {
+	font-size: 24px;
+}
+
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+.modal-body {
+	font-size: 30px;
+	text-align: center;
+}
+
+.modal-body-sub {
+	font-size: 18px;
+	text-align: center;
+}
+
+.modal-title {
+	font-size: 24px;
+	color: white;
+}
