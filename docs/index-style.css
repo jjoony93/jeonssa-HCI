@@ -4,6 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-width: 460px;
 }
 
 #head {
@@ -35,14 +36,19 @@ body {
 input::-webkit-input-placeholder {
    /* Your style here e.g. font size, color etc */
    font-size: 24px;
+   padding-left: 10px;
+   /*text-align: center;*/
 }
 
 input {
   font-size: 32px;
+  left: 10px !important;
+  /*text-align: center;*/
 }
 
 form {
     max-width: 480px;
+    min-width: 460px;
     margin: 60px auto;
     height: 150%;
 }
@@ -51,3 +57,24 @@ form label {
     font-size: 24px;
 }
 
+button {
+	height: 150%;
+	font-size: 24px !important;
+	width: 30%;
+}
+
+#sub {
+	float: right; 
+	width: 100%;
+}
+
+.clearable{
+  background: #fff url(http://i.stack.imgur.com/mJotv.gif) no-repeat right -10px center;
+  border: 1px solid #999;
+  padding: 3px 18px 3px 4px;     /* Use the same right padding (18) in jQ! */
+  border-radius: 3px;
+  transition: background 0.4s;
+}
+.clearable.x  { background-position: right 5px center; } /* (jQ) Show icon */
+.clearable.onX{ cursor: pointer; }              /* (jQ) hover cursor style */
+.clearable::-ms-clear {display: none; width:0; height:0;} /* Remove IE default X */
