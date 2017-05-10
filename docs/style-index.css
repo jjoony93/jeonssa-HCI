@@ -1,17 +1,3 @@
-
-#wait_time {
-	font-family: "Roboto";
-	font-size:36px;
-	text-align: right;
-	position:absolute;
-	top:40%;
-	right:10%;
-	
-	height:87%;
-	/*border:0;*/
-}
-
-
 .modal-body{
 	font-size:20px;
 	text-align: center;
@@ -22,7 +8,7 @@
 	width: 30%;
 	
 	font-weight:bold;
-	color:#428bca;
+	color:white;
 	float: right;
 
   	position: relative;
@@ -43,7 +29,10 @@
 
 }
 
-.modal-footer {
+modal-footer {
+	border-style: none;
+}
+	/*
 	-webkit-border-bottom-left-radius: 10px !important;
     -webkit-border-bottom-right-radius: 10px !important;
     -moz-border-radius-bottomleft: 10px !important;
@@ -51,7 +40,7 @@
      border-bottom-left-radius: 10px !important;
      border-bottom-right-radius: 10px !important;
 
-}
+}*/
 
 .modal-header {
 	-webkit-border-top-left-radius: 10px !important;
@@ -75,7 +64,9 @@
 	background-color: blue;
 }
 
-
+.btn-primary {
+ 	color: white;
+}
 
 
 
