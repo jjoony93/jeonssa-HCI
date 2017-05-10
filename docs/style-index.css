@@ -1,0 +1,85 @@
+
+#wait_time {
+	font-family: "Roboto";
+	font-size:36px;
+	text-align: right;
+	position:absolute;
+	top:40%;
+	right:10%;
+	
+	height:87%;
+	/*border:0;*/
+}
+
+
+.modal-body{
+	font-size:20px;
+	text-align: center;
+
+}
+
+#pop_ok{
+	width: 30%;
+	
+	font-weight:bold;
+	color:#428bca;
+	float: right;
+
+  	position: relative;
+  	left: -32%;
+
+}
+
+#pop_title{
+	text-align: center;
+	color: white;
+}
+
+#myModal {
+
+	position: absolute;
+	top: 30%;
+
+
+}
+
+.modal-footer {
+	-webkit-border-bottom-left-radius: 10px !important;
+    -webkit-border-bottom-right-radius: 10px !important;
+    -moz-border-radius-bottomleft: 10px !important;
+    -moz-border-radius-bottomright: 10px !important;
+     border-bottom-left-radius: 10px !important;
+     border-bottom-right-radius: 10px !important;
+
+}
+
+.modal-header {
+	-webkit-border-top-left-radius: 10px !important;
+    -webkit-border-top-right-radius: 10px !important;
+    -moz-border-radius-topleft: 10px !important;
+    -moz-border-radius-topright: 10px !important;
+     border-top-left-radius: 10px !important;
+     border-top-right-radius: 10px !important;
+
+}
+.modal-content{
+
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+     border-radius: 15px !important;
+
+}
+
+
+#modal-footer{
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+

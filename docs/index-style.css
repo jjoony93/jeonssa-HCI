@@ -1,5 +1,3 @@
-/*FUCK YOU BOOTSTRAP*/
-
 body { 
   background: url(chicken.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -64,3 +62,5 @@ button {
 	float: right; 
 	width: 100%;
 }
+
+/*시발 x 버튼 하나 만들려고 이지랄을 다 했다*/
