@@ -1,4 +1,30 @@
-body {
-        background-image: url("./chicken.png");
-        background-size: cover;
-} 
+body { 
+  background: url(chicken.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#head {
+	padding-top: 5%;
+	color: #fff;	
+}
+
+#l1, #l2, #l3 {
+	background: rgba(100,100,100,0.2)
+
+
+}
+
+#l1 {
+	font-size: 40px;
+}
+
+#l2 {
+	font-size: 55px;
+}
+
+#l3 {
+	font-size: 30px;
+}
