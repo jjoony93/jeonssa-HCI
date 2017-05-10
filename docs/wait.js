@@ -10,6 +10,7 @@ function team_reduce(){
 
 	if(wait_team ==2){
 		$('#get_ready').modal('show');
+		// $('#cancel').modal('show');
 	}
 	if(wait_team < 0){
 		// alert("no show!! wait one more team");
@@ -75,6 +76,11 @@ function no_show(){
 	display();
 }
 
+function go_cancel(){
+	if(document.getElementById('phone').value!=""){
+		location.href = "./cancelled.html";
+	}
+}
 function timer(){
 	var t = setInterval(team_reduce, 1000);
 }

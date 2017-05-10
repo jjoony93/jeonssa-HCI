@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>선재띵</title>
+    <title>Wait Info</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.css">
     <link href="./user_style.css" rel="stylesheet" />
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
@@ -86,6 +87,30 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal cancel reservation -->
+      <div class="modal fade" id="cancel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:#337ab7;">
+
+              <h2 class="modal-title" id="pop_title"">Cancel Reservation
+              </h2>
+            </div>
+            <div class="modal-body-cancel">
+              <br>Your Reservation Code: <span style="font-weight: bold; font-style: italic;"><br>병아리</span>
+              <br>
+              <br>
+            <input type="text" id="phone" placeholder="last four digits of your phone number (e.g. 5678)">
+
+            </div>
+            <div class="modal-footer" style="border-style: none;">
+              <button type="button" class="btn btn-primary" id="pop_ok" onclick="go_cancel();" >Cancel</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 
 <!-- Wait Time -->

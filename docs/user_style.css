@@ -30,7 +30,49 @@ img{
 #ex1Slider .slider-selection {
 	background: #BABABA;
 }
+/*cancel*/
+#pop_ok{
+	width: 30%;
+	
+	font-weight:bold;
+	color:white;
+	float: right;
 
+  	position: relative;
+  	left: -32%;
+}
+
+.modal-body-cancel{
+	font-size:20px;
+	text-align: center;
+
+}
+
+#phone {
+	width: 80%;
+	height: 56px;
+	font-size: 24px;
+}
+
+input::-webkit-input-placeholder {
+   /* Your style here e.g. font size, color etc */
+   font-size: 20px;
+   padding-left: 10px;
+   /*text-align: center;*/
+}
+
+input {
+  left: 10px !important;
+  /*text-align: center;*/
+}
+
+button {
+	height: 150%;
+	font-size: 26px !important;
+	width: 30%;
+}
+
+/*other*/
 .modal-body {
 	font-size: 30px;
 	text-align: center;
@@ -45,3 +87,5 @@ img{
 	font-size: 24px;
 	color: white;
 }
+
+
