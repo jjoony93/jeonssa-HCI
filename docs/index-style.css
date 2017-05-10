@@ -13,8 +13,6 @@ body {
 
 #l1, #l2, #l3 {
 	background: rgba(100,100,100,0.2)
-
-
 }
 
 #l1 {
@@ -28,3 +26,28 @@ body {
 #l3 {
 	font-size: 30px;
 }
+
+#phone, #people {
+	height: 45px;
+	font-size: 24px;
+}
+
+input::-webkit-input-placeholder {
+   /* Your style here e.g. font size, color etc */
+   font-size: 24px;
+}
+
+input {
+  font-size: 32px;
+}
+
+form {
+    max-width: 480px;
+    margin: 60px auto;
+    height: 150%;
+}
+
+form label {
+    font-size: 24px;
+}
+
