@@ -1,0 +1,66 @@
+body { 
+  background: url(chicken.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 460px;
+}
+
+#head {
+	padding-top: 5%;
+	color: #fff;	
+}
+
+#l1, #l2, #l3 {
+	background: rgba(100,100,100,0.5)
+}
+
+#l1 {
+	font-size: 40px;
+}
+
+#l2 {
+	font-size: 55px;
+}
+
+#l3 {
+	font-size: 30px;
+}
+
+#phone, #people {
+	height: 56px;
+	font-size: 24px;
+}
+
+input::-webkit-input-placeholder {
+   /* Your style here e.g. font size, color etc */
+   font-size: 24px;
+   padding-left: 10px;
+   /*text-align: center;*/
+}
+
+input {
+  left: 10px !important;
+  /*text-align: center;*/
+}
+
+form {
+    max-width: 480px;
+    min-width: 460px;
+    margin: 60px auto;
+    height: 150%;
+}
+
+button {
+	height: 150%;
+	font-size: 26px !important;
+	width: 30%;
+}
+
+#sub {
+	float: right; 
+	width: 100%;
+}
+
+/*시발 x 버튼 하나 만들려고 이지랄을 다 했다*/
