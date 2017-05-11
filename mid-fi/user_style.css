@@ -1,0 +1,127 @@
+body {
+	background-color: #eee;
+}
+
+h1 {
+	font-family: "Roboto";
+	font-size: 50px;
+	text-align: center;
+	color: #444;
+}
+
+img{
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+
+h2{
+	font-family: "Roboto";
+	font-size: 110px;
+	text-align: center;
+	color: white !important;
+}
+h3{
+	font-family: "Roboto";
+	font-size: 40px;
+	text-align: center;
+	color: white !important;
+}
+
+#wait_time {
+	font-family: "Roboto";
+	font-size:36px;
+	text-align: right;
+	/*border:0;*/
+}
+#remaining {
+	font-size: 24px;
+}
+
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+/*cancel*/
+#pop_ok{
+	width: 30%;
+	
+	font-weight:bold;
+	color:white;
+	float: right;
+
+  	position: relative;
+  	left: -32%;
+}
+
+#pop_title{
+	text-align: center;
+	color: white;
+}
+
+.modal-body-cancel{
+	font-size:20px;
+	text-align: center;
+
+}
+
+#phone {
+	width: 80%;
+	height: 56px;
+	font-size: 24px;
+}
+
+input::-webkit-input-placeholder {
+   /* Your style here e.g. font size, color etc */
+   font-size: 20px;
+   padding-left: 10px;
+   /*text-align: center;*/
+}
+
+input {
+  left: 10px !important;
+  /*text-align: center;*/
+}
+
+#cancel_but {
+	height: 150%;
+	font-size: 26px !important;
+	width: 30%;
+	background-color:#f2aa43;; 
+	color: white;
+}
+
+/*other*/
+.modal-body {
+	font-size: 30px;
+	text-align: center;
+}
+
+.modal-body-sub {
+	font-size: 18px;
+	text-align: center;
+}
+
+.modal-title {
+	font-size: 24px;
+	color: white;
+}
+
+
+.close{
+	font-size: 30px;
+	color:white !important;
+}
+
+#ex1Slider {
+	height:100%;
+}
+
+.tooltip {
+	font-size: 16pt;
+	text-align: center;
+	z-index:-1;
+}
+
+
+
