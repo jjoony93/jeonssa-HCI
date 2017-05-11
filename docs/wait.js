@@ -11,6 +11,7 @@ function team_reduce(){
 	if(wait_team ==2){
 		$('#get_ready').modal('show');
 		// $('#cancel').modal('show');
+		// $('#no_show').modal('show');
 	}
 	if(wait_team < 0){
 		// alert("no show!! wait one more team");
@@ -34,7 +35,7 @@ function display(){
 }
 
 function calculate_time(){
-	wait_time_sec = wait_team * 10;
+	wait_time_sec = wait_team * 5;
 	wait_time_min = wait_time_sec / 60;
 }
 
@@ -61,10 +62,14 @@ function no_show(){
 	calculate_time();
 	if(no_show_time==1){
 		$modal_no_show.innerHTML = "first";
+		$('#get_ready').modal('hide');
+		$('#cancel').modal('hide');
 		$('#no_show').modal('show');
 	}
 	else if(no_show_time==2){
 		$modal_no_show.innerHTML = "second";
+		$('#get_ready').modal('hide');
+		$('#cancel').modal('hide');
 		$('#no_show').modal('show');
 	}
 	else if(no_show_time==3){
@@ -82,7 +87,7 @@ function go_cancel(){
 	}
 }
 function timer(){
-	var t = setInterval(team_reduce, 1000);
+	var t = setInterval(team_reduce, 3000);
 }
 
 
@@ -98,7 +103,12 @@ $( document ).ready(function() {
 	$('#ex1').slider({
 		tooltip: 'always',
 		formatter: function(value) {
-			return 'Remaining Teams: ' + value/10;
+			return 'Remaining Teams:' + value/10;
 		}
 	});
+
+	$('#btn-cancel').click(function() {
+	  $('#cancel').modal('show');
+	});
+
 });
