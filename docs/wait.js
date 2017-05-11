@@ -11,6 +11,7 @@ function team_reduce(){
 	if(wait_team ==2){
 		$('#get_ready').modal('show');
 		// $('#cancel').modal('show');
+		// $('#no_show').modal('show');
 	}
 	if(wait_team < 0){
 		// alert("no show!! wait one more team");
@@ -61,10 +62,14 @@ function no_show(){
 	calculate_time();
 	if(no_show_time==1){
 		$modal_no_show.innerHTML = "first";
+		$('#get_ready').modal('hide');
+		$('#cancel').modal('hide');
 		$('#no_show').modal('show');
 	}
 	else if(no_show_time==2){
 		$modal_no_show.innerHTML = "second";
+		$('#get_ready').modal('hide');
+		$('#cancel').modal('hide');
 		$('#no_show').modal('show');
 	}
 	else if(no_show_time==3){

@@ -15,6 +15,18 @@ img{
 	width: 20%;
 }
 
+h2{
+	font-family: "Roboto";
+	font-size: 110px;
+	text-align: center;
+	color: white !important;
+}
+h3{
+	font-family: "Roboto";
+	font-size: 40px;
+	text-align: center;
+	color: white !important;
+}
 
 #wait_time {
 	font-family: "Roboto";
@@ -42,6 +54,11 @@ img{
   	left: -32%;
 }
 
+#pop_title{
+	text-align: center;
+	color: white;
+}
+
 .modal-body-cancel{
 	font-size:20px;
 	text-align: center;
@@ -66,10 +83,12 @@ input {
   /*text-align: center;*/
 }
 
-#cancl_but {
+#cancel_but {
 	height: 150%;
 	font-size: 26px !important;
 	width: 30%;
+	background-color:#f2aa43;; 
+	color: white;
 }
 
 /*other*/
@@ -86,6 +105,12 @@ input {
 .modal-title {
 	font-size: 24px;
 	color: white;
+}
+
+
+.close{
+	font-size: 30px;
+	color:white !important;
 }
 
 

@@ -29,7 +29,7 @@
 <div class="modal fade" id="get_ready" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background-color:#2ED784;">
+      <div class="modal-header" style="background-color:#2ED784; padding:10px 20px;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
         <img src="./happy.png" >
@@ -57,10 +57,11 @@
 <div class="modal fade" id="no_show" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background-color:#E34E5F;">
+      <div class="modal-header" style="background-color:#E34E5F; padding:0px 20px;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-        <img src="./warning-yellow.gif" >
+        <h2><span class="glyphicon glyphicon-info-sign"></span></h2>
+        <!-- <h2><span class="glyphicon glyphicon-warning-sign"></span></h2>
+ -->        <!-- <img src="./warning-yellow.gif" > -->
       </div>
       <div class="modal-body" >
         You did not show up!
@@ -80,7 +81,7 @@
 
       </div>
       <div class="modal-footer" style="border-style: none;">
-        <button type="button" style="display: block; margin: 20px auto 20px; width: 30%;  background-color:#E34E5F; color: white; font-size: 24px; text-align: center; border-radius: 15px; border: #E34E5F; "  class="btn btn-default" id="pop_cancel" data-dismiss="modal">Cancel Reservation</button>
+        <button type="button" style="display: block; margin: 20px auto 20px; width: 30%;  background-color:#E34E5F; color: white; font-size: 24px; text-align: center; border-radius: 15px; border: #E34E5F; "  class="btn btn-primary" id="pop_cancel" data-toggle="modal" data-target="#cancel" data-dismiss="modal" >Cancel Reservation</button>
       </div>
 
 
@@ -92,10 +93,10 @@
       <div class="modal fade" id="cancel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header" style="background-color:#337ab7;">
-
-              <h2 class="modal-title" id="pop_title"">Cancel Reservation
-              </h2>
+            <div class="modal-header" style="background-color:#f2aa43; padding:10px 20px;">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 class="modal-title-cancel" id="pop_title""><span class="glyphicon glyphicon-user"></span> Cancel Reservation
+              </h3>
             </div>
             <div class="modal-body-cancel">
               <br>Your Reservation Code: <span style="font-weight: bold; font-style: italic;"><br>병아리</span>
@@ -105,7 +106,7 @@
 
             </div>
             <div class="modal-footer" style="border-style: none;">
-              <button type="button" id="cancel_but" class="btn btn-primary" id="pop_ok" onclick="go_cancel();" >Cancel</button>
+              <button type="button" id="cancel_but" class="btn btn-primary" id="pop_ok" onclick="go_cancel();" >Submit</button>
 
             </div>
           </div>
