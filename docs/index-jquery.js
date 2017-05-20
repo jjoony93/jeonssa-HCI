@@ -26,15 +26,12 @@ $("#submit").click(
 var modal = document.getElementById('helpModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-// var img = document.getElementById('myImg');
+var img = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 // var captionText = document.getElementById("caption");
 document.getElementById('l4').onclick = function(){
     modal.style.display = "block";
     modalImg.src = "help-.png";
-    console.log(modalImg.width)
-    modalImg.width = 100%
-    console.log(modalImg.width)
     // captionText.innerHTML = this.alt;
 }
 

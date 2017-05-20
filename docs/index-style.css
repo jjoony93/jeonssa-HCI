@@ -149,7 +149,7 @@ modal-footer {
 
 .modal1 {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
@@ -187,7 +187,7 @@ modal-footer {
 
 /* The Close Button */
 .close {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 40px;
     color: #fff !important;
