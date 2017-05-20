@@ -28,7 +28,7 @@ body {
 	font-size: 30px;
 }
 
-#phone, #people {
+#phone, #persons {
 	height: 56px;
 	font-size: 24px;
 }
@@ -58,7 +58,7 @@ button {
 	width: 30%;
 }
 
-#sub {
+#submit {
 	float: right; 
 	width: 100%;
 }
