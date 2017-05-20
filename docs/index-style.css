@@ -12,7 +12,13 @@ body {
 	color: #fff;	
 }
 
-#l1, #l2, #l3 {
+#help {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 25px;  
+}
+
+#l1, #l2, #l3, #l4 {
 	background: rgba(100,100,100,0.5)
 }
 
@@ -26,6 +32,10 @@ body {
 
 #l3 {
 	font-size: 30px;
+}
+
+#l4 {
+  cursor: pointer;
 }
 
 #phone, #persons {
@@ -63,4 +73,140 @@ button {
 	width: 100%;
 }
 
-/*시발 x 버튼 하나 만들려고 이지랄을 다 했다*/
+/*  ---------------------------modal-------------------------- */
+
+.modal-body{
+  font-size:20px;
+  text-align: center;
+
+}
+
+#pop_ok{
+  width: 33%;
+  
+  /*font-weight:bold;*/
+  color:white;
+  float: right;
+
+    position: relative;
+    left: -33%;
+
+}
+
+#pop_title{
+  text-align: center;
+  color: white;
+}
+
+#myModal {
+
+  position: absolute;
+  top: 30%;
+
+
+}
+
+modal-footer {
+  border-style: none;
+}
+  /*
+  -webkit-border-bottom-left-radius: 10px !important;
+    -webkit-border-bottom-right-radius: 10px !important;
+    -moz-border-radius-bottomleft: 10px !important;
+    -moz-border-radius-bottomright: 10px !important;
+     border-bottom-left-radius: 10px !important;
+     border-bottom-right-radius: 10px !important;
+
+}*/
+
+.modal-header {
+  -webkit-border-top-left-radius: 10px !important;
+    -webkit-border-top-right-radius: 10px !important;
+    -moz-border-radius-topleft: 10px !important;
+    -moz-border-radius-topright: 10px !important;
+     border-top-left-radius: 10px !important;
+     border-top-right-radius: 10px !important;
+
+}
+.modal-content{
+
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+     border-radius: 15px !important;
+
+}
+
+
+#modal-footer{
+  background-color: blue;
+}
+
+.btn-primary {
+  color: white;
+}
+
+/*  ---------------------------help modal-------------------------- */
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content1 {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff !important;
+    font-size: 80px !important;
+    font-weight: bold;
+    /*font-color: #fff;*/
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content1 {
+        width: 100%;
+    }
+}
