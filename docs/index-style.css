@@ -189,7 +189,7 @@ modal-footer {
 .close {
     position: fixed;
     top: 20px;
-    right: 40px;
+    right: 50px;
     color: #fff !important;
     font-size: 80px !important;
     font-weight: bold;
