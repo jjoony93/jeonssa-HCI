@@ -42,6 +42,15 @@ h3{
 #ex1Slider .slider-selection {
 	background: #BABABA;
 }
+/* Supress pointer events */
+#ex1Slider { 
+	pointer-events: none; 
+}
+/* Enable pointer events for slider handle only */
+#ex1Slider .ui-slider-handle { 
+	pointer-events: auto; 
+}
+
 /*cancel*/
 #pop_ok{
 	width: 30%;
