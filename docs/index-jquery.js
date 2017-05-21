@@ -45,3 +45,22 @@ span.onclick = function() {
 
 })
 
+function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+    	alert("Please input a numeric value.")
+    	if(evt.target.id=='persons'){
+    	var textVal = $('#persons').val();
+   		$('#persons').val(textVal.substring(0,textVal.length - 1));
+   		}
+        return false;
+    }
+    return true;
+}
+
+
+$('input[name="phone"]').mask('000-0000-0000');
+
+
+
