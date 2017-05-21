@@ -13,6 +13,26 @@ $("#submit").click(
 		console.log("submit button clicked");
 		var phone = $("#phone").val();
 		var persons = $("#persons").val();
+
+		if(!phone && !persons){
+			alert("Please fill out both forms.")
+			return false
+		}
+		else if (!phone){
+			alert("Please fill in phone number")
+			return false
+		}
+		else if(phone.length!=13){
+			alert("Phone number not filled completely.");
+			return false
+		}
+
+		else if(!persons){
+			alert("Please fill in # of members.")
+			return false
+		}
+
+		else{
 		phone = phone.replace(/\-/g,'');
 		// phone = parseInt(phone);
 		persons = parseInt(persons);
@@ -21,6 +41,12 @@ $("#submit").click(
 			persons: persons,
 			time: date.getTime()
 		});
+		$('#phone').val('');
+		$('#phone').attr('placeholder','Phone Number (e.g. 010-1234-5678)').focus().blur();
+
+		$('#persons').val('');
+		$('#persons').attr('placeholder','Number of people in your team (e.g. 3)').focus().blur();
+		}
 	}); 
 
 var modal = document.getElementById('helpModal');
@@ -51,8 +77,9 @@ function isNumber(evt) {
     if (charCode > 31 && (charCode < 48 || charCode > 57)) {
     	alert("Please input a numeric value.")
     	if(evt.target.id=='persons'){
-    	var textVal = $('#persons').val();
-   		$('#persons').val(textVal.substring(0,textVal.length - 1));
+    		$('#persons').val('');
+    	//var textVal = $('#persons').val();
+   		//$('#persons').val(textVal.substring(0,textVal.length - 1));
    		}
         return false;
     }
