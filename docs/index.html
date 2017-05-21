@@ -35,14 +35,19 @@
             <form>
                 <div class="form-group">
 
-                     <input type="text" class="form-control" id="phone" placeholder="Phone Number (e.g. 010-1234-5678)" name="phone" onkeyup="return isNumber(event)">
-
+                    <input type="text" class="form-control" id="phone" placeholder="Phone Number (e.g. 010-1234-5678)" name="phone" onkeyup="return isNumber(event)">
+                      <div id="clear_phone" class="clear">
+                        X
+                      </div>
 
                      
                 </div>
                 <div class="form-group">
+                
                      <input type="text" class="form-control" id="persons" placeholder="Number of people in your team (e.g. 3)"  onkeyup="return isNumber(event)">
-
+                        <div id="clear_persons" class="clear">
+                          X
+                        </div>
                      
                 </div>
 

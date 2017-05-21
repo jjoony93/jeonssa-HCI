@@ -62,5 +62,11 @@ function isNumber(evt) {
 
 $('input[name="phone"]').mask('000-0000-0000');
 
+$('#clear_phone').click(function(e) {
+  $('#phone').val('');
+});
 
+$('#clear_persons').click(function(e) {
+  $('#persons').val('');
+});
 
