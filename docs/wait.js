@@ -28,8 +28,10 @@ function team_reduce(){
 }
 
 function display(){
+	var $remaining_team = document.querySelector('.remaining_team');
 	var $wait_time = document.querySelector('.wait_time');
 	var $modal_time = document.querySelector('#modal_ready');
+	$remaining_team.innerHTML =wait_team;
 	$wait_time.innerHTML = wait_time_sec;
 	$modal_time.innerHTML = "Time Remaining: " + wait_time_sec + " Minutes";
 }
@@ -101,10 +103,10 @@ $( document ).ready(function() {
 
 	// With JQuery
 	$('#ex1').slider({
-		tooltip: 'always',
-		formatter: function(value) {
-			return 'Remaining Teams:' + value/10;
-		}
+		// tooltip: 'always',
+		// formatter: function(value) {
+		// 	return 'Remaining Teams:' + value/10;
+		// }
 	});
 
 	$('#btn-cancel').click(function() {

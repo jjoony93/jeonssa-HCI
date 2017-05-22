@@ -92,13 +92,13 @@ input {
   /*text-align: center;*/
 }
 
-#cancel_but {
+/*#cancel_but {
 	height: 150%;
 	font-size: 26px !important;
 	width: 30%;
-	background-color:#f2aa43;; 
+	background-color:#f2aa43;
 	color: white;
-}
+}*/
 
 /*other*/
 .modal-body {
@@ -132,3 +132,16 @@ input {
 	z-index:-1;
 }
 
+
+/* Or display content like unicode characters or fontawesome icons */
+.slider-handle.custom::before {
+	font-family: FontAwesome;
+	line-height: 32px;
+	font-size: 32px;
+	content: "\f183";
+	color: black;
+}
+
+.slider-selection {
+	background: #337ab7 !important;
+}
