@@ -36,15 +36,21 @@
                 <div class="form-group">
 
                     <input type="text" class="form-control" id="phone" placeholder="Phone Number (e.g. 010-1234-5678)" name="phone" onkeyup="return isNumber(event)">
+                      <span class="input_warning" id="phone_warning">
+                        
+                      </span>
                       <div id="clear_phone" class="clear">
                         X
                       </div>
-
-                     
+                    
                 </div>
+
                 <div class="form-group">
                 
                      <input type="text" class="form-control" id="persons" placeholder="Number of people in your team (e.g. 3)"  onkeyup="return isNumber(event)">
+                        <span class="input_warning" id="persons_warning">
+                          
+                        </span>
                         <div id="clear_persons" class="clear">
                           X
                         </div>
@@ -56,11 +62,11 @@
                  <!-- <button type="clear" class="btn btn-danger">Clear All</button> -->
                  <!-- </div> -->
                  <!-- <div class="col-md-3 column"> -->
-
+                 <div>
                  <button id="submit" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                   Submit
                 </button>
-
+                </div>
                 
             </form>
         </div>
@@ -75,9 +81,9 @@
                         </h2>
                       </div>
                       <div class="modal-body">
-                        Your Reservation Code: <span style="font-weight: bold; font-style: italic;">병아리</span>
+                        Your Reservation Code: <span id="res_code"style="font-weight: bold; font-style: italic;">병아리</span>
                           <br>
-                          URL: <a href="user.html">https://jeonssa.com/병아리</a>
+                          URL: <a href="user.html"> <span id="res_url">https://jeonssa.com/병아리</span></a>
 
                       </div>
                       <div class="modal-footer" style="border-style: none;">

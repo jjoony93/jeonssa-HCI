@@ -228,3 +228,15 @@ modal-footer {
 .clear:hover {
   background: #ccc;
 }
+
+.input_warning {
+  background: rgba(100,100,100,0.9);
+  position: relative;  
+  height:0px;
+  top:-38px;
+  left: 480px;
+  color:red;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  }
