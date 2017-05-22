@@ -96,10 +96,17 @@ Mental | 10. Psychological pressure due to real time count down - unhealthy. (P1
 
 #### SunJae Lee
 **Role: Observer**
+What role did you play in each round?
+* For each round, I played as an observer. As an observer, I had to remain silent at all time, and take notes of all the actions and thoughts that user performed while testing the prototype. I divided the notes into different sections based on user's action. For example, I had a section called "touching." In this section, I recorded all the "touch" action that user performed, including invalid touch such as touching an unclickable region. Furthermore, whenever user stopped his actions for more than three or more seconds, I categorized such action as "paused" so that we can know where user might have hard time understanding the UI. Any "think aloud" were also categorized into different sections such as "Recommendation," "dislike," "like," and "confused." 
 
-* It was very hard to just watch what user was doing. For example, ignoring user's questions was very awkward, and it was very tempting to correct user's mistakes in using our prototype.
-* Paper prototype was very help in that it provided users with concrete design and functionality of part of our project, and thus we did not have to explain much about our project. Users did not have hard time realizing the purpose of the prototype.
-* Our paper prototype did not cover how we manage waiting customers list. In this prototype, we rather focused on encouraing already sitted customers to eat faster for higher customer turnover ratio. 
+What were some of the difficulties you faced playing the role(s)?
+* As an observer, it was very hard to just watch what users were doing. Since observer should remain silent at all time, and simply record users' performance, it was very tempting to correct users' failure. In addition, some users asked me some questions on how this UI wors or how it is supposed to work. I tried to speak absolutely nothing, so it was vey awkward to just ignore users' questions. Also, while taking notes, I wanted to ask users why they performed in such way, but I couldn't because I was an observer.
+
+In what way was paper prototyping useful in your project?
+* Paper prototype was very helpful in that it provided users with concrete design and functionality of part of our project. We did not have to think about programming issues or any other implementation issues while building this prototype. Therefore, we were able to more focus on the design and functionality. Also, while building a paper prototype, it was easy to fix, rebuild, and add functionalities or UI. We only had to simply re draw the paper or add something to the paper. Overall, paper prototyping reduced much of our time testing UI and functionalities. 
+
+What did your paper prototype not cover or test?
+* Despite all the pros of paper prototype, there are some things that we could not cover or test with paper prototype. Since the pages and pop-ups are visualized manually, we were unable to test whether "surprise offer" is actually surprise to the users. poping up the "surprise offer" page manually was too slow to "surprise" the users. Also, we were not able to test how our implementation actually work on the web browser. since our project is aimed for mobile device, we need to have mobile friendly UI, and user actions that could be done only with one thumb. However in this prototype, we were not able to thest if our implementation if adequet for mobile devices. Furthermore, we had to restrict much of user actions in this prototype. For example, for spinning roulette, we could not make an actual roulette for this prototype, so Joon Young, who took role of computer had to mannually spin the roulette. We weren't able to test if spinning roulette game is actually fun event for the users. 
 
 #### Min Kang
 **Role: Observer**
