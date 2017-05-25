@@ -1,4 +1,4 @@
-**CS374 Design Project 6: Hi-fi Prototyping**  
+**CS374 Design Project 6: Hi-fi Prototyping**  
 **Team JEONSSA**  
 20111016 Min Kang  
 20121059 SunJae Lee  
@@ -43,7 +43,14 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### Lessons from heuristic evaluation:
 
-- 
+- Add a Help section to inform first-time users of the site's purpose and functionality
+- Filter invalid values from information input sections (only numbers allowed)
+- Match URLs to actual hyperlinks
+- Disable the "remaining teams" progress bar from being able to be moved by users
+- Match reservation number on cancel, reject otherwise
+- Fix rule for phone number input
+- Implement call function for restaurant
+- Remove "cancel" icon in reservation cancellation
 
 ### Representative screenshots:
 
