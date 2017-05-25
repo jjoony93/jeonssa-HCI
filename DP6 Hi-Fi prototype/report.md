@@ -41,16 +41,17 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### Libraries and frameworks: jQuery, Bootstrap
 
-### Lessons from heuristic evaluation:
+### Lessons from heuristic evaluation
 
-- Add a Help section to inform first-time users of the site's purpose and functionality
-- Filter invalid values from information input sections (only numbers allowed)
-- Match URLs to actual hyperlinks
-- Disable the "remaining teams" progress bar from being able to be moved by users
-- Match reservation number on cancel, reject otherwise
-- Fix rule for phone number input
-- Implement call function for restaurant
-- Remove "cancel" icon in reservation cancellation
+| Feedback | Solution |
+| --- | --- |
+| No help section to address the site's functionality| Added a Help section to inform first-time users of the site's purpose and functionality|
+| Invalid values could be entered in the information input section in main page| Filtered invalid values from information input sections (only numbers allowed), added input rules|
+| Copy-pasting URL from popup linked to invalid page|Matched URLs to actual hyperlinks |
+| Progress bar in `user.html` could be moved by user | Disabled the "remaining teams" progress bar from being able to be moved by users|
+| When cancelling reservation, any random input would register as valid| Match reservation number on cancel, reject otherwise|
+|"Call restaurant" button does not work | Implemented call function (in `user.html`)|
+|"Cancel" icon doesn't match real world "cancel" icon | Removed "cancel" icon in reservation cancellation popup|
 
 ### Representative screenshots:
 
