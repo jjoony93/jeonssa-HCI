@@ -79,8 +79,6 @@ function no_show(){
 	else if(no_show_time==3){
 		location.href = "./cancelled.html";
 	}
-	
-	
 
 	display();
 }
@@ -98,7 +96,6 @@ function go_cancel(){
 		return false
 	}
 	var phone_check = localStorage.getItem(reserv).substring(7,11);
-	alert(phone_check);
 	if(phone==phone_check){
 		location.href = "./cancelled.html";
 	}else{
