@@ -44,35 +44,55 @@ var reserv_code=["ability","able","aboard","about","above","accept","accident","
 
 var used_code=[];
 var priority_index= 1;
-
-var reserve = reserv_code[Math.floor( Math.random() * reserv_code.length )]
-
+var max_size = reserv_code.length;
+var cur_used=-1;
 
 $(document).ready(function() {
+if(localStorage.getItem("cur_used")!=null){
+  cur_used = localStorage.getItem("cur_used");
+}else{
+  localStorage.setItem("cur_used",cur_used);
+}
 
-var config = {
-	apiKey: "AIzaSyAdYpNug8KNt5ZYMr51cBbV149kmxCl7gQ",
-	databaseURL: "https://jeonssa-hci.firebaseio.com/"
-};
 
-firebase.initializeApp(config);
+for(var i = 0; i<=cur_used; i++){
+  used_code.push(reserv_code[i]);
+}
 
-firebase.database().ref('users').once("value", function(snapshot) {
-    if(snapshot.exists()){
-        var keys= Object.keys(snapshot.val())
-        var lists =snapshot.val()
-    	keys.map(function(key, index) {
-        var list = lists[key]
-            if(list.reservation_code==reserve){
-            	reserve = reserv_code[Math.floor( Math.random() * reserv_code.length )]
-            }
-        used_code.push(list.phone);
+// var config = {
+// 	apiKey: "AIzaSyAdYpNug8KNt5ZYMr51cBbV149kmxCl7gQ",
+// 	databaseURL: "https://jeonssa-hci.firebaseio.com/"
+// };
+
+// firebase.initializeApp(config);
+
+// firebase.database().ref('users').once("value", function(snapshot) {
+//     if(snapshot.exists()){
+//         var keys= Object.keys(snapshot.val())
+//         var lists =snapshot.val()
+//     	keys.map(function(key, index) {
+//         var list = lists[key]
+//           reserv_code.forEach(function(entry){
+//               var same = true;
+//               while(same){
+//                 same = false;
+//                 if(list.reservation_code==entry){
+//                   same = true;
+//                   reserve = reserv_code[Math.floor( Math.random() * reserv_code.length )];
+//                  }                
+//               }
+
+//           })
+//             if(list.reservation_code==reserve){
+//             	reserve = reserv_code[Math.floor( Math.random() * reserv_code.length )]
+//             }
+//         used_code.push(list.phone);
         
-        });
+//         });
 
-    }
-    priority_index=used_code.length+1
-});
+//     }
+//     priority_index=used_code.length+1
+// });
 
 $("#submit").click(
 	function () {
@@ -106,28 +126,40 @@ $("#submit").click(
 			return false
 		}
 		else{
-		
+		//reset
+
+    if(cur_used==max_size){
+      used_code = [];
+      cur_used = -1;
+    }
+
+    reserv = reserv_code[cur_used+1];
+    cur_used++;
 
 
 		phone = phone.replace(/\-/g,'');
 		// phone = parseInt(phone);
 		persons = parseInt(persons);
-		firebase.database().ref('users/priority : ' + priority_index.toString()).push({
-			phone: phone,
-			persons: persons,
-			reservation_code: reserve,
-			time: date.getTime()
-		});
+		// firebase.database().ref('users/priority : ' + priority_index.toString()).push({
+		// 	phone: phone,
+		// 	persons: persons,
+		// 	reservation_code: reserve,
+		// 	time: date.getTime()
+		// });
 
-		priority_index++;
-		$('#res_code').html(reserve);
-		$('#res_url').html('https://shoutkey.com/'+reserve);
+    localStorage.setItem(reserv,phone);
+    localStorage.setItem("cur_used",cur_used);
+
+		// priority_index++;
+		$('#res_code').html(reserv);
+		$('#res_url').attr('href',`jeonssa-HCI/user.html?reserv=${reserv}`);
+    $('#res_url').html(`https://kmin93.github.io/jeonssa-HCI/user.html?reserv=${reserv}`);
 		$('#phone').val('');
 		$('#phone').attr('placeholder','Phone Number (e.g. 010-1234-5678)').focus().blur();
 
 		$('#persons').val('');
 		$('#persons').attr('placeholder','Number of people in your team (e.g. 3)').focus().blur();
-		reserve=reserv_code[Math.floor( Math.random() * reserv_code.length )]
+		reserv=reserv_code[Math.floor( Math.random() * reserv_code.length )]
 		}
 	}); 
 
