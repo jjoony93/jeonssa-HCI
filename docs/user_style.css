@@ -26,7 +26,7 @@ h2{
 }
 h3{
 	font-family: "Roboto";
-	font-size: 40px;
+	font-size: 28px;
 	text-align: center;
 	color: white !important;
 }
@@ -72,7 +72,7 @@ h3{
 }
 
 .modal-body-cancel{
-	font-size:20px;
+	font-size:18px;
 	text-align: center;
 	padding:15px;
 
@@ -80,8 +80,8 @@ h3{
 
 #phone {
 	width: 80%;
-	height: 56px;
-	font-size: 24px;
+	height: 30px;
+	font-size: 15px;
 }
 
 input::-webkit-input-placeholder {

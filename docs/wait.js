@@ -125,6 +125,9 @@ function go_cancel(){
 	var phone_check = localStorage.getItem(reserv).substring(7,11);
 	if(phone==phone_check){
 		location.href = "./cancelled.html";
+		var cur_used = localStorage.getItem("cur_used");
+		cur_used--;
+		localStorage.getItem("cur_used",cur_used);
 	}else{
 		alert("You typed wrong number!");
 	}
