@@ -68,15 +68,16 @@ Anybody who has experienced waiting for a long time at a restaurant
 ### Representative screenshots:
 
 ![alt text](main.png "Main")
+<img src="./main.png" width="250"><br>
 ###### Fig 2: Main screen for enqueuing<br>
 
-![alt text](wait.png "Wait")
+<img src="./wait.png" width="250"><br>
 ###### Fig 3: Waiting Status<br>
 
-![alt text](wait_urgent.png "Wait Urgent")
+<img src="./wait_urgent.png" width="250"><br>
 ###### Fig 4: Waiting Status Changed<br>
 
-![alt text](cancel.png "Cancel")
+<img src="./cancel.png" width="250"><br>
 ###### Fig 5: Canceling Reservation<br>
 ---
 
