@@ -3,6 +3,8 @@ var wait_time_sec;
 var wait_time_min;
 var time_succeed;
 var no_show_time;
+var reserv = getParameterByName('reserv');
+
 
 function team_reduce(){
 	wait_team -= 1;
@@ -84,8 +86,23 @@ function no_show(){
 }
 
 function go_cancel(){
-	if(document.getElementById('phone').value!=""){
+	var phone = $("#phone").val();
+	
+	if (!phone){
+		alert("Please fill in phone number!")
+		return false
+	}
+
+	else if(phone.length!=4){
+		alert("Phone number not filled completely!");
+		return false
+	}
+	var phone_check = localStorage.getItem(reserv).substring(7,11);
+	alert(phone_check);
+	if(phone==phone_check){
 		location.href = "./cancelled.html";
+	}else{
+		alert("You typed wrong number!");
 	}
 }
 function timer(){
