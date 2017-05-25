@@ -6,14 +6,25 @@ var no_show_time;
 var reserv = getParameterByName('reserv');
 
 
+var alert_msg = [
+	"Well, you've got some time!<br><small>How about exploring nearby places?</small>",  // 30min 
+	"Your turn is coming!<br><small>You could skim through our menu.</small>",  // 20min
+	"<span style='color:orange;'>You are on call soon!<br><small>Standby in restaurant.</small></span>",  // 10min
+	"<span style='color:red;'>We don't want to miss you :(<br><small>Your reservation will be canceled soon.</small></span>", // 0min
+	// "Your reservation has been canceled", // 0min
+];
 function team_reduce(){
 	wait_team -= 1;
 	calculate_time();
 
-	if(wait_team ==2){
-		$('#get_ready').modal('show');
-		// $('#cancel').modal('show');
-		// $('#no_show').modal('show');
+	// if(wait_team ==2){
+	// 	// $('#get_ready').modal('show');
+	// 	// $('#cancel').modal('show');
+	// 	// $('#no_show').modal('show');
+	// 	// enable vibration support
+	// }
+	if (wait_team == 1) {
+		$('.slider-handle').hide();
 	}
 	if(wait_team < 0){
 		// alert("no show!! wait one more team");
@@ -36,6 +47,25 @@ function display(){
 	$remaining_team.innerHTML =wait_team;
 	$wait_time.innerHTML = wait_time_sec;
 	$modal_time.innerHTML = "Time Remaining: " + wait_time_sec + " Minutes";
+
+	var alert;
+	if (wait_time_sec >= 30)
+		alert = alert_msg[0];
+	else if (wait_time_sec < 30 && wait_time_sec >= 20)
+		alert = alert_msg[1];
+	else if (wait_time_sec < 20 && wait_time_sec >= 1) {
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+		if (navigator.vibrate)
+			navigator.vibrate(1000);
+		alert = alert_msg[2];
+	}
+	else {
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+		if (navigator.vibrate)
+			navigator.vibrate(1000);
+		alert = alert_msg[3];
+	}
+	$('#alert__info').html(alert);
 }
 
 function calculate_time(){
@@ -60,26 +90,26 @@ function alarm_be_ready(){
 }
 
 function no_show(){
-	var $modal_no_show = document.querySelector('#no_show_num');
-	wait_team = 1;
-	no_show_time ++;
-	calculate_time();
-	if(no_show_time==1){
-		$modal_no_show.innerHTML = "first";
-		$('#get_ready').modal('hide');
-		$('#cancel').modal('hide');
-		$('#no_show').modal('show');
-	}
-	else if(no_show_time==2){
-		$modal_no_show.innerHTML = "second";
-		$('#get_ready').modal('hide');
-		$('#cancel').modal('hide');
-		$('#no_show').modal('show');
-	}
-	else if(no_show_time==3){
-		location.href = "./cancelled.html";
-	}
-
+	// var $modal_no_show = document.querySelector('#no_show_num');
+	// wait_team = 1;
+	// no_show_time ++;
+	// calculate_time();
+	// if(no_show_time==1){
+	// 	$modal_no_show.innerHTML = "first";
+	// 	$('#get_ready').modal('hide');
+	// 	$('#cancel').modal('hide');
+	// 	$('#no_show').modal('show');
+	// }
+	// else if(no_show_time==2){
+	// 	$modal_no_show.innerHTML = "second";
+	// 	$('#get_ready').modal('hide');
+	// 	$('#cancel').modal('hide');
+	// 	$('#no_show').modal('show');
+	// }
+	// else if(no_show_time==3){
+	// 	location.href = "./cancelled.html";
+	// }
+	location.href = "./cancelled.html";
 	display();
 }
 

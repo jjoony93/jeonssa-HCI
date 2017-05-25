@@ -74,6 +74,7 @@ h3{
 .modal-body-cancel{
 	font-size:20px;
 	text-align: center;
+	padding:15px;
 
 }
 
@@ -135,12 +136,14 @@ input {
 	z-index:-1;
 }
 
-
+.slider-handle {
+	top: -38px;
+}
 /* Or display content like unicode characters or fontawesome icons */
 .slider-handle.custom::before {
 	font-family: FontAwesome;
-	line-height: 32px;
-	font-size: 32px;
+	line-height: 26px;
+	font-size: 26px;
 	content: "\f183";
 	color: black;
 }
