@@ -2,11 +2,12 @@
 <html>
   <head>
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-    <meta charset="utf-8">
+    <html lang="en">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wait Info</title>
     <script src="https://use.fontawesome.com/5e7880aa11.js"></script>
+    <script src="parameter_parser.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.css">
     <link href="./user_style.css" rel="stylesheet" />
@@ -160,8 +161,25 @@
               <br>Enter last four digits of your phone number:</span>
               <br>
               <br>
-            <input type="text" id="phone" placeholder="(e.g. 5678)">
-
+            <input type="text" id="phone" placeholder="(e.g. 5678)" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength='4'>
+              <script>
+                    function onlyNumber(event){
+                      event = event || window.event;
+                      var keyID = (event.which) ? event.which : event.keyCode;
+                      if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+                        return;
+                      else
+                        return false;
+                    }
+                    function removeChar(event) {
+                      event = event || window.event;
+                      var keyID = (event.which) ? event.which : event.keyCode;
+                      if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+                        return;
+                      else
+                        event.target.value = event.target.value.replace(/[^0-9]/g, "");
+                    }
+                  </script>
             </div>
             <div class="modal-footer" style="border-style: none;">
               <button type="button" class="btn btn-primary" onclick="go_cancel();" style="background-color:#f2aa43;" >Submit</button>
@@ -170,7 +188,6 @@
         </div>
       </div>
 </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
