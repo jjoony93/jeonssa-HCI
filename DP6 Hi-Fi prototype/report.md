@@ -80,16 +80,18 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 
 `index.html` page (and corresponding CSS file):
 - Base of entire design and layout using Bootstrap
-- entirety of the text portions
-- background image
-- responsive container
-- input fields with example watermarks (placeholders)
+- Entirety of the text portions
+- Spanning background image
+- Responsive container
+- Input fields with example watermarks (placeholders)
 - "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
-- entirety of visual aid with help functionality
-- added favicon
-- initial submit button functionality
-- basic initial parsing of information input
-- contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
+- Entirety of visual aid with help functionality
+- Initial submit button functionality
+- Basic initial parsing of information input for phone number and # of persons  
+
+General:
+- Added favicon for the website
+- Contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
 
 #### What were some of the difficulties you faced?
 
