@@ -174,8 +174,16 @@ For color, I decided to keep consistent with the color of submit button in main 
 Using Jquery mask library to parse phone number formatting. In addition, I could use this to format date, credit number, ip address and etc. I saved time to wrtie longer jquery to implement the same function that a mask library would do in 1 line.
 
 ### Sewon Hong
+#### Which part the UI did you directly contribute to?
+- I mainly contributed to 'user.html' and related files such as 'user_style.css' and 'wait.js'.
+- I contributed to the design decisions and actual implementation of user waiting status page.
 
+#### What were some of the difficulties you faced?
+- At first I thought the hardest part would be actual implementation (writing code to make functions work). However, it turned out that the most challenging task was actually deciding the design choices. A lot of small details such as location of buttons, colors, fonts and sizes of various components were very hard to decide since the it was entirely free of my choice. It was really difficult to know what design choices would be better for the users. For example, it was hard to decide whether to use vertical slider or horizontal slider to represent the waiting line.
+- There were a lot of design changes from the initial plan since several parts were too difficult to implement or didnt seem to serve the intended purpose. 
 
+#### List one useful implementation skill you learned while working on DP5 and DP6.
+- In terms of implementation skills, I learned how to use css libraries especially in using the bootstrap-slider for visually representing the waiting line and how to customize the library functions to for our own taste.
 ---
 ## Studio Reflections
 
