@@ -17,17 +17,23 @@ function team_reduce(){
 	wait_team -= 1;
 	calculate_time();
 
-	// if(wait_team ==2){
-	// 	// $('#get_ready').modal('show');
-	// 	// $('#cancel').modal('show');
-	// 	// $('#no_show').modal('show');
-	// 	// enable vibration support
-	// }
+	if(wait_team == 3){
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+		if (navigator.vibrate)
+			navigator.vibrate(1000);
+	}
 	if (wait_team == 1) {
 		$('.slider-handle').hide();
 	}
+	if (wait_team = 0) {
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+		if (navigator.vibrate)
+			navigator.vibrate(1000);
+	}
 	if(wait_team < 0){
-		// alert("no show!! wait one more team");
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+		if (navigator.vibrate)
+			navigator.vibrate(1000);
 		no_show();
 	}
 
@@ -54,15 +60,9 @@ function display(){
 	else if (wait_time_sec < 30 && wait_time_sec >= 20)
 		alert = alert_msg[1];
 	else if (wait_time_sec < 20 && wait_time_sec >= 1) {
-		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
-		if (navigator.vibrate)
-			navigator.vibrate(1000);
 		alert = alert_msg[2];
 	}
 	else {
-		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
-		if (navigator.vibrate)
-			navigator.vibrate(1000);
 		alert = alert_msg[3];
 	}
 	$('#alert__info').html(alert);
