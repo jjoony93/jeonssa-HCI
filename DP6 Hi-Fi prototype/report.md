@@ -66,9 +66,11 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ---
 
-### Min Kang
+
 
 ## Individual Reflections
+
+### Min Kang
 
 <!-- Which part the UI did you directly contribute to?
 What were some of the difficulties you faced?
@@ -96,9 +98,9 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 - Even though our main page is designed with a specific and fixed resolution in mind, I wanted to make the main page responsive, in anticipation of all use cases. Aligning the input areas and text areas properly was a chore, but it was especially troublesome having the background image stretch and shrink properly accordingly to different resolutions.
 - Initially, my plan was to separate each of the three steps in the helping visual aid into three distinct images, and align three accompanying captions beneath each image accordingly. However, it proved to be impossibly difficult to be able to align each text and image properly, along with the fact that it was difficult to display each of the three steps effectively on the main page. Therefore, I eventually decided to convert the entire visual aid into an rasterized image (along with the accompanying captions),  which could be scrolled like a webtoon in a popup modal window. Although the rasterized captions are not ideal, the scrolling interface of the visual aid would hopefully come naturally to most smartphone users. Again, this had to be implemented separately of the Bootstrap implementation, which already have their own method for modal windows.
 
-#### List one useful implementation skill you learned while working on DP5 and DP6.
-
+#### List one useful implementation skill you learned while working on DP5 and DP6.  
 I was able to learn how to properly and effectively create modal windows in HTML and CSS without the aid of an external styling spreadsheet (because I had to implement one independent of the Bootstrap implementation). Through doing so, I was able to better understand the concept of `z-index` since I had to apply and manipulate it directly in the corresponding CSS for the modal window. Also when implementing the modal window, I learned that it was possible to implement animations directly through CSS, which I was able to implement in the opening of my modal window.
+
 ---
 
 ### SunJae Lee
