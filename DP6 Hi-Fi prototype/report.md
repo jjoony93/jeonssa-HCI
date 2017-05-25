@@ -148,7 +148,7 @@ Pop-up screen is a page that floats above the current page with limited page siz
 While working on DP 5 and DP 6, I learned very much of how to use bootstrap and other libraries to design my own UI. Priviously, when designing an UI, I tried to make everything by myself using default html and css functionalities. However, after learning bootstrp grid system and other libraries, I found it is vey easy and very effective to use other people's work and libraries to build my own design. For example, in building the pop-up, I found that bootstrap supports modal. Simply copy and pasting the modal code into out html gave us very simple but useful modal. Although the given modal was far from what we wanted, looking through the document, and modifying the code within the skeleton code was enough to transfrom it into modal of our own design.
 
 ---
-### Joon Young Lee
+
 ### Joon Young Lee
 #### Which part the UI did you directly contribute to?
 'index.html' page (and corresponding CSS file):
@@ -171,7 +171,7 @@ For color, I decided to keep consistent with the color of submit button in main 
 
 
 #### List one useful implementation skill you learned while working on DP5 and DP6.
-Using Jquery mask library to parse phone number formatting
+Using Jquery mask library to parse phone number formatting. In addition, I could use this to format date, credit number, ip address and etc. I saved time to wrtie longer jquery to implement the same function that a mask library would do in 1 line.
 
 ### Sewon Hong
 
