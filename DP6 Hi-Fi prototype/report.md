@@ -35,7 +35,7 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Implementation Notes
 
-### URL of Prototype:
+### URL of Prototype: <a href="https://kmin93.github.io/jeonssa-HCI/" target="_blank">https://kmin93.github.io/jeonssa-HCI/</a>
 
 ### URL of Git repository:
 
