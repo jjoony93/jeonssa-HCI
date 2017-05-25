@@ -11,7 +11,7 @@
  
 ---
 ## POV
-    “A customer waiting for restaurant table needs to feel less fraustration
+    “A customer waiting for restaurant table needs to feel less frustration
     because one out of two customers tends to leave tired of waiting.”
 - User: A customer waiting for restaurant table. 
 - Needs: Feel less fraustration. 
@@ -29,8 +29,16 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Tasks
 1. Join the waiting list (make a reservation)
+ * Fill in the input form (phone number & number of people in team)		
+ * Submit
+ * Reservation information pops up, giving the url to the user
 2. Leave the waiting list (cancel reservation)
+ * Click on cancel reservation button in user page
+ * Fill in the last four four digits of phone number
+ * Submit
+ * A page confirming that the reservation has been cancelled shows up
 3. Check current position in waiting list (how many people are left)
+ * By looking at the slider in user page, the user can get a hint of his relative poisiton in the watiing line
 
 ---
 ## Implementation Notes
@@ -57,7 +65,28 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 
 ---
-## Inidividual Reflections
+## Individual Reflections
+
+<!-- Which part the UI did you directly contribute to?
+What were some of the difficulties you faced?
+List one useful implementation skill you learned while working on DP5 and DP6. -->
+
+### Min Kang
+
+####Which part the UI did you directly contribute to?
+
+Entire `index.html` page:
+	- background image
+
+
+
+### SunJae Lee
+
+### Joon Young Lee
+
+### Sewon Hong
+
+
 ---
 ## Studio Reflections
 
