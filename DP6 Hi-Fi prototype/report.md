@@ -87,7 +87,10 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 - basic initial parsing of information input
 - contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
 
+#### What were some of the difficulties you faced?
 
+
+#### List one useful implementation skill you learned while working on DP5 and DP6.
 
 
 ### SunJae Lee
