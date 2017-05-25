@@ -68,7 +68,6 @@ Anybody who has experienced waiting for a long time at a restaurant
 ### Representative screenshots:
 
 ![alt text](main.png "Main")
-<img src="./main.png" width="250"><br>
 ###### Fig 2: Main screen for enqueuing<br>
 
 <img src="./wait.png" width="250"><br>
