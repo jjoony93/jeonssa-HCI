@@ -47,7 +47,7 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### URL of Git repository: <a href="https://github.com/kmin93/jeonssa-HCI" target="_blank">https://github.com/kmin93/jeonssa-HCI</a>
 
-### Libraries and frameworks: jQuery, Bootstrap
+### Libraries and frameworks: jQuery, jQuery-mask, Bootstrap, Boostrap-slider, fontawesome
 
 ### Lessons from heuristic evaluation
 
@@ -96,6 +96,15 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 ### SunJae Lee
 
 ### Joon Young Lee
+Which part the UI did you directly contribute to?
+* x buttons that clear input in main page
+* Input parsing in main page; when typing phone number, '-' is automatically added in right place
+* Red warning text showing next to input field in main page when an unacceptable input is submitted. For example if the phone number is left empty or its number of digits is not equal to 11, different warnings that are appropriate to conditions are shown.  
+* The entire Reservation information popup
+What were some of the difficulties you faced?
+* When showing the red warning text, I wasn't sure how 
+List one useful implementation skill you learned while working on DP5 and DP6.
+* Using Jquery mask library to parse phone number formatting
 
 ### Sewon Hong
 
