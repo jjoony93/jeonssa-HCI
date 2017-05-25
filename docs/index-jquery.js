@@ -54,6 +54,7 @@ if(localStorage.getItem("cur_used")!=null){
   localStorage.setItem("cur_used",cur_used);
 }
 
+$('#num_wait').html(parseInt(cur_used)+1);
 
 for(var i = 0; i<=cur_used; i++){
   used_code.push(reserv_code[i]);
@@ -93,6 +94,11 @@ for(var i = 0; i<=cur_used; i++){
 //     }
 //     priority_index=used_code.length+1
 // });
+
+$("#pop_ok").click(
+  function(){
+    $('#num_wait').html(parseInt(cur_used)+1);
+  });
 
 $("#submit").click(
 	function () {
@@ -161,6 +167,7 @@ $("#submit").click(
 		$('#persons').attr('placeholder','Number of people in your team (e.g. 3)').focus().blur();
 		reserv=reserv_code[Math.floor( Math.random() * reserv_code.length )]
 		}
+
 	}); 
 
 var modal = document.getElementById('helpModal');
