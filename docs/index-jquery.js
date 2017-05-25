@@ -46,15 +46,14 @@ var used_code=[];
 var priority_index= 1;
 var max_size = reserv_code.length;
 var cur_used=-1;
-
-$(document).ready(function() {
 if(localStorage.getItem("cur_used")!=null){
   cur_used = localStorage.getItem("cur_used");
 }else{
   localStorage.setItem("cur_used",cur_used);
 }
-
 $('#num_wait').html(parseInt(cur_used)+1);
+
+$(document).ready(function() {
 
 for(var i = 0; i<=cur_used; i++){
   used_code.push(reserv_code[i]);
