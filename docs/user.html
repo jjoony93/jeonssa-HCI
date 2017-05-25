@@ -19,38 +19,58 @@
       <span style="line-height: 45px; color:white; font-size:16px; font-weight: bold;">Chicken House</span>
   </div>
   
-  <div style="height:30px;"></div>
+  <div style="height:15px;"></div>
   <div class="container" style="">
     <div class="row" style="">
-      <div class="col-xs-12 col-md-12" style="text-align: left; z-index: 100;">
-        <i class="fa fa-cutlery" aria-hidden="true" style="font-size:24px;"></i> <br>Your Turn
-          <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="100" data-slider-orientation="horizontal" data-slider-handle="custom" style="width:100%;"/>
-          
-      </div>
-      <div class="col-xs-8 col-md-8 col-md-offset-1" style="padding-right: 0;">
-        <div class="thumbnail">
-          <img src="./chicken.png" style="width:100%;max-height:400px;" alt="...">
-          <div class="caption" style="text-align: center;">
-            <span class="label label-primary">Remaining Teams</span><br>
-            <h3 class="remaining_team" style="display:inline-block;color:black !important;">123</h3><span> teams</span><br/><br>
-            <span class="label label-primary">Expected waiting time</span><br>
-            <h3 class="wait_time" style="display:inline-block;color:black !important;">123</h3><span> min.</span><br/>
-            
-<!--             <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      <div class="col-xs-12 col-md-12" style="">
+        <div class="thumbnail" style="margin-bottom: 0;border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+          <div class="caption" style="">
+            <h4 id="alert__info" style="color:black;text-align: center;">Get Ready</h4>
+            <i class="fa fa-cutlery" aria-hidden="true" style="font-size:24px;"></i>
+            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="100" data-slider-orientation="horizontal" data-slider-handle="custom" style="width:100%;"/>
           </div>
         </div>
-
+      </div>
+    </div>
+    <div class="row" style="">
+      <div class="col-xs-12 col-md-12" style="">
+        <div class="thumbnail" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+          <div class="caption" style="text-align: center;">
+            <div style="width:45%;display: inline-block;">
+              <span class="label label-primary">Remaining Teams</span><br>
+              <h3 class="remaining_team" style="display:inline-block;color:black !important;">123</h3><small> teams</small>
+            </div>
+            <div style="width:45%;display: inline-block;">
+              <span class="label label-primary">Expected waiting time</span><br>
+              <h3 class="wait_time" style="display:inline-block;color:black !important;">123</h3><small> min.</small><br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="">
+      <div class="col-xs-12 col-md-12" style="">
+        <div class="thumbnail">
+          <img src="./chicken.png" style="width:100%;max-height:400px;" alt="...">
+          <div class="caption" style="">
+            <h4 style="color:black !important;">Chicken House</h4>
+            <p>Most delicious things you can do with chicken for dinner. Providing fast, friendly service of the best quality food! </p>
+            <p style="text-align: right;"><a href="#" class="btn btn-primary" role="button">See Menu</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <div style="height:50px;"></div>
 <nav class="navbar navbar-fixed-bottom">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-12" style="padding:0;">
         <div class="btn-group" style="width:100%;height:50px;" role="group" aria-label="...">
-          <button type="button" id="btn-cancel" class="btn btn-default" style="width:50%;height:100%;"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel Reservation</button>
+          <button type="button" id="btn-cancel" class="btn btn-default" style="width:50%;height:100%;"><small><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel Reservation</small></button>
           <button onclick="window.location.href='tel:010-5583-3154'" type="button" class="btn btn-default" style="width:50%;height:100%;">
-          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call Restaurant</button>
+          <small>
+          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call Restaurant</small></button>
         </div>
       </div>
     </div>
