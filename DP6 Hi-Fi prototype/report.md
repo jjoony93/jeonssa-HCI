@@ -71,13 +71,12 @@ Anybody who has experienced waiting for a long time at a restaurant
 What were some of the difficulties you faced?
 List one useful implementation skill you learned while working on DP5 and DP6. -->
 
-### Min Kang
-
 #### Which part the UI did you directly contribute to?
 
 `index.html` page (and corresponding CSS file):
 - Base of entire design and layout using Bootstrap
-- all text, background image
+- entirety of the text portions
+- background image
 - responsive container
 - input fields with example watermarks (placeholders)
 - "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
@@ -89,8 +88,14 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 
 #### What were some of the difficulties you faced?
 
+- Bootstrap overrided or disabled many of the CSS properties that could otherwise have been used normally, so a workaround had to be implemented. For example, I had to set `!important` flags in the CSS file to have sufficiently large enough input boxes. Also, we wanted to implement a clear "X" button to clear the input field if triggered, which is included by default in a search-type input box, but Bootstrap overrided the function. It therefore had to be implemented separately as a whole new object (done by Joon Young)
+- Because we wanted to use a background image that spanned the whole page (to represent the restaurant's dishes), it was difficult to choose a suitable font color that would be easily legible. Regardless of the font color, the text was still hard to read in some places. Therefore, I had to define a translucent fill overlay that spanned all the text portions of the main page.
+- Even though our main page is designed with a specific and fixed resolution in mind, I wanted to make the main page responsive, in anticipation of all use cases. Aligning the input areas and text areas properly was a chore, but it was especially troublesome having the background image stretch and shrink properly accordingly to different resolutions.
+- Initially, my plan was to separate each of the three steps in the helping visual aid into three distinct images, and align three accompanying captions beneath each image accordingly. However, it proved to be impossibly difficult to be able to align each text and image properly, along with the fact that it was difficult to display each of the three steps effectively on the main page. Therefore, I eventually decided to convert the entire visual aid into an rasterized image (along with the accompanying captions),  which could be scrolled like a webtoon in a popup modal window. Although the rasterized captions are not ideal, the scrolling interface of the visual aid would hopefully come naturally to most smartphone users. Again, this had to be implemented separately of the Bootstrap implementation, which already have their own method for modal windows.
 
 #### List one useful implementation skill you learned while working on DP5 and DP6.
+
+I was able to learn how to properly and effectively create modal windows in HTML and CSS without the aid of an external styling spreadsheet (because I had to implement one independent of the Bootstrap implementation). Through doing so, I was able to better understand the concept of `z-index` since I had to apply and manipulate it directly in the corresponding CSS for the modal window. Also when implementing the modal window, I learned that it was possible to implement animations directly through CSS, which I was able to implement in the opening of my modal window.
 
 
 ### SunJae Lee
