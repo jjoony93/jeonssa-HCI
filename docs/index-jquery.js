@@ -150,8 +150,8 @@ $("#submit").click(
 
 		// priority_index++;
 		$('#res_code').html(reserv);
-		$('#res_url').attr('href',`./user.html?reserv=${reserv}`);
-    $('#res_url').html(`./user.html?reserv=${reserv}`);
+		$('#res_url').attr('href',`kmin93.github.io/jeonssa-HCI/user.html?reserv=${reserv}`);
+    $('#res_url').html(`kmin93.github.io/jeonssa-HCI/user.html?reserv=${reserv}`);
 		$('#phone').val('');
 		$('#phone').attr('placeholder','Phone Number (e.g. 010-1234-5678)').focus().blur();
 
