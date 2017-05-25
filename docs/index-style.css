@@ -217,10 +217,10 @@ modal-footer {
   height: 20px;
   width: 20px;
   top:-38px;
-  right: 5px;
+  right: 3%;
   border-radius: 20px;
-  background: #f1f1f1;
-  color: white;
+  background: #ccc;opacity:0.6;
+  color: #fff;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
