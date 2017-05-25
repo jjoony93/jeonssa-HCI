@@ -47,6 +47,10 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### URL of Git repository: <a href="https://github.com/kmin93/jeonssa-HCI" target="_blank">https://github.com/kmin93/jeonssa-HCI</a>
 
+### System Overview
+![alt text](system_overview.png "System Overview")
+###### Fig 1: System Overview<br>
+
 ### Libraries and frameworks: jQuery, jQuery-mask, Bootstrap, Boostrap-slider, fontawesome
 
 ### Lessons from heuristic evaluation
@@ -63,7 +67,17 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### Representative screenshots:
 
+![alt text](main.png "Main")
+###### Fig 2: Main screen for enqueuing<br>
 
+![alt text](wait.png "Wait")
+###### Fig 3: Waiting Status<br>
+
+![alt text](wait_urgent.png "Wait Urgent")
+###### Fig 4: Waiting Status Changed<br>
+
+![alt text](cancel.png "Cancel")
+###### Fig 5: Canceling Reservation<br>
 ---
 
 
