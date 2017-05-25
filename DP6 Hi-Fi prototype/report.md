@@ -11,10 +11,10 @@
  
 ---
 ## POV
-    “A customer waiting for restaurant table needs to feel less fraustration
+    “A customer waiting for restaurant table needs to feel less frustration
     because one out of two customers tends to leave tired of waiting.”
 - User: A customer waiting for restaurant table. 
-- Needs: Feel less fraustration. 
+- Needs: Feel less frustration. 
 - Insights: One out of two customers tends to leave tired of waiting. 
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
@@ -29,8 +29,16 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Tasks
 1. Join the waiting list (make a reservation)
+ * Fill in the input form (phone number & number of people in team)		
+ * Submit
+ * Reservation information pops up, giving the url to the user
 2. Leave the waiting list (cancel reservation)
+ * Click on cancel reservation button in user page
+ * Fill in the last four four digits of phone number
+ * Submit
+ * A page confirming that the reservation has been cancelled shows up
 3. Check current position in waiting list (how many people are left)
+ * By looking at the slider in user page, the user can get a hint of his relative poisiton in the watiing line
 
 ---
 ## Implementation Notes
@@ -41,22 +49,57 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ### Libraries and frameworks: jQuery, Bootstrap
 
-### Lessons from heuristic evaluation:
+### Lessons from heuristic evaluation
 
-- Add a Help section to inform first-time users of the site's purpose and functionality
-- Filter invalid values from information input sections (only numbers allowed)
-- Match URLs to actual hyperlinks
-- Disable the "remaining teams" progress bar from being able to be moved by users
-- Match reservation number on cancel, reject otherwise
-- Fix rule for phone number input
-- Implement call function for restaurant
-- Remove "cancel" icon in reservation cancellation
+| Feedback | Solution |
+| --- | --- |
+| No help section to address the site's functionality| Added a Help section to inform first-time users of the site's purpose and functionality|
+| Invalid values could be entered in the information input section in main page| Filtered invalid values from information input sections (only numbers allowed), added input rules|
+| Copy-pasting URL from popup linked to invalid page|Matched URLs to actual hyperlinks |
+| Progress bar in `user.html` could be moved by user | Disabled the "remaining teams" progress bar from being able to be moved by users|
+| When cancelling reservation, any random input would register as valid| Match reservation number on cancel, reject otherwise|
+|"Call restaurant" button does not work | Implemented call function (in `user.html`)|
+|"Cancel" icon doesn't match real world "cancel" icon | Removed "cancel" icon in reservation cancellation popup|
 
 ### Representative screenshots:
 
 
 ---
-## Inidividual Reflections
+## Individual Reflections
+
+<!-- Which part the UI did you directly contribute to?
+What were some of the difficulties you faced?
+List one useful implementation skill you learned while working on DP5 and DP6. -->
+
+### Min Kang
+
+#### Which part the UI did you directly contribute to?
+
+`index.html` page (and corresponding CSS file):
+- Base of entire design and layout using Bootstrap
+- all text, background image
+- responsive container
+- input fields with example watermarks (placeholders)
+- "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
+- entirety of visual aid with help functionality
+- added favicon
+- initial submit button functionality
+- basic initial parsing of information input
+- contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
+
+#### What were some of the difficulties you faced?
+
+
+#### List one useful implementation skill you learned while working on DP5 and DP6.
+
+
+### SunJae Lee
+
+### Joon Young Lee
+
+### Sewon Hong
+
+
 ---
 ## Studio Reflections
 

@@ -103,7 +103,7 @@ $("#pop_ok").click(
 $("#submit").click(
 	function () {
 		var date = new Date();
-		console.log("submit button clicked");
+		// console.log("submit button clicked");
 		var phone = $("#phone").val();
 		var persons = $("#persons").val();
 
