@@ -23,7 +23,9 @@ It would be game changing to reduce amount of time each customer has to wait, an
 
 ---
 ## Target Users
+
 Anybody who has experienced waiting for a long time at a restaurant
+
 ---
 ## Tasks
 1. Enque in waiting list
@@ -33,15 +35,15 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Implementation Notes
 
-###URL of Prototype:
+### URL of Prototype:
 
-###URL of Git repository:
+### URL of Git repository:
 
-###Libraries and frameworks:
+### Libraries and frameworks:
 
-###Lessons from heuristic evaluation:
+### Lessons from heuristic evaluation:
 
-###Representative screenshots:
+### Representative screenshots:
 
 
 ---
