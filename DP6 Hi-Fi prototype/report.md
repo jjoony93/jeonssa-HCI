@@ -11,7 +11,7 @@
  
 ---
 ## POV
-    “A customer waiting for restaurant table needs to feel less fraustration
+    “A customer waiting for restaurant table needs to feel less frustration
     because one out of two customers tends to leave tired of waiting.”
 - User: A customer waiting for restaurant table. 
 - Needs: Feel less fraustration. 
@@ -57,7 +57,28 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 
 ---
-## Inidividual Reflections
+## Individual Reflections
+
+<!-- Which part the UI did you directly contribute to?
+What were some of the difficulties you faced?
+List one useful implementation skill you learned while working on DP5 and DP6. -->
+
+### Min Kang
+
+####Which part the UI did you directly contribute to?
+
+Entire `index.html` page:
+	- background image
+
+
+
+### SunJae Lee
+
+### Joon Young Lee
+
+### Sewon Hong
+
+
 ---
 ## Studio Reflections
 
