@@ -28,20 +28,22 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 ---
 ## Tasks
-1. Enque in waiting list
-2. Deque in waiting list (cancel reservation)
-3. See position in queue
+1. Join the waiting list (make a reservation)
+2. Leave the waiting list (cancel reservation)
+3. Check current position in waiting list (how many people are left)
 
 ---
 ## Implementation Notes
 
 ### URL of Prototype: <a href="https://kmin93.github.io/jeonssa-HCI/" target="_blank">https://kmin93.github.io/jeonssa-HCI/</a>
 
-### URL of Git repository:
+### URL of Git repository: <a href="https://github.com/kmin93/jeonssa-HCI" target="_blank">https://github.com/kmin93/jeonssa-HCI</a>
 
-### Libraries and frameworks:
+### Libraries and frameworks: jQuery, Bootstrap
 
 ### Lessons from heuristic evaluation:
+
+- 
 
 ### Representative screenshots:
 
