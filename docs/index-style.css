@@ -234,10 +234,11 @@ modal-footer {
   background: rgba(100,100,100,0.9);
   position: relative;  
   height:0px;
-  top:-38px;
+  top:-44px;
   left: 480px;
   color:red;
   font-style: italic;
   text-align: center;
   font-weight: bold;
+  font-size: 22px;
   }

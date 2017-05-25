@@ -14,7 +14,7 @@
     “A customer waiting for restaurant table needs to feel less frustration
     because one out of two customers tends to leave tired of waiting.”
 - User: A customer waiting for restaurant table. 
-- Needs: Feel less fraustration. 
+- Needs: Feel less frustration. 
 - Insights: One out of two customers tends to leave tired of waiting. 
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
@@ -73,11 +73,24 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 
 ### Min Kang
 
-####Which part the UI did you directly contribute to?
+#### Which part the UI did you directly contribute to?
 
-Entire `index.html` page:
-	- background image
+`index.html` page (and corresponding CSS file):
+- Base of entire design and layout using Bootstrap
+- all text, background image
+- responsive container
+- input fields with example watermarks (placeholders)
+- "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
+- entirety of visual aid with help functionality
+- added favicon
+- initial submit button functionality
+- basic initial parsing of information input
+- contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
 
+#### What were some of the difficulties you faced?
+
+
+#### List one useful implementation skill you learned while working on DP5 and DP6.
 
 
 ### SunJae Lee
