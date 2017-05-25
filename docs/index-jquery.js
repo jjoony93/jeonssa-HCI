@@ -137,11 +137,9 @@ $("#submit").click(
       used_code = [];
       cur_used = -1;
     }
-
-    reserv = reserv_code[cur_used+1];
     cur_used++;
-
-
+    reserv = reserv_code[cur_used];
+    
 		phone = phone.replace(/\-/g,'');
 		// phone = parseInt(phone);
 		persons = parseInt(persons);
