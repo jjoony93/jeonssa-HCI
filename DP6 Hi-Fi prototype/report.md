@@ -149,15 +149,29 @@ While working on DP 5 and DP 6, I learned very much of how to use bootstrap and 
 
 ---
 ### Joon Young Lee
-Which part the UI did you directly contribute to?
+### Joon Young Lee
+#### Which part the UI did you directly contribute to?
+'index.html' page (and corresponding CSS file):
 * x buttons that clear input in main page
+* The input field to show placeholder again when cleared by x button; because people may forget what information they needed to fill in each input field because they look identical.
 * Input parsing in main page; when typing phone number, '-' is automatically added in right place
 * Red warning text showing next to input field in main page when an unacceptable input is submitted. For example if the phone number is left empty or its number of digits is not equal to 11, different warnings that are appropriate to conditions are shown.  
-* The entire Reservation information popup
-What were some of the difficulties you faced?
-* When showing the red warning text, I wasn't sure how 
-List one useful implementation skill you learned while working on DP5 and DP6.
-* Using Jquery mask library to parse phone number formatting
+* Red warning text disappering when the according input field is on focus
+* Using bootstrap-modal window to make the entire Reservation information pop-up
+
+'user.html' page
+* Make the user unable to move the position of slider
+
+#### What were some of the difficulties you faced?
+When showing the red warning text, I wasn't sure how I should display it. Should I keep consistency within the page so just use white text and grey background? Or should I keep consistency with real world and use red text as a metaphor of warning, but wouldn't this make the page seem like it has too many colors? My answer was to use red because just using white text would undermine the significance of the message it has to deliver, because it would receive much less focus and increase the chances of the user missing it due to its similarity in color with the texts above input field. However, I do feel that the background for the red text is too dark and hides the chicken background image, so I will need more feedbacks from user testing on its background color. In addition, I wanted to keep the red warning text as short as possible for the sake of visual pleasure. If the warning text is too specific and wordy that it is presented in two or more lines, the user might just decide to skip reading it because of its length and also it is visually unpleasant. Position was also a matter of consideration. I could either put it above, beneath, leftside, or rightside. I didn't choose above and beneath because there was too little space that it would look too crowded if red texts are shown between the input fields. Next, between leftsdie and rightside, I decided to put it on the right because it is closer to the delete button. If an unacceptable input is submitted and red warning text is shown, then there is a chance that the user will have to clear the field by clicking the x button so to give proximity between the red warning text and delete button, I put it on rightside.
+
+I also had difficulty using bootstrap-modal window to make the Reservation information pop-up. Firstly, bootstrap-modal has its own default style attributes and since it was my first time using bootstrap-modal, I had difficulty finding that I had to declare !important to override the bootstrap-modal default settings. Also, I had to consider the color, position and size of modal window. 
+For color, I decided to keep consistent with the color of submit button in main page. I positioned the modal window at center so that user doen't have to move his hand too much interact with the modal window after submitting. For size, I made it about 1/3 of the height, so that it doesn't block the texts above and below the input fields in main page because they tell important information to the user.
+
+
+
+#### List one useful implementation skill you learned while working on DP5 and DP6.
+Using Jquery mask library to parse phone number formatting
 
 ### Sewon Hong
 
