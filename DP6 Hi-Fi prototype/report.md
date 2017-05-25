@@ -65,6 +65,9 @@ Anybody who has experienced waiting for a long time at a restaurant
 
 
 ---
+
+### Min Kang
+
 ## Individual Reflections
 
 <!-- Which part the UI did you directly contribute to?
@@ -96,10 +99,10 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 #### List one useful implementation skill you learned while working on DP5 and DP6.
 
 I was able to learn how to properly and effectively create modal windows in HTML and CSS without the aid of an external styling spreadsheet (because I had to implement one independent of the Bootstrap implementation). Through doing so, I was able to better understand the concept of `z-index` since I had to apply and manipulate it directly in the corresponding CSS for the modal window. Also when implementing the modal window, I learned that it was possible to implement animations directly through CSS, which I was able to implement in the opening of my modal window.
-
+---
 
 ### SunJae Lee
-
+---
 ### Joon Young Lee
 Which part the UI did you directly contribute to?
 * x buttons that clear input in main page
