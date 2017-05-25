@@ -50,6 +50,8 @@ var cur_used=-1;
 $(document).ready(function() {
 if(localStorage.getItem("cur_used")!=null){
   cur_used = localStorage.getItem("cur_used");
+}else{
+  localStorage.setItem("cur_used",cur_used);
 }
 
 
