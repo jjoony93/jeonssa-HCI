@@ -120,6 +120,31 @@ I was able to learn how to properly and effectively create modal windows in HTML
 ---
 
 ### SunJae Lee
+#### Which part the UI did you directly contribute to?
+"Reservation has been canceled" page DESIGN
+* text placement, spacing, and font
+
+"Get ready", "No show", and "Cancel Reservation" pop-up modals ("Get ready" and "No show" pop has been removed in this prototype.) DESIGN
+
+* header and button color
+* image and icon in the header
+* font, font-size, font-color of each text
+* size of input field
+* and so on.
+
+shortening waiting line functionality in user.html
+
+user phone number and key code storing functionality in index.html
+
+confirming user's phone number when cancelling reservation functionality in user.html
+
+#### What were some of the difficulties you faced?
+
+In building the prototype some of the difficulties were designing the UI. I mostly contributed in making the pop-up modals. 
+Pop-up screen is a page that floats above the current page with limited page size. However, despite its limited size, it is very important in that it only appears when it needs to deliver an important message to the users. Therefore, I had hard time choosing size, color, font, and alignment of each element in the pop-up modal. It needs to be outstanding so that user can easily know that it is an important message, but at the same time, it shouldn't feel awkward with other page on the background. For each modal "Get ready", "now show", and cancel reservation, I decided to use green, yellow, and red header color to convey its implicit message: good, warning, and danger. However, choosing which green, red, and yellow was a very difficult task. Since all of these colors are very strong colors, I had to search through internet to find right kind of green red and yellow. Furthermore, choosing an image or icon was very difficult task as well. Since image or icon is the first thing that the user would see when the pop-up appears, it had to convey very clear message, but at the same time matches with the background color, and so on. Furthermore, we tried to use firebase as our database for storing user keycode and phone number. However, we had hard time constantly deleting the entry, and updating waiting line information to every user was vey hard to do with firebase. And for this version of prototype, we decided to use local storage, and work more on firebase later on for the later product. 
+
+#### List one useful implementation skill you learned while working on DP5 and DP6.
+While working on DP 5 and DP 6, I learned very much of how to use bootstrap and other libraries to design my own UI. Priviously, when designing an UI, I tried to make everything by myself using default html and css functionalities. However, after learning bootstrp grid system and other libraries, I found it is vey easy and very effective to use other people's work and libraries to build my own design. For example, in building the pop-up, I found that bootstrap supports modal. Simply copy and pasting the modal code into out html gave us very simple but useful modal. Although the given modal was far from what we wanted, looking through the document, and modifying the code within the skeleton code was enough to transfrom it into modal of our own design.
 ---
 ### Joon Young Lee
 Which part the UI did you directly contribute to?
