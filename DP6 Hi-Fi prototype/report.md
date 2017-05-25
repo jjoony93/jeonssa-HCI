@@ -29,8 +29,16 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Tasks
 1. Join the waiting list (make a reservation)
+ * Fill in the input form (phone number & number of people in team)		
+ * Submit
+ * Reservation information pops up, giving the url to the user
 2. Leave the waiting list (cancel reservation)
+ * Click on cancel reservation button in user page
+ * Fill in the last four four digits of phone number
+ * Submit
+ * A page confirming that the reservation has been cancelled shows up
 3. Check current position in waiting list (how many people are left)
+ * By looking at the slider in user page, the user can get a hint of his relative poisiton in the watiing line
 
 ---
 ## Implementation Notes
