@@ -14,7 +14,7 @@
     “A customer waiting for restaurant table needs to feel less frustration
     because one out of two customers tends to leave tired of waiting.”
 - User: A customer waiting for restaurant table. 
-- Needs: Feel less fraustration. 
+- Needs: Feel less frustration. 
 - Insights: One out of two customers tends to leave tired of waiting. 
 
 We met several restaurant owners and potential customers who have experienced or have trouble with long waiting line at a busy restaurant. 
@@ -29,16 +29,8 @@ Anybody who has experienced waiting for a long time at a restaurant
 ---
 ## Tasks
 1. Join the waiting list (make a reservation)
- * Fill in the input form (phone number & number of people in team)		
- * Submit
- * Reservation information pops up, giving the url to the user
 2. Leave the waiting list (cancel reservation)
- * Click on cancel reservation button in user page
- * Fill in the last four four digits of phone number
- * Submit
- * A page confirming that the reservation has been cancelled shows up
 3. Check current position in waiting list (how many people are left)
- * By looking at the slider in user page, the user can get a hint of his relative poisiton in the watiing line
 
 ---
 ## Implementation Notes
@@ -73,10 +65,20 @@ List one useful implementation skill you learned while working on DP5 and DP6. -
 
 ### Min Kang
 
-####Which part the UI did you directly contribute to?
+#### Which part the UI did you directly contribute to?
 
-Entire `index.html` page:
-	- background image
+`index.html` page (and corresponding CSS file):
+- Base of entire design and layout using Bootstrap
+- all text, background image
+- responsive container
+- input fields with example watermarks (placeholders)
+- "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
+- entirety of visual aid with help functionality
+- added favicon
+- initial submit button functionality
+- basic initial parsing of information input
+- contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
+
 
 
 
