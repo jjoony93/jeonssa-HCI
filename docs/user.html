@@ -73,8 +73,8 @@
     <div class="row">
       <div class="col-xs-12 col-md-12" style="padding:0;">
         <div class="btn-group" style="width:100%;height:50px;border-radius:0;" role="group" aria-label="...">
-          <button type="button" id="btn-cancel" class="btn btn-default" style="width:50%;height:100%;border-radius:0;"><small><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel Reservation</small></button>
-          <button onclick="window.location.href='tel:010-5583-3154'" type="button" class="btn btn-default" style="width:50%;height:100%;border-radius:0;">
+          <button type="button" id="btn-cancel" class="btn btn-default" style="width:50%;height:100%;border-radius:0;color:white;background:rgba(0,0,0,0.8);"><small><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel Reservation</small></button>
+          <button onclick="window.location.href='tel:010-5583-3154'" type="button" class="btn btn-default" style="width:50%;height:100%;border-radius:0;color:white;background:rgba(0,0,0,0.8);">
           <small>
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call Restaurant</small></button>
         </div>
@@ -166,7 +166,7 @@
               <br>Enter last four digits of your phone number:</span>
               <br>
               <br>
-            <input style= "border: 1px solid black;" type="text" id="phone" placeholder="(e.g. 5678)" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength='4'>
+            <input style= "border: 1px solid black;" type="text" id="phone" placeholder="(e.g. 5678)"  maxlength='4'>
               <script>
                     function onlyNumber(event){
                       event = event || window.event;
@@ -187,7 +187,7 @@
                   </script>
             </div>
             <div class="modal-footer" style="border-style: none;">
-              <button type="button" class="btn btn-primary" onclick="go_cancel();" style="background-color:#f2aa43;" >Submit</button>
+              <button type="button" class="btn btn-primary" onclick="go_cancel();" style="background-color:#f2aa43;" >Cancel Reservation</button>
             </div>
           </div>
         </div>
