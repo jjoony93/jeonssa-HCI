@@ -152,6 +152,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
 * Uniqueness: Since she has many experience waiting in a restaurant, she gave many insights on whether our application can actually work in the reality.
 * Summary: 
 	For the first session, we positioned her at the first in the line. When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
+	
 	For the second session, we positioned her at the last in the line. Using her experience from the first session, it only took 15 seconds to register, noticed text message right away, and took 8 seconds for cancellation..  
  
 ---
@@ -167,6 +168,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
 * Uniqueness: Since he is a computer science major graduate student, and has many experience developing applications, he helped us find bug, and functional issues.
 * Summary: 
 	For the first session, we positioned him at the last in the line. While waiting, he watched person in front of him registering. He did not click on the “what does this site do,” but took only 13 seconds to register without error. He noticed the text message, and had good grasp on what user page does. It took 7 seconds for him to cancel the reservation.
+	
 	For the second session, he had one error while registering - typing in wrong phone number - and took 20 seconds to register, and took 6 seconds to cancel. 
  
 ----
@@ -183,6 +185,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
 * Uniqueness: He has a quick grasp when using new apps, and likes to criticize. He gave us some valuable criticisms that lead to usability lessons.
 * Summary: 
 	For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
+	
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
  
 ---
@@ -199,6 +202,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
  
 * Summary: 
 	For the first session, we positioned him at the last in the line. He had a chance to look at what the person in front of him did, so he had already had a brief understanding of what to do with our service even before using it. As a result, he didn’t click on “what does this site do” and it took him a total of 15 seconds to register. When cancelling, it took him 10 seconds without any trial & errors.
+	
 	For the second session, we positioned him at the first in the line. Using his experience from the first session, the fact that he was positioned in the first didn’t affect his performance. It only took 13 seconds to register and 8 seconds to cancel
  
 ---
@@ -215,6 +219,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
  
 * Summary: 
 	For the first session, we positioned him at the first in the line. He first looked at the main page and clicked on “what does this site do.” He read through the help page very carefully. Including accidentally closing the help page, and minor mistakes, he had total four error in registering and took 57 seconds. He took 57 seconds to submit the form.  He did not notice the text message, and even after we informed him about the text message, he did not know that he have to click on the link in the text message. However, inside the user page, he had good grasp of what the page is showing. And he took 15 seconds to cancel the reservation. 
+	
 	For the second session, we positioned him at the last in the line. Although he already had experience using the application, he watched people in front of him using the tablet very closely, and at the second trial, he took 24 seconds to register, and 12 seconds to cancel the reservation.
 ---
  
