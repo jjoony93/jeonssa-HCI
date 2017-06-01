@@ -57,11 +57,11 @@ Instead, our UI interface has an in-built help section, where a new user can lea
  
  
 #### In-built Help Section
-<img src="./fig1.png">
-###### Figure 1: Main Page, accentuated “What does this site do?” link
+<img src="./fig1.png"><br>
+###### Figure 1: Main Page, accentuated “What does this site do?” link<br>
 
-<img src="./fig2.png">
-###### Figure 2: In-build help section
+<img src="./fig2.png"><br>
+###### Figure 2: In-build help section<br>
  
  
  
