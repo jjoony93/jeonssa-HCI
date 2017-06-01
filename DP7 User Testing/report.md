@@ -130,14 +130,16 @@ Instead, our UI interface has an in-built help section, where a new user can lea
  
 ---
  
-We offer an in-build help section in the main page. Once  __“What does this site do?”__ is clicked a tutorial page (figure 2) will pop up. It will serve the purpose of providing a quick view of the overall mechanism of our service.
+We offer an in-build help section in the main page (*Figure 1*). Once  __“What does this site do?”__ is clicked a tutorial page (*Figure 2*) will pop up. It will serve the purpose of providing a quick view of the overall mechanism of our service.
  
 ## Session Observations
 We presented our prototype to total six participants. We mostly recruited KAIST peers for observation due to several reasons. First, our application is designed in English so we needed participants who could understand English without difficulty. Secondly, we had limited time and human resources. Recruiting KAIST peers was a feasible option in finding English-speaking participants within limited time.
  
  
-###### KAIST undergraduate Student
-
+###### KAIST Undergraduate Student
+ 
+<img src="./nayoung.jpeg" width="450"><br>
+ 
 * Age: 23
 * Sex: female
 * How did we recruit: Close club member
@@ -147,7 +149,10 @@ We presented our prototype to total six participants. We mostly recruited KAIST 
 For the first session, we positioned her at the first in the line. When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
 	For the second session, we positioned her at the last in the line. Using her experience from the first session, it only took 15 seconds to register, noticed text message right away, and took 8 seconds for cancellation..  
  
-###### KAIST graduate student
+###### KAIST Graduate student
+ 
+<img src="./ppakssu.jpeg" width="450"><br>
+ 
 * Age: 24
 * Sex: male
 * How did we recruit: Asked him to help while eating dinner together
@@ -160,8 +165,10 @@ For the first session, we positioned her at the first in the line. When she firs
  
  
  
-###### KAIST graduate Student
-
+###### KAIST Graduate Student
+ 
+<img src="./BDS.jpeg" width="450"><br>
+ 
 * Age: 24
 * Sex: male
 * How did we recruit: a close friend
@@ -171,23 +178,30 @@ For the first session, we positioned her at the first in the line. When she firs
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
  
 ###### KAIST undergraduate Student
-
+ 
+<img src="./enoch.jpeg" width="450"><br>
+ 
 * Age: 24
 * Sex: male
 * How did we recruit: Roommate of one of our team members.
 * Description: He is a KAIST ungraduate student in the Bio & Brain engineering department. He often whines about how he had to wait long time uncomfortably for the restaurant at Gangnam whenever he goes to see his girlfriend at Seoul.
-* Uniqueness: He really liked our application, and was very excited about it. 
+* Uniqueness: He really liked our application, and was very excited about it. He provided very positive feedbacks, but not many 
+ 
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to convert to It took him 20 seconds to submit When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
 	For the second session, we positioned her at the last in the line. Using her experience from the first session, it only took 15 seconds to register, noticed text message right away, and took 8 seconds for cancellation..  
  
-###### KAIST undergraduate Student
+###### KAIST Undergraduate Student
+ 
+<img src="./uncle.jpeg" width="450"><br>
+ 
 * Age: 24
 * Sex: male
-* How did we recruit: a close friend
-* Description: He is a KAIST graduate student in the physics department. He likes to try out new restaurants and friends about them. 
-* Uniqueness: He has a quick grasp when using new apps, and likes to criticize. He gave us some valuable criticisms that lead to usability lessons.
+* How did we recruit: Uncle of one of our teammate.
+* Description: He is a KAIST undergraduate student in the computer science department. He likes to try out new restaurants and friends about them. 
+* Uniqueness: He defines himself as a “컴맹”
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
+ 
 ## Usability Lessons
 10+ usability issues submitted?
 Are the usability issues described concretely and clearly?
@@ -212,7 +226,7 @@ High-level reflections are thoughtful and insightful?
 ### High-level Reflections
 Tough. At first we thought writing code and implementing the actual application was the biggest chunk of the DP project. But we realized user testing is as tough as implementing. We had to put a lot of time and effort before, during, as well as after the user testing.
 Hard judgement call. We had hard time judging what and when usability issues arise. Usability issues arouse in many forms. Many issues were explicitly addressed through “Thinking aloud”. However some delicate issues had to be captured by observing small reactions such as face expressions, body gestures and instinctive sounds.
-Wrong hypothesis. During designing and development, we had put series of design choices based on our own hypothesis. We believed that these choices would be good for users. However, some design choices turned out that 
+Wrong hypothesis. During designing and development, we had put series of design choices based on our own hypothesis. We believed that these choices would be good for users. However, some design choices turned out they raise some usability issues.
  
  
 ## Plan for Iteration
@@ -232,7 +246,7 @@ Wrong hypothesis. During designing and development, we had put series of design 
 ## Studio Reflections
 |#|Feedback|Reflections|
 |---|---|---|
-|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|* One participant was tested in a busy restaurant. |
-|2|Will there be no training session?|*Addessed in “No Tutorial or Training Session” section*| 
+|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|* Three participants were tested in a busy restaurant and one participant was tested in dormit. Also, one restaurant manager gave us feedback whether this app |
+|2|Will there be no training session?|*Addressed in “No Tutorial or Training Session” section*| 
 |3|To evaluate usability,  users’ number of trial & errors before successfully using a built-in function should be measured|*Addressed in Session Observations summary|
-|4|At least 6 participants should be tested to construct a justification of how fast a large number of people can comprehend the functions of UI.| *We tested 6 participants
+|4|Line up participants so that we can test how users’ experience change based on the user’s position in the line.| *Since we couldn’t gather all the participants because of their busy schedules, we simulated the line by using observers as a virtual customers, and testing two sessions: participants first in line, and last in line.
