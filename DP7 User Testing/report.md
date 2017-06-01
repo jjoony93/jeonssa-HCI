@@ -269,7 +269,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
  
 |#|Feedback|Reflections|
 |---|---|---|
-|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|* Three participants were tested in a busy restaurant and one participant was tested in dormitory room due to time constraints. Also, a restaurant manager gave us positive feedback on whether this application could work in real busy circumstances. |
-|2|Will there be no training session?|*Addressed in “No Tutorial or Training Session” section*| 
-|3|To evaluate usability,  users’ number of trial & errors before successfully using a built-in function should be measured|*Addressed in Session Observations summary|
-|4|Line up participants so that we can test how users’ experience change based on the user’s position in the line.| *Since we couldn’t gather all the participants because of their busy schedules, we simulated the line by using observers as a virtual customers, and testing two sessions: participants first in line, and last in line.
+|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|Three participants were tested in a busy restaurant and one participant was tested in dormitory room due to time constraints. Also, a restaurant manager gave us positive feedback on whether this application could work in real busy circumstances. |
+|2|Will there be no training session?|Addressed in “No Tutorial or Training Session” section*| 
+|3|To evaluate usability,  users’ number of trial & errors before successfully using a built-in function should be measured|Addressed in Session Observations summary|
+|4|Line up participants so that we can test how users’ experience change based on the user’s position in the line.|Since we couldn’t gather all the participants because of their busy schedules, we simulated the line by using observers as a virtual customers, and testing two sessions: participants first in line, and last in line.
