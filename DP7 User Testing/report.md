@@ -15,7 +15,7 @@
 Imagine you are at a busy restaurant and there are already 7 teams in waiting line. Pretend that you arrived at the restaurant front desk where tablet PC is located. Tablet PC has following link opened with chrome browser: https://kmin93.github.io/jeonssa-HCI/ . You have to get in the line using this tablet PC. 
  
  
-Web browser: user chrome    
+Web browser: user chrome<br>
 URL: https://kmin93.github.io/jeonssa-HCI/
 
 ### Testing environment
@@ -41,14 +41,16 @@ We are to launch a web-based service that provides estimated waiting time and en
 
 ### Tutorial or training: 
 ---
-Figure 1
 
-Figure 2
+![alt text](figure1.png "Figure 1")
+###### Figure 1: Main screen for enqueuing.<br>
+
+![alt text](figure2.png "Figure 2")
+###### Figure 2: 'What does this site do?' tutorial pop-up.<br>
+
 
 #### Tutorial:
-    We will offer a tutorial in the main page (Figure 1).
-    Once  ‘What does this site do?’ is clicked a tutorial page (Figure 2) will pop up.
-    It will serve the purpose of providing a quick view of the overall mechanism of our service
+We will offer a tutorial in the main page (Figure 1). Once  ‘What does this site do?’ is clicked a tutorial page (Figure 2) will pop up. It will serve the purpose of providing a quick view of the overall mechanism of our service
 
 #### Training session:
 - Task list & instruction: What are the tasks participants should perform, and what instruction should they be given? This is another part that should be delivered exactly as written to all participants.
