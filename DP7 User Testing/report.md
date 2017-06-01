@@ -91,6 +91,7 @@ capture the screen for later discussion.
 |5|Are the cancel reservation/call buttons in user page large enough?|
  
 |#|Interview Questions|
+|---|---|
 |1|What did you think of the background picture in main page? |
 |2|Did you find ‘what does this site do’ helpful? Did the site function as you expected?|
 |3|How easy or difficult was it for you to join/leave waiting line?|
