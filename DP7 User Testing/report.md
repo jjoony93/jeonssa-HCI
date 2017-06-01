@@ -32,6 +32,8 @@ quiet enough to conduct an interview
  
  
  
+---
+ 
 ### Introduction and informed consent
  
 You are invited to take part in a user testing. The results of this test will provide some crucial information as to how we might improve our service. It is your choice if you want to participate in this user testing or not. This form explains both why we are conducting and what will happen during the user testing. This information will help you decide whether you want to participate in our user testing.
@@ -70,8 +72,8 @@ By looking at the slider in user page, the user can get a hint of his relative p
  
 ##### Techniques for recording
 **Screen captures**: In case user has hard time figuring out what this page does, 
-capture the screen for later discussion.
-**Screen recording**: Record user’s screen and inputs for greater insight.
+capture the screen for later discussion.  
+**Screen recording**: Record user’s screen and inputs for greater insight.  
 **Written notes**: Take notes on any meaningful actions by the user.
  
 ##### Role
@@ -107,7 +109,7 @@ Thank you for participating in this session.
 This project that you have just tested is a web application to relieve some frustration of having to wait tediously for a long time when dining at a famous or crowded restaurant. We first started this project based on the question of “How might we make waiting time in a restaurant more meaningful?” As one of our solutions, we decided to make an online system that automatically informs customers of their estimated waiting time so that customers can leave the restaurant and do other meaningful tasks instead of waiting in a restaurant meaninglessly.
 The one that you have just tested is prototype of our project, and we will be modifying and improving this prototype based on the feedback you have given to us.
 Thank you for participating in our project.
- 
+---
  
 ### No Tutorial or Training Session
 We intentionally did not include a tutorial / training session; the reason being, our service is designed to be installed and distributed across restaurants, where there will be many first-time users (customers). A potential user would have to immediately grasp how to use our system, preferably without any external aid, in a very short span of time (at most, potentially, a waiter or restaurant employee could help with navigating the system). Since high learnability is a key factor of our UI interface, as has been explained, needing a tutorial session would be defeating one of the main purposes of our system.
@@ -132,8 +134,10 @@ Instead, our UI interface has an in-built help section, where a new user can lea
  
 We offer an in-build help section in the main page (*Figure 1*). Once  __“What does this site do?”__ is clicked a tutorial page (*Figure 2*) will pop up. It will serve the purpose of providing a quick view of the overall mechanism of our service.
  
+---
+ 
 ## Session Observations
-We presented our prototype to total six participants. We mostly recruited KAIST peers for observation due to several reasons. First, our application is designed in English so we needed participants who could understand English without difficulty. Secondly, we had limited time and human resources. Recruiting KAIST peers was a feasible option in finding English-speaking participants within limited time.
+We presented our prototype to total five participants. We mostly recruited KAIST peers for observation due to several reasons. First, our application is designed in English so we needed participants who could understand English without difficulty. Secondly, we had limited time and human resources. Recruiting KAIST peers was a feasible option in finding English-speaking participants within limited time.
  
  
 ###### KAIST Undergraduate Student
@@ -149,6 +153,8 @@ We presented our prototype to total six participants. We mostly recruited KAIST 
 For the first session, we positioned her at the first in the line. When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
 	For the second session, we positioned her at the last in the line. Using her experience from the first session, it only took 15 seconds to register, noticed text message right away, and took 8 seconds for cancellation..  
  
+---
+ 
 ###### KAIST Graduate student
  
 <img src="./ppakssu.jpeg" width="450"><br>
@@ -162,7 +168,7 @@ For the first session, we positioned her at the first in the line. When she firs
 	For the first session, we positioned him at the last in the line. While waiting, he watched person in front of him registering. He did not click on the “what does this site do,” but took only 13 seconds to register without error. He noticed the text message, and had good grasp on what user page does. It took 7 seconds for him to cancel the reservation.
 	For the second session, he had one error while registering - typing in wrong phone number - and took 20 seconds to register, and took 6 seconds to cancel. 
  
- 
+----
  
  
 ###### KAIST Graduate Student
@@ -177,6 +183,8 @@ For the first session, we positioned her at the first in the line. When she firs
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
  
+---
+ 
 ###### KAIST undergraduate Student
  
 <img src="./enoch.jpeg" width="450"><br>
@@ -185,22 +193,26 @@ For the first session, we positioned her at the first in the line. When she firs
 * Sex: male
 * How did we recruit: Roommate of one of our team members.
 * Description: He is a KAIST ungraduate student in the Bio & Brain engineering department. He often whines about how he had to wait long time uncomfortably for the restaurant at Gangnam whenever he goes to see his girlfriend at Seoul.
-* Uniqueness: He really liked our application, and was very excited about it. He provided very positive feedbacks, but not many 
+* Uniqueness: He really liked our application, and was very excited about it. He provided very positive feedbacks, but not many useful feedbacks that we could to usability lessons
  
-*Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to convert to It took him 20 seconds to submit When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
+*Summary: For the first session, we positioned him at the last in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to convert to It took him 20 seconds to submit When she first looked at the main page, she clicked on “what does this site do” link to see the help page. She registered successfully without error in 48 seconds. However, she did not notice that the cell phone received a text message. After informed about the text message, she directly went into the link. She did not have hard time noticing what user page does and shows. In cancelling the reservation, it took 11 seconds with one trial & error.
 	For the second session, we positioned her at the last in the line. Using her experience from the first session, it only took 15 seconds to register, noticed text message right away, and took 8 seconds for cancellation..  
+ 
+---
  
 ###### KAIST Undergraduate Student
  
 <img src="./uncle.jpeg" width="450"><br>
  
-* Age: 24
+* Age: 43
 * Sex: male
 * How did we recruit: Uncle of one of our teammate.
-* Description: He is a KAIST undergraduate student in the computer science department. He likes to try out new restaurants and friends about them. 
-* Uniqueness: He defines himself as a “컴맹”
+* Description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about losing potential users because of waiting time.
+* Uniqueness: He defines himself as a “컴맹.” He gave many insights that we, and other participants who are familiar with web application could have missed out.
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
+ 
+---
  
 ## Usability Lessons
 10+ usability issues submitted?
@@ -228,6 +240,7 @@ Tough. At first we thought writing code and implementing the actual application 
 Hard judgement call. We had hard time judging what and when usability issues arise. Usability issues arouse in many forms. Many issues were explicitly addressed through “Thinking aloud”. However some delicate issues had to be captured by observing small reactions such as face expressions, body gestures and instinctive sounds.
 Wrong hypothesis. During designing and development, we had put series of design choices based on our own hypothesis. We believed that these choices would be good for users. However, some design choices turned out they raise some usability issues.
  
+---
  
 ## Plan for Iteration
 |#|Goals|
@@ -243,10 +256,12 @@ Wrong hypothesis. During designing and development, we had put series of design 
 |10|Add some functionality to the reservation cancellation confirmation page, such as the ability to call the restaurant|
 |11|On wrong phone number input when cancelling a reservation, change the page alert to an in-page visual alert.|
  
+---
+ 
 ## Studio Reflections
 |#|Feedback|Reflections|
 |---|---|---|
-|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|* Three participants were tested in a busy restaurant and one participant was tested in dormit. Also, one restaurant manager gave us feedback whether this app |
+|1|User testing should be conducted in a more realistic situation, where participants are actually in a restaurant waiting line and in a hurry. The emotional states involved with the situation will affect the satisfaction of the UI.|* Three participants were tested in a busy restaurant and one participant was tested in dormitory room due to time constraints. Also, a restaurant manager gave us positive feedback on whether this application could work in real busy circumstances. |
 |2|Will there be no training session?|*Addressed in “No Tutorial or Training Session” section*| 
 |3|To evaluate usability,  users’ number of trial & errors before successfully using a built-in function should be measured|*Addressed in Session Observations summary|
 |4|Line up participants so that we can test how users’ experience change based on the user’s position in the line.| *Since we couldn’t gather all the participants because of their busy schedules, we simulated the line by using observers as a virtual customers, and testing two sessions: participants first in line, and last in line.
