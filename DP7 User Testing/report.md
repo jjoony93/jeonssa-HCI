@@ -69,12 +69,12 @@ We will record/capture screens of the tablet PC and the cell phone given.
 - By looking at the slider in user page, the user can get a hint of his relative position in the waiting line
  
 #### Recording Strategy
- 
-##### Techniques for recording
-**Screen captures**: In case user has hard time figuring out what this page does, 
-capture the screen for later discussion.  
-**Screen recording**: Record user’s screen and inputs for greater insight.  
-**Written notes**: Take notes on any meaningful actions by the user.
+
+##### Screen captures : In case user has hard time figuring out what this page does, capture the screen for later discussion.  
+
+##### Screen recording: Record user’s screen and inputs for greater insight.  
+
+##### Written notes: Take notes on any meaningful actions by the user.
  
 ##### Role
 - Facilitator: Min Kang
