@@ -9,14 +9,13 @@
 
 # User Testing
 
----
 ## Written Protocol
 
 ### Instructions for preparation
 Imagine you are at a busy restaurant and there are already 7 teams in waiting line. Pretend that you arrived at the restaurant front desk where tablet PC is located. Tablet PC has following link opened with chrome browser: https://kmin93.github.io/jeonssa-HCI/ . You have to get in the line using this tablet PC. 
  
  
-Web browser: user chrome. 
+Web browser: user chrome    
 URL: https://kmin93.github.io/jeonssa-HCI/
 
 ### Testing environment
@@ -25,7 +24,8 @@ URL: https://kmin93.github.io/jeonssa-HCI/
 3. Testing will be done in a busy restaurant so that user actually feels he/she want
 4. A place where both the user and the tester feel comfortable and quiet enough to conduct an interview
  
-### Introduction and informed consent: 
+### Introduction and informed consent:
+---
 #### Introduction	
 You are invited to take part in a user testing. The results of this test will provide some crucial information as to how we might improve our service. It is your choice if you want to participate in this user testing or not. This form explains both why we are conducting and what will happen during the user testing. This information will help you decide whether you want to participate in our user testing.
  
@@ -40,13 +40,15 @@ We are to launch a web-based service that provides estimated waiting time and en
  
 
 ### Tutorial or training: 
-
+---
 Figure 1
 
 Figure 2
 
 #### Tutorial:
-    We will offer a tutorial in the main page (Figure 1). Once  ‘What does this site do?’ is clicked a tutorial page (Figure 2) will pop up. It will serve the purpose of providing a quick view of the overall mechanism of our service
+    We will offer a tutorial in the main page (Figure 1).
+    Once  ‘What does this site do?’ is clicked a tutorial page (Figure 2) will pop up.
+    It will serve the purpose of providing a quick view of the overall mechanism of our service
 
 #### Training session:
 - Task list & instruction: What are the tasks participants should perform, and what instruction should they be given? This is another part that should be delivered exactly as written to all participants.
