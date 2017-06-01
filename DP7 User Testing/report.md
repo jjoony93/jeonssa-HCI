@@ -25,7 +25,7 @@ URL: https://kmin93.github.io/jeonssa-HCI/
 4. A place where both the user and the tester feel comfortable and quiet enough to conduct an interview
  
 ### Introduction and informed consent:
----
+------
 #### Introduction	
 You are invited to take part in a user testing. The results of this test will provide some crucial information as to how we might improve our service. It is your choice if you want to participate in this user testing or not. This form explains both why we are conducting and what will happen during the user testing. This information will help you decide whether you want to participate in our user testing.
  
@@ -40,7 +40,7 @@ We are to launch a web-based service that provides estimated waiting time and en
  
 
 ### Tutorial or training: 
----
+------
 
 ![alt text](figure1.png "Figure 1")
 ###### Figure 1: Main screen for enqueuing.<br>
