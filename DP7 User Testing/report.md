@@ -66,7 +66,7 @@ We will record/capture screens of the tablet PC and the cell phone given.
 - A page confirming that the reservation has been cancelled shows up
  
 ##### Check current position in waiting list (see how many people are left)
-By looking at the slider in user page, the user can get a hint of his relative position in the waiting line
+- By looking at the slider in user page, the user can get a hint of his relative position in the waiting line
  
 #### Recording Strategy
  
