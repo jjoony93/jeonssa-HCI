@@ -109,6 +109,7 @@ Thank you for participating in this session.
 This project that you have just tested is a web application to relieve some frustration of having to wait tediously for a long time when dining at a famous or crowded restaurant. We first started this project based on the question of “How might we make waiting time in a restaurant more meaningful?” As one of our solutions, we decided to make an online system that automatically informs customers of their estimated waiting time so that customers can leave the restaurant and do other meaningful tasks instead of waiting in a restaurant meaninglessly.
 The one that you have just tested is prototype of our project, and we will be modifying and improving this prototype based on the feedback you have given to us.
 Thank you for participating in our project.
+ 
 ---
  
 ### No Tutorial or Training Session
@@ -209,6 +210,7 @@ For the first session, we positioned her at the first in the line. When she firs
 * How did we recruit: Uncle of one of our teammate.
 * Description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about losing potential users because of waiting time.
 * Uniqueness: He defines himself as a “컴맹.” He gave many insights that we, and other participants who are familiar with web application could have missed out.
+ 
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
  
