@@ -209,7 +209,7 @@ For the first session, we positioned her at the first in the line. When she firs
 * Sex: male
 * How did we recruit: Uncle of one of our teammate.
 * Description: He is a chief and a owner of a restaurant in a very busy area in Gangnam. He is very concerned about losing potential users because of waiting time.
-* Uniqueness: He defines himself as a “컴맹.” He gave many insights that we, and other participants who are familiar with web application could have missed out.
+* Uniqueness: He defines himself as a “컴맹.” He gave many insights that we, and other participants who are familiar with web application could have missed out. Also, he gave very useful feedbacks 
  
 *Summary: For the first session, we positioned him at the first in the line. He first looked at the main page and without clicking “what does this site do”, he submitted form right away without any trial & errors. However, the default keyboard setting of ipad was in english rather than numbers and special characters, so it took a few seconds to switch between keyboard input modes. It took him a total of 20 seconds to submit. Luckily he noticed that he received a text message and entered user page. It took him 10 seconds to cancel reservation. 
 	For the second session, we positioned him at the last in the line. Using his experience from the first session, it only took 12 seconds to register and 7 seconds to cancel reservation.
@@ -217,12 +217,7 @@ For the first session, we positioned her at the first in the line. When she firs
 ---
  
 ## Usability Lessons
-10+ usability issues submitted?
-Are the usability issues described concretely and clearly?
-Organized by task and theme?
-Level of criticality included?
-High-level reflections are thoughtful and insightful?
-#Usability lessons are derived from questionnaires/interview questions and user testing observations.
+**Usability lessons were derived from survey / interview questions and user testing observations.**
 |#|Issues|Theme|Level of Criticality|
 |---|---|---|---|
 |1|In the reservation page, the "See Menu" button does not work.|Consistency & standards|Major: high priority fix|
@@ -238,13 +233,14 @@ High-level reflections are thoughtful and insightful?
 |11|When entering a wrong number when cancelling a reservation, the page alert is unfriendly.|Error reporting, diagnosis, and recovery|Cosmetic: need not be fixed|
  
 ### High-level Reflections
-Tough. At first we thought writing code and implementing the actual application was the biggest chunk of the DP project. But we realized user testing is as tough as implementing. We had to put a lot of time and effort before, during, as well as after the user testing.
-Hard judgement call. We had hard time judging what and when usability issues arise. Usability issues arouse in many forms. Many issues were explicitly addressed through “Thinking aloud”. However some delicate issues had to be captured by observing small reactions such as face expressions, body gestures and instinctive sounds.
-Wrong hypothesis. During designing and development, we had put series of design choices based on our own hypothesis. We believed that these choices would be good for users. However, some design choices turned out they raise some usability issues.
+- Tough. At first we thought writing code and implementing the actual application was the biggest chunk of the DP project. But we realized user testing is as tough as implementing. We had to put a lot of time and effort before, during, as well as after the user testing.
+- Hard judgement call. We had hard time judging what and when usability issues arise. Usability issues arouse in many forms. Many issues were explicitly addressed through “Thinking aloud”. However some delicate issues had to be captured by observing small reactions such as face expressions, body gestures and instinctive sounds.
+- Wrong hypothesis. During designing and development, we had put series of design choices based on our own hypothesis. We believed that these choices would be good for users. However, some design choices turned out they raise some usability issues.
  
 ---
  
 ## Plan for Iteration
+ 
 |#|Goals|
 |1|Implement a View Menu function in the reservation page.|
 |2|Update the progress bar function in the reservation page to reflect actual remaining teams left, based on the database info.|
