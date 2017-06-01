@@ -250,6 +250,7 @@ We presented our prototype to total five participants. We mostly recruited KAIST
 ## Plan for Iteration
  
 |#|Goals|
+|---|---|
 |1|Implement a View Menu function in the reservation page.|
 |2|Update the progress bar function in the reservation page to reflect actual remaining teams left, based on the database info.|
 |3|Change reservation cancellation page to be mobile-friendly (for Android).|
