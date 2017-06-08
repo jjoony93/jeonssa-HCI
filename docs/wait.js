@@ -150,6 +150,7 @@ function go_cancel(){
 		// localStorage.getItem("cur_used",cur_used);
 }
 
+<<<<<<< Updated upstream
 function remove_waiting(phone){
 	var remaining = 0;
 	var num_waiting = -1;
@@ -185,6 +186,11 @@ function remove_waiting(phone){
 
 lineRef.on('child_removed',function(snapshot){
 	team_reduce();
+=======
+$('#myMenu').on('show.bs.modal', function () {
+    $('.modal-body').css('overflow-y', 'auto'); 
+    $('.modal-body').css('max-height', $(window).height() * 0.7);
+>>>>>>> Stashed changes
 });
 
 $( document ).ready(function() {
