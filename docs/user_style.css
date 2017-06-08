@@ -71,13 +71,13 @@ h3{
 	color: white;
 }
 
-/*.modal-body-cancel{
+.modal-body-cancel{
 	font-size:18px;
 	text-align: center;
 	padding:15px;
 
 }
-*/
+
 #phone {
 	width: 80%;
 	height: 30px;
@@ -97,22 +97,24 @@ input {
 }
 
 
-/*#cancel_but {
+#cancel_but {
 	height: 150%;
 	font-size: 26px !important;
 	width: 30%;
 	background-color:#f2aa43;
 	color: white;
-}*/
+}
 
 /*other*/
 .modal-body {
 	max-height: calc(100vh - 50px);
     overflow-y: auto;
+    font-size: 30px;
+	text-align: center;
 
 }
 
-/*.modal-body-sub {
+.modal-body-sub {
 	font-size: 18px;
 	text-align: center;
 }
