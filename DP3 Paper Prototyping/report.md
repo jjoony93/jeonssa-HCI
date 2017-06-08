@@ -45,7 +45,7 @@ We presented our prototype to total three participants.
 * sex: male
 * description: He is a KAIST undergraduate student who often goes out to eat with his girlfirend. Both he and his girlfriend is well known foodie, and has lots of experience waiting in a restaurant
 
-###### KAIST SNU grad student
+###### SNU grad student
 * age: 25
 * sex: male
 * description: He is a SNU graduate student who lives in very busy area around SNU. He hates waiting in a restaurant, and has has hard time finding restaurant that doesn't requires waiting.
