@@ -32,7 +32,8 @@
             <i class="fa fa-cutlery" aria-hidden="true" style="font-size:24px;"></i>
             <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="100" data-slider-orientation="horizontal" data-slider-handle="custom" style="width:100%;"/>
           </div>
-        </div>
+
+
       </div>
     </div>
     <div class="row" style="">
@@ -59,11 +60,14 @@
     <div class="row" style="">
       <div class="col-xs-12 col-md-12" style="">
         <div class="thumbnail">
-          <img src="./chicken.png" style="width:100%;max-height:400px;" alt="...">
+          <img src="./rec_menu.png" style="width:100%;max-height:400px;" alt="...">
           <div class="caption" style="">
             <h4 style="color:black !important;">Chicken House</h4>
             <p>Most delicious things you can do with chicken for dinner. Providing fast, friendly service of the best quality food! </p>
-            <p style="text-align: right;"><a href="#" class="btn btn-primary" role="button">See Menu</a></p>
+            <button id="see_menu" type="button" class="btn btn-primary btn-lg" style="text-align:right;" data-toggle="modal" data-target="#myMenu">
+                  See Menu
+            </button>
+
           </div>
         </div>
       </div>
@@ -89,6 +93,17 @@
 <!-- <button type="button" data-toggle="modal" data-target="#myModal">
   Launch demo modal
 </button> -->
+          <div class="modal modal-wide fade" id="myMenu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                      <img src="./menu.png" style="width:100%;max-height:2000px;" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+
+        </div>
 
 <!-- Modal get ready -->
 <div class="modal fade" id="get_ready" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
