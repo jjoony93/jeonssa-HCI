@@ -82,6 +82,7 @@ pointerRef.once('value').then(function(snapshot){
   var obj = snapshot.val();
   if(obj==null){
     pointerRef.set({curr: cur_used, max: num_waiting});
+    $('#num_wait').html(num_waiting);
     return;
   }else{
     cur_used = obj.curr;

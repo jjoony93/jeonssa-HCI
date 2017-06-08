@@ -25,29 +25,37 @@ var alert_msg = [
 	// "Your reservation has been canceled", // 0min
 ];
 function team_reduce(){
-	wait_team -= 1;
-	calculate_time();
+	alert("testing");
+	myRef.once('value').then(function(snapshot){
+		if(snapshot.val().remaining!=null){
+			wait_team = snapshot.val().remaining;
+		}
 
-	// if(wait_team ==2){
-	// 	// $('#get_ready').modal('show');
-	// 	// $('#cancel').modal('show');
-	// 	// $('#no_show').modal('show');
-	// 	// enable vibration support
-	// }
-	if (wait_team == 1) {
-		$('.slider-handle').hide();
-	}
-	if(wait_team < 0){
-		// alert("no show!! wait one more team");
-		no_show();
-	}
+		// wait_team -= 1;
+		calculate_time();
 
-	display();
+		// if(wait_team ==2){
+		// 	// $('#get_ready').modal('show');
+		// 	// $('#cancel').modal('show');
+		// 	// $('#no_show').modal('show');
+		// 	// enable vibration support
+		// }
+		if (wait_team == 1) {
+			$('.slider-handle').hide();
+		}
+		if(wait_team < 0){
+			// alert("no show!! wait one more team");
+			no_show();
+		}
 
-	//var value = $('#ex1').slider('getValue');
-	// alert(value);
-	// For non-getter methods, you can chain together commands
-	$('#ex1').slider('setValue', wait_team*10);
+		display();
+
+		//var value = $('#ex1').slider('getValue');
+		// alert(value);
+		// For non-getter methods, you can chain together commands
+		$('#ex1').slider('setValue', wait_team*10);
+	});
+
 	return true;
 }
 
@@ -133,15 +141,43 @@ function go_cancel(){
 		alert("Phone number not filled completely!");
 		return false
 	}
-	var phone_check = localStorage.getItem(reserv).substring(7,11);
-	if(phone==phone_check){
-		location.href = "./cancelled.html";
-		var cur_used = localStorage.getItem("cur_used");
-		cur_used--;
-		localStorage.getItem("cur_used",cur_used);
-	}else{
-		alert("You typed wrong number!");
-	}
+	// var phone_check = localStorage.getItem(reserv).substring(7,11);
+	remove_waiting(phone);
+
+		// location.href = "./cancelled.html";
+		// var cur_used = localStorage.getItem("cur_used");
+		// cur_used--;
+		// localStorage.getItem("cur_used",cur_used);
+}
+
+function remove_waiting(phone){
+	var remaining = 0;
+	var num_waiting = -1;
+	var last_four = 0;
+	var success;
+	myRef.once('value').then(function(snapshot){
+		last_four = snapshot.val().last_four;
+		if(last_four == phone){
+			myRef.remove();
+			lineRef.once('value').then(function(snapshot){
+				snapshot.forEach(function(child_snapshot){
+					var key = child_snapshot.key;
+					database.ref('line/'+key).update({remaining: remaining});
+					remaining++;
+				});
+
+				pointerRef.once('value').then(function(snapshot){
+				  var obj = snapshot.val();
+				    num_waiting = obj.max;
+				    num_waiting--;
+				    pointerRef.update({max: num_waiting});
+				});
+			});
+			success=true;
+		}else{
+			alert("You typed wrong number!");
+		}
+	});
 }
 // function timer(){
 // 	var t = setInterval(team_reduce, 3000);
