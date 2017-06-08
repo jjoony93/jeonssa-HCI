@@ -3,6 +3,7 @@ var wait_time_sec;
 var wait_time_min;
 var time_succeed;
 var no_show_time;
+var max_wait;
 var reserv = getParameterByName('reserv');
 
 var config = {
@@ -25,7 +26,7 @@ var alert_msg = [
 	// "Your reservation has been canceled", // 0min
 ];
 function team_reduce(){
-	alert("testing");
+	
 	myRef.once('value').then(function(snapshot){
 		if(snapshot.val().remaining!=null){
 			wait_team = snapshot.val().remaining;
@@ -183,7 +184,7 @@ function remove_waiting(phone){
 // 	var t = setInterval(team_reduce, 3000);
 // }
 
-lineRef.on('child_removed',function(snapshot){
+myRef.on('child_changed',function(snapshot){
 	team_reduce();
 });
 
@@ -191,7 +192,9 @@ $( document ).ready(function() {
 
 	myRef.once('value').then(function(snapshot){
 		wait_team = snapshot.val().remaining;
-		$('#ex1').slider({max: wait_team*10});
+		max_wait = snapshot.val().max_wait;
+		$('#ex1').slider({max: max_wait*10});
+		$('#ex1').slider('setValue', wait_team*10);
 		no_show_time = 0;
 		calculate_time();
 		display();

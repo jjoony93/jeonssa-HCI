@@ -62,9 +62,12 @@ var num_waiting=0;
 
 
 
-lineRef.on('child_removed', function(snapshot){
-  num_waiting = obj.max;
-  $('#num_wait').html(num_waiting);
+pointerRef.on('child_changed', function(snapshot){
+  pointerRef.once('value').then(function(snap){
+    var obj = snap.val();
+    num_waiting = obj.max;
+    $('#num_wait').html(num_waiting);
+  }) 
 })
 
 
@@ -125,10 +128,10 @@ for(var i = 0; i<=cur_used; i++){
 //     priority_index=used_code.length+1
 // });
 
-$("#pop_ok").click(
-  function(){
-    $('#num_wait').html(num_waiting);
-  });
+// $("#pop_ok").click(
+//   function(){
+//     $('#num_wait').html(num_waiting);
+//   });
 
 $("#submit").click(
 	function () {
@@ -182,7 +185,7 @@ $("#submit").click(
 		// });
 
     // localStorage.setItem(reserv,phone);
-    database.ref('line/'+reserv).set({phone: phone, remaining: num_waiting, person: persons, last_four: phone.substring(7,11)});
+    database.ref('line/'+reserv).set({phone: phone, remaining: num_waiting, max_wait: num_waiting, person: persons, last_four: phone.substring(7,11)});
     // localStorage.setItem("cur_used",cur_used);
     num_waiting++;
     pointerRef.set({curr: cur_used, max: num_waiting});
