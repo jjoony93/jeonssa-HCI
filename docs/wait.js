@@ -173,6 +173,7 @@ function remove_waiting(phone){
 				    num_waiting = obj.max;
 				    num_waiting--;
 				    pointerRef.update({max: num_waiting});
+				    location.href = "./cancelled.html";
 				});
 			});
 			success=true;
@@ -187,6 +188,7 @@ function remove_waiting(phone){
 
 myRef.on('child_changed',function(snapshot){
 	team_reduce();
+});
 
 $('#myMenu').on('show.bs.modal', function () {
     $('.modal-body').css('overflow-y', 'auto'); 
@@ -219,7 +221,4 @@ $( document ).ready(function() {
 		});
 
 	})
-
-
-
 });
