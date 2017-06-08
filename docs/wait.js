@@ -199,26 +199,36 @@ $('#myMenu').on('show.bs.modal', function () {
 $( document ).ready(function() {
 
 	myRef.once('value').then(function(snapshot){
-		wait_team = snapshot.val().remaining;
-		max_wait = snapshot.val().max_wait;
-		$('#ex1').slider({max: max_wait*10});
-		$('#ex1').slider('setValue', wait_team*10);
-		no_show_time = 0;
-		calculate_time();
-		display();
-		$('#myModal').modal({ show: false})
+		if(snapshot.val()!=null){
+			wait_team = snapshot.val().remaining;
+			max_wait = snapshot.val().max_wait;
+			$('#ex1').slider({max: max_wait*10});
+			$('#ex1').slider('setValue', wait_team*10);
+			no_show_time = 0;
+			calculate_time();
+			display();
+			$('#myModal').modal({ show: false})
 
-		// With JQuery
-		$('#ex1').slider({
-			// tooltip: 'always',
-			// formatter: function(value) {
-			// 	return 'Remaining Teams:' + value/10;
-			// }
-		});
+			// With JQuery
+			$('#ex1').slider({
+				// tooltip: 'always',
+				// formatter: function(value) {
+				// 	return 'Remaining Teams:' + value/10;
+				// }
+			});
 
-		$('#btn-cancel').click(function() {
-		  $('#cancel').modal('show');
-		});
+			$('#btn-cancel').click(function() {
+			  $('#cancel').modal('show');
+			});
+		}else{
+			var $remaining_team = document.querySelector('.remaining_team');
+			var $wait_time = document.querySelector('.wait_time');
+			
+			$('#alert__info').html("<span style='color:red;'>Your information has been expired :(<br><small>Please visit our restaurant again!!</small></span>");
+			$remaining_team.innerHTML = 0;
+			$wait_time.innerHTML = 0;
+		}
 
-	})
+
+	});
 });
