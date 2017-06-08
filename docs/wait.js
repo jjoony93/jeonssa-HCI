@@ -5,6 +5,17 @@ var time_succeed;
 var no_show_time;
 var reserv = getParameterByName('reserv');
 
+var config = {
+  apiKey: "AIzaSyAdYpNug8KNt5ZYMr51cBbV149kmxCl7gQ",
+  databaseURL: "https://jeonssa-hci.firebaseio.com/"
+};
+
+firebase.initializeApp(config);
+var database = firebase.database();
+var lineRef = database.ref("line");
+var myRef = database.ref('line/'+reserv);
+var pointerRef = database.ref("pointer/pointer");
+
 
 var alert_msg = [
 	"Well, you've got some time!<br><small>How about exploring nearby places?</small>",  // 30min 
@@ -132,29 +143,38 @@ function go_cancel(){
 		alert("You typed wrong number!");
 	}
 }
-function timer(){
-	var t = setInterval(team_reduce, 3000);
-}
+// function timer(){
+// 	var t = setInterval(team_reduce, 3000);
+// }
 
-
+lineRef.on('child_removed',function(snapshot){
+	team_reduce();
+});
 
 $( document ).ready(function() {
-	wait_team = 10;
-	no_show_time = 0;
-	calculate_time();
-	display();
-	$('#myModal').modal({ show: false})
 
-	// With JQuery
-	$('#ex1').slider({
-		// tooltip: 'always',
-		// formatter: function(value) {
-		// 	return 'Remaining Teams:' + value/10;
-		// }
-	});
+	myRef.once('value').then(function(snapshot){
+		wait_team = snapshot.val().remaining;
+		$('#ex1').slider({max: wait_team*10});
+		no_show_time = 0;
+		calculate_time();
+		display();
+		$('#myModal').modal({ show: false})
 
-	$('#btn-cancel').click(function() {
-	  $('#cancel').modal('show');
-	});
+		// With JQuery
+		$('#ex1').slider({
+			// tooltip: 'always',
+			// formatter: function(value) {
+			// 	return 'Remaining Teams:' + value/10;
+			// }
+		});
+
+		$('#btn-cancel').click(function() {
+		  $('#cancel').modal('show');
+		});
+
+	})
+
+
 
 });

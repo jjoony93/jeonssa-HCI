@@ -42,29 +42,59 @@ var reserv_code=["ability","able","aboard","about","above","accept","accident","
   "future","gain","game","garage","garden","gas","gasoline","gate",
   "gather","gave","general","generally","gentle","gently","get","getting",];
 
+var config = {
+  apiKey: "AIzaSyAdYpNug8KNt5ZYMr51cBbV149kmxCl7gQ",
+  databaseURL: "https://jeonssa-hci.firebaseio.com/"
+};
+
+firebase.initializeApp(config);
+var database = firebase.database();
+var lineRef = database.ref("line");
+var pointerRef = database.ref("pointer/pointer");
+
 var used_code=[];
 var priority_index= 1;
 var max_size = reserv_code.length;
 var cur_used=-1;
-if(localStorage.getItem("cur_used")!=null){
-  cur_used = localStorage.getItem("cur_used");
-}else{
-  localStorage.setItem("cur_used",cur_used);
-}
-$('#num_wait').html(parseInt(cur_used)+1);
+var num_waiting=0;
+
+
+
+
+
+lineRef.on('child_removed', function(snapshot){
+  num_waiting = obj.max;
+  $('#num_wait').html(num_waiting);
+})
+
+
+// if(localStorage.getItem("cur_used")!=null){
+//   cur_used = localStorage.getItem("cur_used");
+// }else{
+//   localStorage.setItem("cur_used",cur_used);
+// }
+
+
 
 $(document).ready(function() {
+
+pointerRef.once('value').then(function(snapshot){
+  var obj = snapshot.val();
+  if(obj==null){
+    pointerRef.set({curr: cur_used, max: num_waiting});
+    return;
+  }else{
+    cur_used = obj.curr;
+    num_waiting = obj.max;
+  }
+  $('#num_wait').html(num_waiting);
+});
 
 for(var i = 0; i<=cur_used; i++){
   used_code.push(reserv_code[i]);
 }
 
-// var config = {
-// 	apiKey: "AIzaSyAdYpNug8KNt5ZYMr51cBbV149kmxCl7gQ",
-// 	databaseURL: "https://jeonssa-hci.firebaseio.com/"
-// };
 
-// firebase.initializeApp(config);
 
 // firebase.database().ref('users').once("value", function(snapshot) {
 //     if(snapshot.exists()){
@@ -96,7 +126,7 @@ for(var i = 0; i<=cur_used; i++){
 
 $("#pop_ok").click(
   function(){
-    $('#num_wait').html(parseInt(cur_used)+1);
+    $('#num_wait').html(num_waiting);
   });
 
 $("#submit").click(
@@ -108,7 +138,7 @@ $("#submit").click(
 
 		if(!phone && !persons){
 			$('#phone_warning').html("");
-			$('#phone_warning').html(" * Please fill out both forms.")
+			$('#phone_warning').html(" * Please fill out both forms.");
 			//alert("Please fill out both forms.")
 			return false
 		}
@@ -150,8 +180,11 @@ $("#submit").click(
 		// 	time: date.getTime()
 		// });
 
-    localStorage.setItem(reserv,phone);
-    localStorage.setItem("cur_used",cur_used);
+    // localStorage.setItem(reserv,phone);
+    database.ref('line/'+reserv).set({phone: phone, remaining: num_waiting, person: persons, last_four: phone.substring(7,11)});
+    // localStorage.setItem("cur_used",cur_used);
+    num_waiting++;
+    pointerRef.set({curr: cur_used, max: num_waiting});
 
 		// priority_index++;
 		$('#res_code').html(reserv);
@@ -162,7 +195,7 @@ $("#submit").click(
 
 		$('#persons').val('');
 		$('#persons').attr('placeholder','Number of people in your team (e.g. 3)').focus().blur();
-		reserv=reserv_code[Math.floor( Math.random() * reserv_code.length )]
+		// reserv=reserv_code[Math.floor( Math.random() * reserv_code.length )]
 		}
 
 	}); 
