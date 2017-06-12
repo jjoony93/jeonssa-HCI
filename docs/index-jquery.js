@@ -184,7 +184,7 @@ $("#submit").click(
 		// });
 
     // localStorage.setItem(reserv,phone);
-    database.ref('line/'+reserv).set({phone: phone, remaining: num_waiting, max_wait: num_waiting, person: persons, last_four: phone.substring(7,11)});
+    database.ref('line/'+reserv).set({phone: phone, remaining: num_waiting, max_wait: num_waiting, person: persons, last_four: phone.substring(7,11), no_show: 0});
     // localStorage.setItem("cur_used",cur_used);
     num_waiting++;
     pointerRef.set({curr: cur_used, max: num_waiting});

@@ -44,9 +44,9 @@ function team_reduce(){
 		if (wait_team == 1) {
 			$('.slider-handle').hide();
 		}
-		if(wait_team == 0){
+		if(wait_team < 0){
 			// alert("no show!! wait one more team");
-			no_show();
+			// no_show();
 		}
 
 		display();

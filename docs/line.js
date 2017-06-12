@@ -62,41 +62,79 @@ function remove_waiting(){
 	var first_entry;
 
 	var index = $("#reserv").val();
-	pointerRef.once('value').then(function(snapshot){
-		curr = snapshot.val().curr;
-		max = snapshot.val().max;
-		first_entry = parseInt(curr)-parseInt(max)+1+parseInt(index);
+  if(index==""){
 
-		var firstRef = database.ref("line/"+reserv_code[first_entry]);
-		alert(first_entry);
-		if(max>0){
-			firstRef.remove();
+    index = 0;
+  }
 
-			lineRef.once('value').then(function(snapshot){
-				snapshot.forEach(function(child_snapshot){
-					var key = child_snapshot.key;
-					database.ref('line/'+key).update({remaining: remaining});
-					remaining++;
-				});
+  lineRef.once('value').then(function(snapshot){
+    var i=0;
+    snapshot.forEach(function(child_snapshot){
+      var key = child_snapshot.key;
+      if(i==index){
+        database.ref('line/'+key).remove();
+      }
+      else{
+        database.ref('line/'+key).update({remaining: remaining});
+        remaining++;
+        if(i<index){
+          var no_show = child_snapshot.val().no_show;
+          no_show++;
+          database.ref('line/'+key).update({no_show: no_show});
+        }
+      }
+      i++;
+    });
 
-				pointerRef.once('value').then(function(snapshot){
-					var obj = snapshot.val();
-					num_waiting = obj.max;
-					num_waiting--;
-					pointerRef.update({max: num_waiting});
-					alert("done");
-				});
-			});
-			for(var i=first_entry-index; i<first_entry; i++){
-				var tempRef = database.ref("line/"+reserv_code[i]);
-				tempRef.once('value').then(function(snapshot){
-					var remaining = snapshot.val().remaining;
-					remaining--;
-					tempRef.update({remaining: remaining});
-				});
-			}
-		}
+    pointerRef.once('value').then(function(snapshot){
+      var obj = snapshot.val();
+      num_waiting = obj.max;
+      num_waiting--;
+      pointerRef.update({max: num_waiting});
+      alert("done");
+    });
+  });
 
-	});
+	// pointerRef.once('value').then(function(snapshot){
+	// 	curr = snapshot.val().curr;
+	// 	max = snapshot.val().max;
+	// 	entry = parseInt(curr)-parseInt(max)+1+parseInt(index);
+ //    first_entry = parseInt(curr)-parseInt(max)+1;
+
+	// 	var firstRef = database.ref("line/"+reserv_code[entry]);
+	// 	if(max>0){
+	// 		firstRef.remove();
+
+	// 		lineRef.once('value').then(function(snapshot){
+	// 			snapshot.forEach(function(child_snapshot){
+	// 				var key = child_snapshot.key;
+	// 				database.ref('line/'+key).update({remaining: remaining});
+	// 				remaining++;
+	// 			});
+
+	// 			pointerRef.once('value').then(function(snapshot){
+	// 				var obj = snapshot.val();
+	// 				num_waiting = obj.max;
+	// 				num_waiting--;
+	// 				pointerRef.update({max: num_waiting});
+	// 				alert("done");
+	// 			});
+	// 		});
+ //      var i;
+	// 		for(i=entry-1; i>=first_entry; i--){
+
+	// 			var tempRef = database.ref("line/"+reserv_code[i]);
+	// 			tempRef.once('value').then(function(snapshot){
+ //          if(snapshot.val()!=null){
+ //            var no_show= snapshot.val().no_show;
+ //            no_show++;
+ //            tempRef.update({no_show: no_show});           
+ //          }
+
+	// 			});
+	// 		}
+	// 	}
+
+	// });
 }
 
