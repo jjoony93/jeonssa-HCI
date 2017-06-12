@@ -4,6 +4,7 @@ var wait_time_min;
 var time_succeed;
 var no_show_time;
 var max_wait;
+var no_show;
 var reserv = getParameterByName('reserv');
 
 var config = {
@@ -22,7 +23,8 @@ var alert_msg = [
 	"Well, you've got some time!<br><small>How about exploring nearby places?</small>",  // 30min 
 	"Your turn is coming!<br><small>You could skim through our menu.</small>",  // 20min
 	"<span style='color:orange;'>You are on call soon!<br><small>Standby in restaurant.</small></span>",  // 10min
-	"<span style='color:red;'>We don't want to miss you :(<br><small>Your reservation will be canceled soon.</small></span>", // 0min
+	"<span style='color:#2ED784;'>Finally!! It is now your turn<br><small>You should be at the restaurant.</small></span>",
+	"<span style='color:red;'>You missed your turn :(<br><small>Your reservation will be cancelled if you miss again.</small></span>", // 0min
 	// "Your reservation has been canceled", // 0min
 ];
 function team_reduce(){
@@ -30,6 +32,7 @@ function team_reduce(){
 	myRef.once('value').then(function(snapshot){
 		if(snapshot.val().remaining!=null){
 			wait_team = snapshot.val().remaining;
+			no_show = snapshot.val().no_show;
 		}
 
 		// wait_team -= 1;
@@ -44,9 +47,9 @@ function team_reduce(){
 		if (wait_team == 1) {
 			$('.slider-handle').hide();
 		}
-		if(wait_team < 0){
+		if(no_show > 1){
 			// alert("no show!! wait one more team");
-			// no_show();
+			no_show_remove();
 		}
 
 		display();
@@ -80,8 +83,11 @@ function display(){
 		alert = alert_msg[1];
 	else if (wait_time_sec < 20 && wait_time_sec >= 1)
 		alert = alert_msg[2];
+	else if(no_show>0)
+		alert=alert_msg[4];
 	else if(wait_time_sec < 10)
 		alert = alert_msg[3];
+
 	$('#alert__info').html(alert);
 }
 
@@ -106,7 +112,7 @@ function alarm_be_ready(){
 	alert("2 Teams Remaining!! Get Ready!!")
 }
 
-function no_show(){
+function no_show_remove(){
 	// var $modal_no_show = document.querySelector('#no_show_num');
 	// wait_team = 1;
 	// no_show_time ++;
@@ -206,11 +212,11 @@ $( document ).ready(function() {
 			max_wait = snapshot.val().max_wait;
 			$('#ex1').slider({max: max_wait*10});
 			$('#ex1').slider('setValue', wait_team*10);
-			no_show_time = 0;
+			no_show = snapshot.val().no_show;
 			calculate_time();
-			if(wait_team == 0){
+			if(no_show > 1){
 				// alert("no show!! wait one more team");
-				no_show();
+				no_show_remove();
 			}
 			display();
 			$('#myModal').modal({ show: false})
@@ -230,7 +236,7 @@ $( document ).ready(function() {
 			var $remaining_team = document.querySelector('.remaining_team');
 			var $wait_time = document.querySelector('.wait_time');
 
-			$('#alert__info').html("<span style='color:red;'>Your information has been cancelled:(<br><small>Please visit our restaurant again!!</small></span>");
+			$('#alert__info').html("<span style='color:red;'>Your Reservation has been cancelled:(<br><small>Please visit our restaurant again!!</small></span>");
 			$remaining_team.innerHTML = 0;
 			$wait_time.innerHTML = 0;
 		}
