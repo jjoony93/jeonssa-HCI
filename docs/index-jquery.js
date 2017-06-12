@@ -138,6 +138,7 @@ $("#submit").click(
 		// console.log("submit button clicked");
 		var phone = $("#phone").val();
 		var persons = $("#persons").val();
+    var phone_origin = phone;
 
 		if(!phone && !persons){
 			$('#phone_warning').html("");
@@ -190,9 +191,9 @@ $("#submit").click(
     pointerRef.set({curr: cur_used, max: num_waiting});
 
 		// priority_index++;
-		$('#res_code').html(reserv);
-		$('#res_url').attr('href',`/jeonssa-HCI/user.html?reserv=${reserv}`);
-    $('#res_url').html(`https://kmin93.github.io/jeonssa-HCI/user.html?reserv=${reserv}`);
+		// $('#res_code').html(reserv);
+		// $('#res_url').attr('href',`/jeonssa-HCI/user.html?reserv=${reserv}`);
+    $('#res_url').html(phone_origin);
 		$('#phone').val('');
 		$('#phone').attr('placeholder','Phone Number (e.g. 010-1234-5678)').focus().blur();
 
