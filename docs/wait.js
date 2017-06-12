@@ -44,7 +44,7 @@ function team_reduce(){
 		if (wait_team == 1) {
 			$('.slider-handle').hide();
 		}
-		if(wait_team < 0){
+		if(wait_team == 0){
 			// alert("no show!! wait one more team");
 			no_show();
 		}
@@ -80,7 +80,7 @@ function display(){
 		alert = alert_msg[1];
 	else if (wait_time_sec < 20 && wait_time_sec >= 1)
 		alert = alert_msg[2];
-	else
+	else if(wait_time_sec < 10)
 		alert = alert_msg[3];
 	$('#alert__info').html(alert);
 }
@@ -126,7 +126,7 @@ function no_show(){
 	// else if(no_show_time==3){
 	// 	location.href = "./cancelled.html";
 	// }
-	location.href = "./cancelled.html";
+	remove_waiting(1,true);
 	display();
 }
 
@@ -143,7 +143,7 @@ function go_cancel(){
 		return false
 	}
 	// var phone_check = localStorage.getItem(reserv).substring(7,11);
-	remove_waiting(phone);
+	remove_waiting(phone,false);
 
 		// location.href = "./cancelled.html";
 		// var cur_used = localStorage.getItem("cur_used");
@@ -152,14 +152,14 @@ function go_cancel(){
 }
 
 
-function remove_waiting(phone){
+function remove_waiting(phone,auto){
 	var remaining = 0;
 	var num_waiting = -1;
 	var last_four = 0;
 	var success;
 	myRef.once('value').then(function(snapshot){
 		last_four = snapshot.val().last_four;
-		if(last_four == phone){
+		if(last_four == phone || auto==true){
 			myRef.remove();
 			lineRef.once('value').then(function(snapshot){
 				snapshot.forEach(function(child_snapshot){
@@ -173,7 +173,7 @@ function remove_waiting(phone){
 				    num_waiting = obj.max;
 				    num_waiting--;
 				    pointerRef.update({max: num_waiting});
-				    location.href = "./cancelled.html";
+				    location.reload();
 				});
 			});
 			success=true;
@@ -182,6 +182,8 @@ function remove_waiting(phone){
 		}
 	});
 }
+
+
 // function timer(){
 // 	var t = setInterval(team_reduce, 3000);
 // }
@@ -206,6 +208,10 @@ $( document ).ready(function() {
 			$('#ex1').slider('setValue', wait_team*10);
 			no_show_time = 0;
 			calculate_time();
+			if(wait_team == 0){
+				// alert("no show!! wait one more team");
+				no_show();
+			}
 			display();
 			$('#myModal').modal({ show: false})
 
@@ -223,8 +229,8 @@ $( document ).ready(function() {
 		}else{
 			var $remaining_team = document.querySelector('.remaining_team');
 			var $wait_time = document.querySelector('.wait_time');
-			
-			$('#alert__info').html("<span style='color:red;'>Your information has been expired :(<br><small>Please visit our restaurant again!!</small></span>");
+
+			$('#alert__info').html("<span style='color:red;'>Your information has been cancelled:(<br><small>Please visit our restaurant again!!</small></span>");
 			$remaining_team.innerHTML = 0;
 			$wait_time.innerHTML = 0;
 		}

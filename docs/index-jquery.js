@@ -78,7 +78,6 @@ pointerRef.on('child_changed', function(snapshot){
 // }
 
 
-
 $(document).ready(function() {
 
 pointerRef.once('value').then(function(snapshot){
@@ -243,7 +242,6 @@ function isNumber(evt) {
 
 
 $('input[name="phone"]').mask('000-0000-0000');
-
 $('#clear_phone').click(function(e) {
   $('#phone').val('');
   $('#phone').attr('placeholder','Phone Number (e.g. 010-1234-5678)').focus().blur();

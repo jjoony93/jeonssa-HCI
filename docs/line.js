@@ -61,14 +61,14 @@ function remove_waiting(){
 	var max;
 	var first_entry;
 
-
+	var index = $("#reserv").val();
 	pointerRef.once('value').then(function(snapshot){
 		curr = snapshot.val().curr;
 		max = snapshot.val().max;
-		first_entry = (parseInt(curr)-parseInt(max)+1);
+		first_entry = parseInt(curr)-parseInt(max)+1+parseInt(index);
 
 		var firstRef = database.ref("line/"+reserv_code[first_entry]);
-
+		alert(first_entry);
 		if(max>0){
 			firstRef.remove();
 
@@ -87,6 +87,14 @@ function remove_waiting(){
 					alert("done");
 				});
 			});
+			for(var i=first_entry-index; i<first_entry; i++){
+				var tempRef = database.ref("line/"+reserv_code[i]);
+				tempRef.once('value').then(function(snapshot){
+					var remaining = snapshot.val().remaining;
+					remaining--;
+					tempRef.update({remaining: remaining});
+				});
+			}
 		}
 
 	});
