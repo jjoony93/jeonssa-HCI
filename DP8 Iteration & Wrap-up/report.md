@@ -134,9 +134,24 @@ In using web-based GUI implementation, I learned that web-based GUI has develope
 #### Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
 - The most memorable lesson is "always blame the system, never blame the user". If a user confronts a problem, I've learned to think from the point of view of user. Features taken into consideration include learnability, efficiency, affordability, consistency, color&typography, layout, accessiblity, and so on. Moreover, I've learned that paper prototyipng is a very cheap and useful method to test users before coding heavily. If we find a problem after heavily coding, since we've already put lots of time we will be reluctant to discard what we've done even if we've found usabliity problems in user testing. Paper prototyping makes it possible to avoid those risks. Moreover, a series of user testing iterations are required to update usability issues and thus help bring our product to a higher level.
 ### Sewon Hong
-- Individual reflection: Each member should write this part on their own, reflecting on their personal experience. Merge all members' mini-reports in the final report. Please answer the following questions:
-    - What part of the UI implementation did you contribute to?
-    - What worked well and not in your team? How did you overcome any hurdle in teamwork? What lesson about teamwork did you learn that you might apply to your next team project?
-    - Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
+#### What part of the UI Implementation did you contribute to?
 
+- I mainly contributed to 'user.html' and related files such as 'user_style.css' and 'wait.js'.
+- I contributed to the design decisions and actual implementation of user waiting status page.
 
+- Waiting Slider - The slider that visually represents how many teams are remaining. The spacial distance gives the use instant feeling of how longer he or she should wait.
+
+- Waiting Time and Teams - The numerical representations below waiting slider, informing the estimated waiting time and the number of waiting teams.
+
+- Mobile Friendliness - The screen I was in charge of needed mobile friendly web page, independent of screen size. I used bootstrap and its responsive layout library.
+
+#### What worked well and not in your team? How did you overcome any hurdle in teamwork? What lesson about teamwork did you learn that you might apply to your next team project?
+
+Our team had good programming skills and basic understanding of Web design. However we had different opinions on design choices with different logics. We spend a lot of time coming with a concurrent conclusion. We could have assigned specific roles and descision maker in the next project to avoid this conflicts and time consuming debates.
+
+#### Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
+
+In the beginning I thought the hardest part would be actual implementation and writing the actual code to enable functions. As a matter of fact, it turned out that the most overwhelming task was actually deciding the design choices and conducting user testing. Many minor details such as location of buttons, colors, fonts and sizes of various components were very hard to decide since the it was entirely free of my choice. It was really difficult to know what design choices would be better for the users. For example, it was hard to decide whether to use vertical slider or horizontal slider to represent the waiting line.
+There were a lot of design changes from the initial plan since several parts were too difficult to implement or didnt seem to serve the intended purpose.
+
+In terms of implementation skills, I learned how to use css libraries especially in using the bootstrap-slider for visually representing the waiting line and how to customize the library functions to for our own taste.
