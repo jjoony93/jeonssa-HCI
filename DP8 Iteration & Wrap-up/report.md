@@ -36,6 +36,38 @@ After implementing a series of iterations on user testing, we've learned that it
 ## Individual Reflections
 
 ### Min Kang
+#### What part of the UI Implementation did you contribute to?
+
+`index.html` page (and corresponding CSS file):
+- Base of entire design and layout using Bootstrap
+- Entirety of the text portions
+- Spanning background image
+- Responsive container
+- Input fields with example watermarks (placeholders)
+- "What does this site do?" anchor linking to modal overlay containing visual aid with help functionality (opens with animation)
+- Entirety of visual aid with help functionality
+- Initial submit button functionality
+- Basic initial parsing of information input for phone number and # of persons  
+
+General:
+- Added favicon for the website
+- Contribution to progress bar design in `user.html` (initial ideation + make sliding icon a human)
+
+#### What worked well in your team? 
+Us four members of the team were fairly close, and also lived in close proximity (SunJae and I are roommates, together with Sewon we live in the same dorm, Joon Young living only a few blocks away). So whenever we needed a group meeting or something that required the whole team to be present, it was not difficult for the four of us to meet up, especially in the evening when we were all free of duties.
+
+#### How did you overcome any hurdle in teamwork?
+Due to the fact that we lived so close to each other, we tended to delay work until the very last minute, since it was so easy to set up a team meeting whenever. We often times found ourselves working with the motivation of a near deadline, having procrastinated for the better part of the week. We had to overcome this by incredibly frequent group meetings near each week's deadline (usually Thursday / Sunday), and cramming a week's worth of documentation in a span of just a couple of days. Sometimes, more often than not, not all team members would pull their weight - in those cases, other team members had to step up to fill their shoes as well.
+Sometimes, I found it easier to complete some parts of the design process completely individually, and get team feedback later after I was done - clashes in opinions in regards to design would frequently hinder fast progress, so I personally felt it easier to complete a significant portion of the work individually, then later incorporate team feedback at a later date.
+
+#### What lesson about teamwork did you learn that you might apply to your next team project?
+One thing I learned is that it is important to play to each team member's strengths, rather than have each team member share workload on each and every portion of the project. Of course, that is not to say that we had members solely working on documentation and testing, while others solely worked on coding and implementation. But some members were clearly more inclined towards UI design and prototyping, while other members were comfortable with implementing site functionality and database logic. Granted, this was a school project, with a focus on the fact that every team member should contributed to every single facet of the project. However, for future team-based projects, I would wager it be much more efficient and practical to have each team member play to their strengths.
+
+#### Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
+
+Since we constantly have the user and user-experience in mind, the user-centered design process is ideal to create an implementation that will fit the user's needs and goals. Our design process, in my opinion, was very similar to that of an Agile or Prototype Model in software engineering - first identifying a potential userbase and their needs, ideating a solution, then constantly iterating through incremental prototypes until reaching a presentable implementation.
+There is a saying, albeit cliched - "The customer is always right". In our case, the 'user' is always right. A user-centered design process therefore allows us to create an interface and design that is 'correct' and 'right', by putting the primary focus on the user's needs and goals. In the context of developing our web-based GUI, by constantly getting feedback from our studio sessions each Monday during our prototype development, we were able to get ample feedback on how to better our interface for good usability, and through user testing, we were able to get real-world feedback on how our system would fare in a real-life situation - all contributing towards a better user-centered interface.
+Overall, through this project, I was able to better grasp how a firm or company would go through the motions of designing and releasing a completely novel, non-rehashed product or service. It makes me keen to try and do something similar myself in the future, since learning the basics of HCI has taught me how to tackle some of the basic and intermediate aspects of human-friendly computer interaction design.
 ### Sunjae Lee
 #### What part of the UI Implementation did you contribute to?
 
