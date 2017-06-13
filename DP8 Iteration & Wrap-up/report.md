@@ -66,7 +66,9 @@ One thing I learned is that it is important to play to each team member's streng
 #### Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
 
 Since we constantly have the user and user-experience in mind, the user-centered design process is ideal to create an implementation that will fit the user's needs and goals. Our design process, in my opinion, was very similar to that of an Agile or Prototype Model in software engineering - first identifying a potential userbase and their needs, ideating a solution, then constantly iterating through incremental prototypes until reaching a presentable implementation.
+
 There is a saying, albeit cliched - "The customer is always right". In our case, the 'user' is always right. A user-centered design process therefore allows us to create an interface and design that is 'correct' and 'right', by putting the primary focus on the user's needs and goals. In the context of developing our web-based GUI, by constantly getting feedback from our studio sessions each Monday during our prototype development, we were able to get ample feedback on how to better our interface for good usability, and through user testing, we were able to get real-world feedback on how our system would fare in a real-life situation - all contributing towards a better user-centered interface.
+
 Overall, through this project, I was able to better grasp how a firm or company would go through the motions of designing and releasing a completely novel, non-rehashed product or service. It makes me keen to try and do something similar myself in the future, since learning the basics of HCI has taught me how to tackle some of the basic and intermediate aspects of human-friendly computer interaction design.
 ### Sunjae Lee
 #### What part of the UI Implementation did you contribute to?
