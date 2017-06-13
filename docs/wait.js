@@ -236,7 +236,7 @@ $( document ).ready(function() {
 			var $remaining_team = document.querySelector('.remaining_team');
 			var $wait_time = document.querySelector('.wait_time');
 
-			$('#alert__info').html("<span style='color:red;'>Your Reservation has been cancelled:(<br><small>Please visit our restaurant again!!</small></span>");
+			$('#alert__info').html("<span style='color:red;'>Your Reservation has been cancelled :(<br><small>Please visit our restaurant again!!</small></span>");
 			$remaining_team.innerHTML = 0;
 			$wait_time.innerHTML = 0;
 		}
