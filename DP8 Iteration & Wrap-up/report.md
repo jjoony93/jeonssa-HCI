@@ -15,7 +15,7 @@ Final Report: The final report will be brief. You need to simply include the fol
 https://kmin93.github.io/jeonssa-HCI/index.html
 
 ## Youtube URL
-https://youtu.be/-mL1qeTR5AU
+https://youtu.be/exnzVU3Z0r4
 
 ## Iteration
 During DP8 period, we put effort in improving our service by implementing the problmes that we identified from the DP7 Usability lessons. There were a total eleven DP7 Usability lessons, but we chose not to handle all the lessons because some of them were either too minor or too subjective (other users might not consider it as a problem). Instead, we decided to focus on usability lessons with high priority fix. The table below shows the list of usabliity lessons that we fixed.
